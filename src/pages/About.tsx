@@ -316,7 +316,7 @@ const About = () => {
         </div>
 
         {/* STATS */}
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-4 sm:grid-cols-3">
           {STATS.map((s) => (
             <div
               key={s.stat}
