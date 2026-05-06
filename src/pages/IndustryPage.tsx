@@ -206,7 +206,62 @@ const IndustryPage = () => {
         </div>
       </section>
 
-      {/* ═══ EXPLORE OTHER INDUSTRIES ═══ */}
+      {/* ═══ SEO CONSULTATION PACKAGE ═══ */}
+      <section className="container-tight pb-16">
+        <div className="rounded-3xl border-2 border-accent/30 bg-card p-8 shadow-card sm:p-10">
+          <div className="grid gap-8 lg:grid-cols-[1.1fr,1fr] lg:items-start">
+            <div>
+              <span className="badge-pill">SEO Consultation Package</span>
+              <div className="mt-4 flex items-baseline gap-3">
+                <span className="font-display text-4xl font-extrabold text-gradient-accent sm:text-5xl">
+                  Rs.50,000
+                </span>
+                <span className="text-sm text-muted-foreground">one-time fee</span>
+              </div>
+              <p className="mt-3 text-sm text-muted-foreground">
+                Delivered within 5–7 business days. Includes a 2-hour strategy session.
+              </p>
+
+              <ul className="mt-6 grid gap-2.5 sm:grid-cols-2">
+                {[
+                  "Keyword Research Report",
+                  "Site Structure Blueprint",
+                  "Competitor Gap Analysis",
+                  "Content Roadmap & Page Briefs",
+                  "Technical SEO Specification",
+                  "Local / International Strategy",
+                  "60-Day Post-Launch Action Plan",
+                  "2-Hour Strategy Session",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-sm">
+                    <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-accent" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="flex flex-col gap-4 rounded-2xl border border-border bg-soft p-6">
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                This consultation is the cheapest investment you will make. One missed
+                keyword or wrong URL structure costs more to fix than Rs. 50,000 —
+                guaranteed.
+              </p>
+              <Button asChild variant="hero" size="lg" className="w-full">
+                <Link to="/seo-consultant-sri-lanka">
+                  Book Your Consultation <ArrowRight className="size-4" />
+                </Link>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="w-full">
+                <a href={`tel:${SITE.phoneRaw}`}>
+                  <Phone className="size-4" /> {SITE.phone}
+                </a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="container-tight pb-16">
         <div className="mx-auto max-w-3xl text-center">
           <span className="badge-pill">More Industries</span>
