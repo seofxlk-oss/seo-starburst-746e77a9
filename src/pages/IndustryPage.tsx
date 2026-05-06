@@ -83,6 +83,17 @@ const IndustryPage = () => {
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
               {industry.intro}
             </p>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              Talk to a senior{" "}
+              <Link
+                to="/seo-consultant-sri-lanka"
+                className="font-semibold text-accent underline-offset-4 hover:underline"
+              >
+                seo consultant sri lanka
+              </Link>{" "}
+              before you build — get a keyword, structure and competitor blueprint
+              tailored to {industry.navLabel.toLowerCase()}.
+            </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Button asChild variant="hero" size="lg">
                 <Link to="/contact-us">{industry.ctaButton} <ArrowRight className="size-4" /></Link>
