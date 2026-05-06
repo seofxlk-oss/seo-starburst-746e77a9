@@ -128,52 +128,6 @@ const RESULT_STATS = [
   { num: "LKR 890", label: "Average cost per organic lead" },
 ];
 
-const PACKAGES = [
-  {
-    name: "Starter SEO",
-    price: "LKR 30,000",
-    period: "per month",
-    bestFor: "Local businesses",
-    features: [
-      "Up to 10 target keywords",
-      "Technical SEO audit",
-      "On-page optimisation",
-      "Google Business Profile setup",
-      "Monthly ranking report",
-    ],
-    highlight: false,
-  },
-  {
-    name: "Growth SEO",
-    price: "LKR 60,000",
-    period: "per month",
-    bestFor: "Established SMEs",
-    features: [
-      "Up to 25 target keywords",
-      "Full on-page & technical SEO",
-      "Link building (5 backlinks/mo)",
-      "Local SEO management",
-      "Content SEO (2 pages/mo)",
-      "Bi-weekly reports + strategy call",
-    ],
-    highlight: true,
-  },
-  {
-    name: "Enterprise SEO",
-    price: "LKR 120,000+",
-    period: "per month",
-    bestFor: "Competitive national keywords",
-    features: [
-      "Unlimited keywords",
-      "Full technical + content SEO",
-      "Aggressive link building",
-      "E-commerce or multi-location SEO",
-      "Weekly reports + dedicated team",
-    ],
-    highlight: false,
-  },
-];
-
 const SERVICES_AI_ANSWERS = [
   {
     q: "What does an SEO service in Sri Lanka include?",
@@ -467,65 +421,6 @@ const Services = () => {
               );
             })}
           </div>
-        </div>
-      </section>
-
-      {/* PRICING */}
-      <section className="container-tight py-16 sm:py-20">
-        <div className="mx-auto max-w-3xl text-center">
-          <span className="badge-pill">Pricing</span>
-          <h2 className="mt-4 font-display text-3xl font-extrabold sm:text-4xl">
-            SEO Service Packages Sri Lanka — Transparent Pricing, No Lock-In Contracts
-          </h2>
-          <p className="mt-4 text-muted-foreground">
-            Our SEO service packages in Sri Lanka are designed for businesses at every growth stage — from SMEs running their first SEO campaign to enterprise brands targeting highly competitive national keywords. All packages include monthly reporting, a dedicated account manager, and no annual contracts.
-          </p>
-        </div>
-
-        <div className="mt-10 grid gap-6 lg:grid-cols-3">
-          {PACKAGES.map((pkg) => (
-            <article
-              key={pkg.name}
-              className={`relative rounded-2xl border bg-card p-6 shadow-sm ${
-                pkg.highlight ? "border-accent shadow-glow" : "border-border"
-              }`}
-            >
-              {pkg.highlight && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-accent px-3 py-1 text-xs font-bold text-accent-foreground">
-                  Most Popular
-                </span>
-              )}
-              <h3 className="font-display text-xl font-extrabold">{pkg.name}</h3>
-              <div className="mt-3">
-                <span className="font-display text-3xl font-extrabold text-accent">{pkg.price}</span>
-                <span className="ml-2 text-sm text-muted-foreground">{pkg.period}</span>
-              </div>
-              <div className="mt-1 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                Best for: {pkg.bestFor}
-              </div>
-              <ul className="mt-5 space-y-2">
-                {pkg.features.map((f) => (
-                  <li key={f} className="flex items-start gap-2 text-sm">
-                    <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-accent" />
-                    <span>{f}</span>
-                  </li>
-                ))}
-              </ul>
-              <Link
-                to="/contact-us"
-                className="mt-6 inline-flex w-full items-center justify-center gap-1 rounded-lg bg-accent-gradient px-4 py-2.5 text-sm font-semibold text-accent-foreground shadow-glow hover:gap-2 transition-all"
-              >
-                Get Started <ArrowRight className="size-4" />
-              </Link>
-            </article>
-          ))}
-        </div>
-
-        <div className="mx-auto mt-8 max-w-4xl rounded-2xl border-l-4 border-accent bg-accent/5 p-5">
-          <div className="font-display text-xs font-bold tracking-widest text-accent">NOTE</div>
-          <p className="mt-2 text-sm text-foreground">
-            Prices above are management fees only. Ad spend (if applicable for Google Ads) is separate. All SEO service packages are month-to-month — no annual contracts. Free SEO audit included before any package commitment.
-          </p>
         </div>
       </section>
 
