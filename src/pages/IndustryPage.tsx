@@ -208,7 +208,11 @@ const IndustryPage = () => {
 
       {/* ═══ SEO CONSULTATION PACKAGE ═══ */}
       <section className="container-tight pb-16">
-        <div className="rounded-3xl border-2 border-accent/30 bg-card p-8 shadow-card sm:p-10">
+        <Link
+          to="/seo-consultant-sri-lanka"
+          className="group relative block rounded-3xl border-2 border-accent/30 bg-card p-8 shadow-card transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-glow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 sm:p-10"
+          aria-label="Book Your SEO Consultation — Rs. 50,000"
+        >
           <div className="grid gap-8 lg:grid-cols-[1.1fr,1fr] lg:items-start">
             <div>
               <span className="badge-pill">SEO Consultation Package</span>
@@ -247,19 +251,28 @@ const IndustryPage = () => {
                 keyword or wrong URL structure costs more to fix than Rs. 50,000 —
                 guaranteed.
               </p>
-              <Button asChild variant="hero" size="lg" className="w-full">
-                <Link to="/seo-consultant-sri-lanka">
-                  Book Your Consultation <ArrowRight className="size-4" />
-                </Link>
+              <Button asChild variant="hero" size="lg" className="w-full pointer-events-none">
+                <span>
+                  Book Your Consultation <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+                </span>
               </Button>
-              <Button asChild variant="outline" size="lg" className="w-full">
-                <a href={`tel:${SITE.phoneRaw}`}>
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="w-full"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <a
+                  href={`tel:${SITE.phoneRaw}`}
+                  onClick={(e) => e.stopPropagation()}
+                >
                   <Phone className="size-4" /> {SITE.phone}
                 </a>
               </Button>
             </div>
           </div>
-        </div>
+        </Link>
       </section>
 
       <section className="container-tight pb-16">
