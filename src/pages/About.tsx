@@ -33,7 +33,6 @@ const PAGE_URL = "https://seofx.lk/seo-specialist-sri-lanka";
 const STATS = [
   { stat: "10+", text: "Years as SEO experts in Sri Lanka" },
   { stat: "50+", text: "Sri Lankan businesses ranked on Google" },
-  { stat: "4.9★", text: "From 87+ verified Google reviews" },
   { stat: "90 Days", text: "Written ranking promise per client" },
 ];
 
