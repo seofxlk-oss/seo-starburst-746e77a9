@@ -50,8 +50,7 @@ const IndustryPage = () => {
         keywords={industry.keywords}
         ogImageAlt={`${industry.navLabel} in Sri Lanka by SeoFX`}
         jsonLd={[
-          orgSchema(),
-          websiteSchema(),
+          ...(!isTravel ? [orgSchema(), websiteSchema()] : []),
           ...(!isTravel ? [localBusinessSchema()] : []),
           serviceSchema({
             name: industry.navLabel,
