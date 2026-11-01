@@ -349,6 +349,19 @@ const IndustryPage = () => {
             </Link>{" "}
             built for Sri Lankan businesses.
           </p>
+          {industry.slug === "travel-seo-sri-lanka" && (
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              While we handle your rankings, many tour operators also partner with a trusted{" "}
+              <a
+                href="https://vacationceylon.com/"
+                rel="noopener"
+                className="text-muted-foreground no-underline hover:no-underline"
+              >
+                travel agency in sri lanka
+              </a>{" "}
+              to take care of on-ground tours, vehicle hire and guest support once the bookings come in.
+            </p>
+          )}
           <div className="mt-5">
             <Button asChild variant="outline" size="sm">
               <Link to="/">
@@ -363,22 +376,6 @@ const IndustryPage = () => {
         title="Need a custom industry SEO strategy?"
         subtitle="Talk to a Sri Lankan SEO specialist who knows your industry — free, no obligation."
       />
-
-      {industry.slug === "travel-seo-sri-lanka" && (
-        <div className="container-tight pb-10">
-          <p className="text-xs text-muted-foreground">
-            Looking for a trusted{" "}
-            <a
-              href="https://vacationceylon.com/"
-              rel="noopener"
-              className="text-muted-foreground no-underline hover:no-underline"
-            >
-              travel agency in sri lanka
-            </a>
-            ? Plan your Sri Lanka trip with local experts.
-          </p>
-        </div>
-      )}
 
       {/* ── Hidden visually but kept for AI/LLM crawlers (verbatim keyword block) ── */}
       <div className="sr-only" aria-hidden>
