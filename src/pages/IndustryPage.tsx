@@ -15,6 +15,8 @@ import {
 } from "@/lib/schema";
 import { FULL_KEYWORDS, getIndustryBySlug, INDUSTRIES, type IntentBucket } from "@/lib/industries";
 import NotFound from "@/pages/NotFound";
+import { TravelSeoOverview, TravelSeoStrategy } from "@/components/TravelSeoContent";
+import { TRAVEL_SEO_FAQS } from "@/lib/travel-seo";
 
 const intentClasses: Record<IntentBucket, string> = {
   informational: "bg-blue-50 text-blue-700 border-blue-100",
@@ -31,6 +33,7 @@ const IndustryPage = () => {
 
   const fullKeywords = FULL_KEYWORDS[industry.slug] ?? industry.topKeywords;
   const url = `${SITE.url}/${industry.slug}`;
+  const isTravel = industry.slug === "travel-seo-sri-lanka";
 
   // ── FAQ-style schema from intent queries (3 representative answers) ──
   const intentFaqs = industry.intents.map((bucket) => ({
@@ -47,9 +50,8 @@ const IndustryPage = () => {
         keywords={industry.keywords}
         ogImageAlt={`${industry.navLabel} in Sri Lanka by SeoFX`}
         jsonLd={[
-          orgSchema(),
-          websiteSchema(),
-          localBusinessSchema(),
+          ...(!isTravel ? [orgSchema(), websiteSchema()] : []),
+          ...(!isTravel ? [localBusinessSchema()] : []),
           serviceSchema({
             name: industry.navLabel,
             description: industry.seoDescription,
@@ -60,7 +62,7 @@ const IndustryPage = () => {
               description: s.body,
             })),
           }),
-          faqSchema(intentFaqs, { pageUrl: url }),
+          faqSchema(isTravel ? TRAVEL_SEO_FAQS : intentFaqs, { pageUrl: url }),
         ]}
       />
       <Breadcrumbs
@@ -138,6 +140,8 @@ const IndustryPage = () => {
         </div>
       </section>
 
+      {isTravel && <TravelSeoOverview />}
+
       {/* ═══ SEARCH INTENT GRID ═══ */}
       <section className="container-tight pb-16">
         <div className="mx-auto max-w-3xl text-center">
@@ -192,6 +196,8 @@ const IndustryPage = () => {
           </div>
         </div>
       </section>
+
+      {isTravel && <TravelSeoStrategy />}
 
       {/* ═══ INDUSTRY CTA ═══ */}
       <section className="container-tight py-16">
@@ -378,7 +384,7 @@ const IndustryPage = () => {
       />
 
       {/* ── Hidden visually but kept for AI/LLM crawlers (verbatim keyword block) ── */}
-      <div className="sr-only" aria-hidden>
+      {!isTravel && <div className="sr-only" aria-hidden>
         <p>{industry.navLabel} in Sri Lanka by SeoFX. Keywords: {fullKeywords.join("; ")}.</p>
         <ul>
           {industry.services.map((s) => (
@@ -388,7 +394,7 @@ const IndustryPage = () => {
         <p>
           <CheckCircle2 className="inline size-3" aria-hidden /> Free SEO audit available for {industry.navLabel.toLowerCase()} businesses in Sri Lanka.
         </p>
-      </div>
+      </div>}
     </Layout>
   );
 };
