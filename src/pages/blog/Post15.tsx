@@ -19,6 +19,7 @@ const Post15 = () => (
     <h2>What Is an SEO Specialist?</h2>
     <p>An SEO specialist is a professional trained in improving a website's visibility on search engines — primarily Google. Their core objective is to get your website ranking higher for the search terms your potential customers are using, so that more of the right people visit your site and take action.</p>
     <p>In Sri Lanka's growing digital economy, SEO specialists work with businesses across every industry — from hotels and e-commerce stores to law firms, clinics, and real estate agencies. The role sits at the intersection of technology, content strategy, data analysis, and marketing psychology.</p>
+    <p>For tour operators and travel agencies, the work also connects destination research to bookable itineraries. Our <Link to="/travel-seo-sri-lanka" className="text-accent underline-offset-4 hover:underline">travel SEO in Sri Lanka</Link> approach focuses on useful tour pages, international search intent and qualified travel enquiries.</p>
     <p>An SEO specialist is not a web designer, a social media manager, or a paid advertising expert — though some overlap exists. SEO is a distinct discipline focused specifically on organic (unpaid) search engine performance.</p>
 
     <h2>The Core Responsibilities of an SEO Specialist in Sri Lanka</h2>

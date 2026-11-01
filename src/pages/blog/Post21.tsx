@@ -21,6 +21,7 @@ const Post21 = () => (
     <p>Most business owners approach the hiring process by asking: "Which SEO company is the best in Sri Lanka?"</p>
     <p>That is the wrong starting point. The right question is: "Which SEO company is the best fit for my specific business, at my current stage, with my specific website and objectives?"</p>
     <p>An SEO company that delivers outstanding results for a large e-commerce store may not be the right choice for a single-location dental clinic. A specialist who excels at local SEO for Sri Lankan businesses may not be equipped to handle international SEO for a tourism business targeting European markets.</p>
+    <p>If you run a tour company, evaluate how the provider handles destination guides, itinerary pages and enquiries from overseas travellers. Explore our <Link to="/travel-seo-sri-lanka" className="text-accent underline-offset-4 hover:underline">travel agency SEO in Sri Lanka</Link> service to see how these needs differ from a general campaign.</p>
     <p>The first step in hiring well is being specific about what you actually need — before evaluating anyone's ability to deliver it.</p>
 
     <h2>Define What You Are Trying to Achieve</h2>
