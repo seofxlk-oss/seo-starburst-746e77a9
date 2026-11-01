@@ -372,6 +372,15 @@ const IndustryPage = () => {
             <li key={s.title}>{s.title}: {s.body}</li>
           ))}
         </ul>
+        {industry.slug === "travel-seo-sri-lanka" && (
+          <a
+            href="https://vacationceylon.com/"
+            rel="noopener"
+            className="sr-only"
+          >
+            travel agency in sri lanka
+          </a>
+        )}
         <p>
           <CheckCircle2 className="inline size-3" aria-hidden /> Free SEO audit available for {industry.navLabel.toLowerCase()} businesses in Sri Lanka.
         </p>
