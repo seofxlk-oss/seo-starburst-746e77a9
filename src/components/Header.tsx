@@ -3,10 +3,17 @@ import { useEffect, useRef, useState } from "react";
 import { Menu, X, Phone, ChevronDown, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { NAV_LINKS, SITE } from "@/lib/site";
+import { GOOGLE_ADS_SPECIALIST } from "@/lib/google-ads-specialist";
 import { SERVICES } from "@/lib/services";
 import { INDUSTRIES } from "@/lib/industries";
 import { cn } from "@/lib/utils";
 import logo from "@/assets/logo.png";
+
+const HEADER_LINKS = NAV_LINKS.flatMap((link) =>
+  link.href === "/services"
+    ? [link, { label: "Google Ads", href: GOOGLE_ADS_SPECIALIST.path }]
+    : [link]
+);
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
@@ -73,7 +80,7 @@ export const Header = () => {
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1" aria-label="Main">
-          {NAV_LINKS.map((l) => {
+          {HEADER_LINKS.map((l) => {
             const active = pathname === l.href || (l.href !== "/" && pathname.startsWith(l.href));
 
             if (l.href === "/services") {
@@ -90,7 +97,7 @@ export const Header = () => {
                     aria-expanded={servicesOpen}
                     onFocus={openServices}
                     className={cn(
-                      "inline-flex items-center gap-1 rounded-full px-4 py-2 text-sm font-medium transition-colors",
+                      "inline-flex items-center gap-1 rounded-full px-3 py-2 text-sm font-medium transition-colors",
                       active ? "text-accent" : "text-foreground/70 hover:text-foreground"
                     )}
                   >
@@ -163,7 +170,7 @@ export const Header = () => {
                     aria-expanded={industriesOpen}
                     onFocus={openIndustries}
                     className={cn(
-                      "inline-flex items-center gap-1 rounded-full px-4 py-2 text-sm font-medium transition-colors",
+                      "inline-flex items-center gap-1 rounded-full px-3 py-2 text-sm font-medium transition-colors",
                       active ? "text-accent" : "text-foreground/70 hover:text-foreground"
                     )}
                   >
@@ -223,7 +230,7 @@ export const Header = () => {
                 key={l.href}
                 to={l.href}
                 className={cn(
-                  "rounded-full px-4 py-2 text-sm font-medium transition-colors",
+                  "rounded-full px-3 py-2 text-sm font-medium transition-colors",
                   active ? "text-accent" : "text-foreground/70 hover:text-foreground"
                 )}
               >
@@ -236,7 +243,7 @@ export const Header = () => {
         <div className="hidden lg:flex items-center gap-3">
           <a
             href={`tel:${SITE.phoneRaw}`}
-            className="hidden xl:inline-flex items-center gap-2 text-sm font-semibold text-foreground/80 hover:text-accent"
+            className="hidden 2xl:inline-flex items-center gap-2 text-sm font-semibold text-foreground/80 hover:text-accent"
           >
             <Phone className="size-4" /> {SITE.phone}
           </a>
@@ -258,7 +265,7 @@ export const Header = () => {
       {open && (
         <div className="lg:hidden border-t border-border bg-background animate-fade-in">
           <nav className="container-tight flex flex-col py-4" aria-label="Mobile">
-            {NAV_LINKS.map((l) => {
+            {HEADER_LINKS.map((l) => {
               if (l.href === "/services") {
                 return (
                   <div key={l.href} className="border-b border-border/50 last:border-0">
