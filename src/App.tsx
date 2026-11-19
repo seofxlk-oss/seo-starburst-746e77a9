@@ -56,6 +56,7 @@ import IndustryPage from "./pages/IndustryPage";
 import SeoConsultation from "./pages/SeoConsultation";
 import GoogleMapOptimization from "./pages/GoogleMapOptimization";
 import GoogleAdsSriLanka from "./pages/GoogleAdsSriLanka";
+import GoogleAdsSpecialist from "./pages/GoogleAdsSpecialist";
 import SeoSriLanka from "./pages/SeoSriLanka";
 import { INDUSTRIES } from "@/lib/industries";
 import NotFound from "./pages/NotFound";
@@ -73,6 +74,7 @@ const App = () => (
             <Route path="/" element={<Home />} />
             <Route path="/seo-specialist-sri-lanka" element={<About />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/services/google-ads-specialist-sri-lanka" element={<GoogleAdsSpecialist />} />
             <Route path="/services/:slug" element={<ServiceDetail />} />
             <Route path="/seo-packages-sri-lanka" element={<Pricing />} />
             <Route path="/case-studies" element={<CaseStudies />} />

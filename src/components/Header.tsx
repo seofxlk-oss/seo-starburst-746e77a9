@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
-import { Menu, X, Phone, ChevronDown } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { NAV_LINKS, SITE } from "@/lib/site";
 import { SERVICES } from "@/lib/services";
@@ -131,6 +131,10 @@ export const Header = () => {
                               </Link>
                             );
                           })}
+                          <Link to="/services/google-ads-specialist-sri-lanka" role="menuitem" className="group flex items-start gap-3 rounded-xl px-3 py-2.5 transition-colors hover:bg-muted">
+                            <span className="mt-0.5 inline-flex size-9 shrink-0 items-center justify-center rounded-lg bg-accent/10 text-accent"><Target className="size-4" /></span>
+                            <span className="min-w-0"><span className="block text-sm font-semibold group-hover:text-accent">Google Ads Specialist</span><span className="block text-xs text-muted-foreground">Campaign setup, management and optimisation.</span></span>
+                          </Link>
                         </div>
                         <Link
                           to="/services"
@@ -289,6 +293,7 @@ export const Header = () => {
                             </Link>
                           </li>
                         ))}
+                        <li><Link to="/services/google-ads-specialist-sri-lanka" className="block py-2 text-sm text-foreground/75 hover:text-accent">Google Ads Specialist</Link></li>
                       </ul>
                     )}
                   </div>

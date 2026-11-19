@@ -25,6 +25,7 @@ const staticRoutes = [
   ["/industries", "0.85", "monthly"],
   ["/google-map-optimization", "0.85", "monthly"],
   ["/google-ads-sri-lanka", "0.85", "monthly"],
+  ["/services/google-ads-specialist-sri-lanka", "0.85", "monthly"],
   ["/case-studies", "0.8", "monthly"],
   ["/case-studies/porkendeli-seo-case-study", "0.7", "yearly"],
   ["/contact-us", "0.7", "yearly"],

@@ -3,3 +3,8 @@
 - [x] Preserve the consultation offer and natural, unhighlighted Vacation Ceylon link.
 - [x] Add contextual inbound links from relevant existing articles.
 - [x] Verify the travel page, schema and consultation journey.
+
+# Google Ads specialist service page
+- [x] Add the attached specialist content as a styled service page with FAQs and consultation actions.
+- [x] Add desktop and mobile header links, sitemap URL and Netlify source metadata.
+- [x] Verify navigation, page layout, pricing and contact journey.

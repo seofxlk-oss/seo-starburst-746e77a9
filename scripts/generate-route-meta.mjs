@@ -18,6 +18,7 @@ if (!fs.existsSync(indexHtmlPath)) {
 
 const { SERVICES } = await import(path.join(rootDir, "src/lib/services.ts"));
 const { INDUSTRIES } = await import(path.join(rootDir, "src/lib/industries.ts"));
+const { GOOGLE_ADS_SPECIALIST } = await import(path.join(rootDir, "src/lib/google-ads-specialist.ts"));
 
 const escapeHtml = (value = "") =>
   String(value)
@@ -133,6 +134,12 @@ for (const service of SERVICES) {
     keywords: service.keywords,
   });
 }
+
+pageMeta.set(GOOGLE_ADS_SPECIALIST.path, {
+  title: GOOGLE_ADS_SPECIALIST.title,
+  description: GOOGLE_ADS_SPECIALIST.description,
+  canonical: GOOGLE_ADS_SPECIALIST.path,
+});
 
 for (const industry of INDUSTRIES) {
   pageMeta.set(`/${industry.slug}`, {
