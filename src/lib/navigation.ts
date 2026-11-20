@@ -19,7 +19,7 @@ export const SEO_NAVIGATION = [
   { label: "Link Building", href: "/services/link-building-sri-lanka" },
   { label: "Local SEO & Google Maps", href: "/google-map-optimization" },
   { label: "Ecommerce SEO", href: "/ecommerce-seo-sri-lanka" },
-  // AI SEO & GEO joins this list when Part 6 creates the page.
+  { label: "AI SEO & GEO", href: "/services/ai-seo-geo-sri-lanka" },
   { label: "SEO Specialists", href: "/seo-specialist-sri-lanka" },
 ];
 

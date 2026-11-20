@@ -16,6 +16,7 @@ export const CORE_SERVICES = [
   { title: "Off-Page SEO", href: "/services/off-page-seo-sri-lanka", text: "Relevant outreach, business mentions and an ethical authority strategy.", bestFor: "Building visibility beyond your website" },
   { title: "Link Building", href: "/services/link-building-sri-lanka", text: "Editorial outreach focused on relevance, not bulk link packages.", bestFor: "Earning relevant references" },
   { title: "Local SEO & Google Maps", href: "/google-map-optimization", text: "Accurate business profiles and useful local service information.", bestFor: "Businesses serving local customers" },
+  { title: "AI SEO & GEO", href: "/services/ai-seo-geo-sri-lanka", text: "AI visibility audit, answer-ready content and consistent business facts for AI search.", bestFor: "Appearing in ChatGPT, Gemini and AI Overviews" },
   { title: "Ecommerce SEO", href: "/ecommerce-seo-sri-lanka", text: "Product and category content, navigation and technical priorities.", bestFor: "Online shops and product catalogues" },
 ];
 

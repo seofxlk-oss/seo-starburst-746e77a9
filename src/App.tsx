@@ -56,6 +56,7 @@ import IndustriesHub from "./pages/IndustriesHub";
 import IndustryPage from "./pages/IndustryPage";
 import SeoConsultation from "./pages/SeoConsultation";
 import GoogleMapOptimization from "./pages/GoogleMapOptimization";
+import AiSeoGeo from "./pages/AiSeoGeo";
 import GoogleAdsSriLanka from "./pages/GoogleAdsSriLanka";
 import GoogleAdsSpecialist from "./pages/GoogleAdsSpecialist";
 import SeoSriLanka from "./pages/SeoSriLanka";
@@ -80,6 +81,7 @@ const App = ({ serverPath, helmetContext = {} }: { serverPath?: string; helmetCo
             <Route path="/services" element={<Services />} />
             <Route path="/services/seo-consulting-sri-lanka" element={<SeoBeforeBuild />} />
             <Route path="/services/google-ads-specialist-sri-lanka" element={<GoogleAdsSpecialist />} />
+            <Route path="/services/ai-seo-geo-sri-lanka" element={<AiSeoGeo />} />
             <Route path="/services/:slug" element={<ServiceDetail />} />
             <Route path="/seo-packages-sri-lanka" element={<Pricing />} />
             <Route path="/case-studies" element={<CaseStudies />} />
