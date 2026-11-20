@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "check:live": "node scripts/check-live.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

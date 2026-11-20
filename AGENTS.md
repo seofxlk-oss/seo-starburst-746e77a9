@@ -12,3 +12,4 @@
 - Keep core-page metadata, service navigation and FAQ answers in the shared core-page data module; reusable sections render visible answers and matching schema, while pre-build SEO uses an explicit route ahead of the generic service template.
 - Keep service-specific deliverables, sample records and FAQ answers in the shared service-page content module; one presentation renders this data and matching schema without altering other industry pages.
 - Keep AI SEO & GEO page terms and FAQs in its shared data module so the page, schema and tests agree.
+- Verify deployments with `npm run check:live [baseUrl]`; it checks key routes for redirect loops, unique titles, one H1 and the sitemap against the live site.
