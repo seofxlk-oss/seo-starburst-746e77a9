@@ -1,115 +1,22 @@
-# robots.txt for SeoFX — https://seofx.lk
-# Best SEO Company in Sri Lanka
-
-# ============================================================
-# Default rules — applies to all crawlers (Googlebot, Bingbot, etc.)
-# ============================================================
 User-agent: *
 Allow: /
 
-# Allow all important pages explicitly
-Allow: /seo-specialist-sri-lanka
-Allow: /services
-Allow: /services/
-Allow: /seo-packages-sri-lanka
-Allow: /case-studies
-Allow: /case-studies/
-Allow: /blog
-Allow: /blog/
-Allow: /faq
-Allow: /contact-us
-
-# Allow static assets (CSS, JS, images, fonts) — required for proper rendering
-Allow: /assets/
-Allow: /*.css$
-Allow: /*.js$
-Allow: /*.png$
-Allow: /*.jpg$
-Allow: /*.jpeg$
-Allow: /*.webp$
-Allow: /*.svg$
-Allow: /*.ico$
-Allow: /*.woff$
-Allow: /*.woff2$
-
-# Block junk paths
-Disallow: /api/
-Disallow: /admin/
-Disallow: /*.json$
-Disallow: /*?*utm_
-Disallow: /*?*fbclid
-Disallow: /*?*gclid
-
-# ============================================================
-# AI search & assistant crawlers — explicitly allowed
-# ============================================================
-User-agent: GPTBot
+# Search and AI crawlers are explicitly welcome
+User-agent: Googlebot
 Allow: /
-
-User-agent: ChatGPT-User
+User-agent: Bingbot
 Allow: /
-
 User-agent: OAI-SearchBot
 Allow: /
-
+User-agent: ChatGPT-User
+Allow: /
+User-agent: GPTBot
+Allow: /
 User-agent: PerplexityBot
 Allow: /
-
-User-agent: Perplexity-User
+User-agent: ClaudeBot
 Allow: /
-
 User-agent: Google-Extended
 Allow: /
 
-User-agent: GoogleOther
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: cohere-ai
-Allow: /
-
-User-agent: YouBot
-Allow: /
-
-User-agent: Meta-ExternalAgent
-Allow: /
-
-User-agent: DuckAssistBot
-Allow: /
-
-# ============================================================
-# Block known bad / aggressive scrapers
-# ============================================================
-User-agent: AhrefsBot
-Crawl-delay: 10
-
-User-agent: SemrushBot
-Crawl-delay: 10
-
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: DotBot
-Disallow: /
-
-# ============================================================
-# Sitemap
-# ============================================================
 Sitemap: https://seofx.lk/sitemap.xml

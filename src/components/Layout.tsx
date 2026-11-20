@@ -3,12 +3,17 @@ import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { trackContactClick } from "@/lib/analytics";
 
 export const Layout = ({ children }: { children: React.ReactNode }) => {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
   }, [pathname]);
+  useEffect(() => {
+    document.addEventListener("click", trackContactClick);
+    return () => document.removeEventListener("click", trackContactClick);
+  }, []);
 
   return (
     <div className="flex min-h-screen flex-col bg-background">

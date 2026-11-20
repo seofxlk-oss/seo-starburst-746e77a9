@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { routePaths } from "./route-paths.mjs";
+import { execFileSync } from "node:child_process";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -11,8 +13,6 @@ const publicDir = path.join(rootDir, "public");
 const SITE_URL = "https://seofx.lk";
 const today = new Date().toISOString().slice(0, 10);
 
-const { SERVICES } = await import(path.join(rootDir, "src/lib/services.ts"));
-const { INDUSTRIES } = await import(path.join(rootDir, "src/lib/industries.ts"));
 
 // [path, priority, changefreq]
 const staticRoutes = [
@@ -38,9 +38,10 @@ const add = (loc, priority = "0.7", changefreq = "monthly") => {
   if (!urls.has(loc)) urls.set(loc, { priority, changefreq });
 };
 
-for (const [p, pr, cf] of staticRoutes) add(p, pr, cf);
-for (const s of SERVICES) add(`/services/${s.slug}`, "0.8", "monthly");
-for (const i of INDUSTRIES) add(`/${i.slug}`, "0.8", "monthly");
+for (const route of routePaths(rootDir)) {
+  const settings = staticRoutes.find(([p]) => p === route);
+  add(route, settings?.[1] ?? "0.7", settings?.[2] ?? "monthly");
+}
 
 // Blog posts — read slugs from src/pages/blog/Post*.tsx
 const blogDir = path.join(rootDir, "src/pages/blog");
@@ -53,10 +54,26 @@ for (const file of fs.readdirSync(blogDir).filter((n) => /^Post\d+\.tsx$/.test(n
 const escapeXml = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
 
+const appSource = fs.readFileSync(path.join(rootDir, "src/App.tsx"), "utf8");
+const contentDate = (route) => {
+  const source = route.startsWith("/services/") ? "src/lib/services.ts" : "src/lib/industries.ts";
+  const literal = route.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const component = appSource.match(new RegExp(`<Route\\s+path="${literal}"\\s+element=\\{<(\\w+)`))?.[1];
+  const imported = component ? appSource.match(new RegExp(`import ${component} from "([^\"]+)"`))?.[1] : undefined;
+  const file = imported ? `src/${imported.replace(/^\.\//, "")}.tsx` : source;
+  try {
+    const committed = execFileSync("git", ["log", "-1", "--format=%cs", "--", file], { cwd: rootDir, encoding: "utf8" }).trim();
+    if (committed) return committed;
+  } catch { /* Deployment archives may not include Git metadata. */ }
+  return new Date(fs.statSync(path.join(rootDir, file)).mtimeMs).toISOString().slice(0, 10);
+};
+
 const body = [...urls.entries()]
   .map(([loc, { priority, changefreq }]) => {
-    const full = `${SITE_URL}${loc === "/" ? "/" : loc}`;
-    return `  <url>\n    <loc>${escapeXml(full)}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+    const full = `${SITE_URL}${loc === "/" ? "" : loc}`;
+    // Content modification, rather than deployment time, determines lastmod.
+    const lastmod = contentDate(loc);
+    return `  <url>\n    <loc>${escapeXml(full)}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
   })
   .join("\n");
 

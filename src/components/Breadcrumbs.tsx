@@ -51,7 +51,7 @@ export const Breadcrumbs = ({ items }: { items: Crumb[] }) => {
                   ) : isLast ? (
                     <span className="font-medium text-foreground" aria-current="page">{c.label}</span>
                   ) : (
-                    <Link to={c.href!} className="hover:text-accent">{c.label}</Link>
+                    <Link to={c.href ?? pathname} className="hover:text-accent">{c.label}</Link>
                   )}
                 </li>
               </Fragment>

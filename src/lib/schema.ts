@@ -8,26 +8,25 @@ import { SITE } from "@/lib/site";
 const ORG_ID = `${SITE.url}/#organization`;
 const WEBSITE_ID = `${SITE.url}/#website`;
 const LOCAL_ID = `${SITE.url}/#localbusiness`;
-const LOGO_URL = `${SITE.url}/logo.png`;
-const OG_IMAGE = `${SITE.url}/og-image.jpg`;
+const LOGO_URL = `${SITE.url}/favicon.png`;
+const OG_IMAGE = LOGO_URL;
 
 export const orgSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": ORG_ID,
   name: "SeoFX",
-  alternateName: ["SeoFX Sri Lanka", "Best SEO Company Sri Lanka"],
+  alternateName: ["SeoFX Sri Lanka"],
   url: `${SITE.url}/`,
   logo: LOGO_URL,
   image: OG_IMAGE,
   description:
-    "SeoFX is the best SEO company in Sri Lanka offering professional SEO services, SEO packages and white-hat SEO for Sri Lankan businesses, agencies and web developers.",
+    "SeoFX is an SEO company in Rajagiriya, Sri Lanka. We plan SEO before websites are built or redesigned and grow search visibility for live websites.",
   email: SITE.email,
   telephone: SITE.phoneRaw,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Rajagiriya",
-    addressLocality: "Colombo",
+    addressLocality: "Rajagiriya",
     addressRegion: "Western Province",
     addressCountry: "LK",
   },
@@ -72,7 +71,7 @@ export const websiteSchema = () => ({
   "@type": "WebSite",
   "@id": WEBSITE_ID,
   url: `${SITE.url}/`,
-  name: "SeoFX — Best SEO Company in Sri Lanka",
+  name: "SeoFX",
   publisher: { "@id": ORG_ID },
   inLanguage: "en-LK",
   potentialAction: {
@@ -87,7 +86,7 @@ export const websiteSchema = () => ({
 
 export const localBusinessSchema = () => ({
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "ProfessionalService",
   "@id": LOCAL_ID,
   name: "SeoFX — SEO Company Sri Lanka",
   url: `${SITE.url}/`,
@@ -95,11 +94,10 @@ export const localBusinessSchema = () => ({
   logo: LOGO_URL,
   telephone: SITE.phoneRaw,
   email: SITE.email,
-  priceRange: "LKR 29,900 – LKR 250,000+",
+  priceRange: "From LKR 50,000",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Rajagiriya",
-    addressLocality: "Colombo",
+    addressLocality: "Rajagiriya",
     addressRegion: "Western Province",
     addressCountry: "LK",
   },
@@ -116,13 +114,6 @@ export const localBusinessSchema = () => ({
       closes: "18:00",
     },
   ],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "87",
-    bestRating: "5",
-    worstRating: "1",
-  },
 });
 
 /**

@@ -14,3 +14,14 @@
 - [x] Improve main page answers, FAQs, trustworthy campaign guidance and Netlify source metadata.
 - [x] Add natural contextual links from relevant blogs and service pages.
 - [x] Verify navigation, package terms, FAQ schema and consultation flow.
+
+# Eight-part website brief (complete one part, then wait for Continue)
+- [x] Part 1: pre-render complete route HTML, unique metadata, canonical/schema, crawler files, generated sitemap/routing and tracking/contact form.
+- [ ] Part 1 hosted checks: actual Netlify 301/404 responses, form receipt and mobile PageSpeed targets — require Netlify deployment; image conversion/preloads remain for later page work.
+- [ ] Part 2: header, footer and page-specific consultation actions — waiting for Continue after Part 1.
+- [ ] Part 3: site-wide claims and pricing cleanup — waiting for its turn.
+- [ ] Part 4: core page content — waiting for its turn.
+- [ ] Part 5: service and add-on content — waiting for its turn.
+- [ ] Part 6: AI SEO & GEO page and supporting content — waiting for its turn.
+- [ ] Part 7: company pages, samples and contact content — waiting for its turn.
+- [ ] Part 8: industry and blog content — waiting for its turn.

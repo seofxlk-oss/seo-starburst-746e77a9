@@ -5,6 +5,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { SITE } from "@/lib/site";
 import { orgSchema, websiteSchema, localBusinessSchema, webPageSchema } from "@/lib/schema";
+import { ContactEnquiryForm } from "@/components/ContactEnquiryForm";
 
 const Contact = () => {
   const wa = `https://wa.me/${SITE.whatsapp.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(
@@ -48,6 +49,7 @@ const Contact = () => {
         </div>
       </section>
 
+      <ContactEnquiryForm />
       <section className="container-tight pb-20">
         <div className="grid gap-8 lg:grid-cols-2">
           {/* Quick contact actions */}

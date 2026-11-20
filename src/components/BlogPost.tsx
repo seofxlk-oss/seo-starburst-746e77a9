@@ -45,7 +45,6 @@ export const BlogPost = ({
   date,
   dateModified,
   readTime,
-  author = "SeoFX Team",
   image = `${SITE.url}/og-image.jpg`,
   cta,
   faqs,
@@ -69,9 +68,9 @@ export const BlogPost = ({
     keywords,
     url,
     author: {
-      "@type": "Person",
-      name: author,
-      url: `${SITE.url}/seo-specialist-sri-lanka`,
+      "@type": "Organization",
+      "@id": `${SITE.url}/#organization`,
+      name: "SeoFX Editorial Team",
     },
     publisher: {
       "@type": "Organization",
@@ -109,7 +108,7 @@ export const BlogPost = ({
       }
     : null;
 
-  const jsonLd = [articleJsonLd, breadcrumbJsonLd, ...(faqJsonLd ? [faqJsonLd] : [])];
+  const jsonLd = [articleJsonLd, ...(faqJsonLd ? [faqJsonLd] : [])];
 
   return (
     <Layout>
@@ -132,7 +131,7 @@ export const BlogPost = ({
             {new Date(date).toLocaleDateString("en-LK", { year: "numeric", month: "long", day: "numeric" })}
           </span>
           <span className="flex items-center gap-1.5"><Clock className="size-4" />{readTime}</span>
-          <span>· By SeoFX Team</span>
+          <span>· By SeoFX Editorial Team</span>
         </div>
 
         <div className="prose-content mt-10 space-y-5 text-base leading-relaxed text-muted-foreground

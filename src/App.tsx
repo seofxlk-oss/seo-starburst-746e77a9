@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, StaticRouter, Navigate, Route, Routes } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
@@ -63,13 +63,15 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-const App = () => (
-  <HelmetProvider>
+const App = ({ serverPath, helmetContext = {} }: { serverPath?: string; helmetContext?: object }) => {
+  const Router = serverPath ? StaticRouter : BrowserRouter;
+  return (
+  <HelmetProvider context={helmetContext}>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <Router location={serverPath ?? "/"}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/seo-specialist-sri-lanka" element={<About />} />
@@ -134,10 +136,11 @@ const App = () => (
             ))}
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </BrowserRouter>
+        </Router>
       </TooltipProvider>
     </QueryClientProvider>
   </HelmetProvider>
-);
+  );
+};
 
 export default App;
