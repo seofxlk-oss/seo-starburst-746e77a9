@@ -7,7 +7,7 @@ export const SITE = {
   phone2: "+94 117 662 526",
   phone2Raw: "+94117662526",
   whatsapp: "+94777797035",
-  email: "info@seofx.lk",
+  email: "seofx.lk@gmail.com",
   address: "Rajagiriya, Sri Lanka",
 };
 
