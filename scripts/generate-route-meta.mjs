@@ -32,11 +32,12 @@ export async function prerender(rootDir, outputDir) {
       if ((body.match(/<h1(?:\s|>)/g) ?? []).length !== 1) throw new Error(`${route} must render exactly one H1`);
       if (!title || !description || !canonical) throw new Error(`${route} is missing required metadata`);
       const html = deployAssets(clean.replace(/<html[^>]*>/, '<html lang="en-LK">').replace("</head>", `${head}\n</head>`).replace('<div id="root"></div>', `<div id="root">${body}</div>`));
-      const destination = route === "/" ? "index.html" : `${route.slice(1)}/index.html`;
+      const destination = route === "/" ? "index.html" : `${route.slice(1)}.html`;
       fs.mkdirSync(path.dirname(path.join(outputDir, destination)), { recursive: true });
       fs.writeFileSync(path.join(outputDir, destination), html);
       if (route !== "/" && route !== "/404") {
-        redirects.push(`${route}/ ${route} 301!`, `${route} /${destination} 200`);
+        // Netlify matches with and without a trailing slash, so a slash redirect here would loop.
+        redirects.push(`${route} /${destination} 200`);
       }
       if (route !== "/404") manifest.push({ route, title, description, canonical });
       else fs.writeFileSync(path.join(outputDir, "404.html"), html);
