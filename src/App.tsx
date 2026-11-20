@@ -57,6 +57,13 @@ import Post39 from "./pages/blog/Post39";
 import Post40 from "./pages/blog/Post40";
 import Post41 from "./pages/blog/Post41";
 import Post42 from "./pages/blog/Post42";
+import Post43 from "./pages/blog/Post43";
+import Post44 from "./pages/blog/Post44";
+import Post45 from "./pages/blog/Post45";
+import Post46 from "./pages/blog/Post46";
+import Post47 from "./pages/blog/Post47";
+import Post48 from "./pages/blog/Post48";
+import Post49 from "./pages/blog/Post49";
 import AboutUs from "./pages/company/AboutUs";
 import HowWeWork from "./pages/company/HowWeWork";
 import EditorialStandards from "./pages/company/EditorialStandards";
@@ -139,6 +146,13 @@ const App = ({ serverPath, helmetContext = {} }: { serverPath?: string; helmetCo
             <Route path="/blog/google-ai-overviews-sri-lanka-seo" element={<Post40 />} />
             <Route path="/blog/seo-checklist-before-building-website-sri-lanka" element={<Post41 />} />
             <Route path="/blog/website-redesign-without-losing-google-rankings" element={<Post42 />} />
+            <Route path="/blog/seo-expert-vs-diy-seo-sri-lanka" element={<Post43 />} />
+            <Route path="/blog/seo-small-business-sri-lanka-where-to-start" element={<Post44 />} />
+            <Route path="/blog/how-to-write-service-pages-that-rank" element={<Post45 />} />
+            <Route path="/blog/google-search-console-guide-sri-lanka" element={<Post46 />} />
+            <Route path="/blog/seo-colombo-businesses-compete-google" element={<Post47 />} />
+            <Route path="/blog/google-ads-conversion-tracking-sri-lanka" element={<Post48 />} />
+            <Route path="/blog/google-ads-landing-pages-sri-lanka" element={<Post49 />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/how-we-work" element={<HowWeWork />} />
             <Route path="/editorial-standards" element={<EditorialStandards />} />

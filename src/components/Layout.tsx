@@ -1,3 +1,4 @@
+import { RelatedGuides } from "@/components/RelatedGuides";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
@@ -18,7 +19,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <Header />
-      <main id="main" className="flex-1">{children}</main>
+      <main id="main" className="flex-1">{children}<RelatedGuides /></main>
       <Footer />
       <FloatingWhatsApp />
     </div>
