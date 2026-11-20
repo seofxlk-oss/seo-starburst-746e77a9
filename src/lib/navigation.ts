@@ -4,8 +4,7 @@ export const MAIN_NAVIGATION = [
   { label: "SEO Consultation", href: "/seo-consultant-sri-lanka" },
   { label: "Pricing", href: "/seo-packages-sri-lanka" },
   { label: "Our Work", href: "/case-studies" },
-  // Switch to the new company page when Part 7 creates it.
-  { label: "About", href: "/seo-specialist-sri-lanka" },
+  { label: "About", href: "/about-us" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact-us" },
 ];
@@ -29,7 +28,9 @@ export const ADD_ON_NAVIGATION = [
 ];
 
 export const COMPANY_NAVIGATION = [
-  { label: "About", href: "/seo-specialist-sri-lanka" },
+  { label: "About", href: "/about-us" },
+  { label: "How We Work", href: "/how-we-work" },
+  { label: "Editorial Standards", href: "/editorial-standards" },
   { label: "Our Work", href: "/case-studies" },
   { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },

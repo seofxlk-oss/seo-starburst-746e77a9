@@ -131,6 +131,9 @@ export const BlogPost = ({
             {new Date(date).toLocaleDateString("en-LK", { year: "numeric", month: "long", day: "numeric" })}
           </span>
           <span className="flex items-center gap-1.5"><Clock className="size-4" />{readTime}</span>
+          {(dateModified ?? date) !== date && (
+            <span>Last updated {new Date(dateModified as string).toLocaleDateString("en-LK", { year: "numeric", month: "long", day: "numeric" })}</span>
+          )}
           <span>· By SeoFX Editorial Team</span>
         </div>
 
@@ -141,6 +144,11 @@ export const BlogPost = ({
                        [&>p>strong]:text-foreground">
           {children}
         </div>
+
+        <aside className="mt-12 rounded-2xl border border-border bg-card p-6 text-sm text-muted-foreground">
+          <p className="font-display font-bold text-foreground">Written by the SeoFX Editorial Team</p>
+          <p className="mt-2">Our SEO specialists in Rajagiriya research and review every article. Published {new Date(date).toLocaleDateString("en-LK", { year: "numeric", month: "long", day: "numeric" })}; last reviewed {new Date(dateModified ?? date).toLocaleDateString("en-LK", { year: "numeric", month: "long", day: "numeric" })}. <Link to="/editorial-standards" className="font-semibold text-accent hover:underline">Read our editorial standards</Link>.</p>
+        </aside>
 
         {faqs && faqs.length > 0 && (
           <section aria-labelledby="post-faq-heading" className="mt-14">

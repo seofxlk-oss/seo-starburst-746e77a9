@@ -76,7 +76,7 @@ export interface Industry {
   hubTopKws: string[];
 }
 
-export const INDUSTRIES: Industry[] = [
+const RAW_INDUSTRIES: Industry[] = [
   // ────────────────────────── HOTELS ──────────────────────────
   {
     slug: "hotel-seo-sri-lanka",
@@ -1195,6 +1195,37 @@ export const FULL_KEYWORDS: Record<string, string[]> = {
     "freight companies Sri Lanka", "shipping agents Colombo", "customs clearance Sri Lanka", "freight forwarder Sri Lanka", "logistics company Colombo", "air freight Sri Lanka", "sea freight Sri Lanka", "cargo shipping Sri Lanka", "courier services Sri Lanka", "import clearance Colombo port", "warehousing Sri Lanka", "last mile delivery Sri Lanka", "cold chain logistics Sri Lanka", "LCL FCL shipping Sri Lanka", "shipping cost Sri Lanka to UK",
   ],
 };
+
+/** Owner-focused title, H1 and intro template. Travel keeps its own tuned copy; ecommerce has a dedicated page. */
+const OWNER_NAMES: Record<string, string> = {
+  "hotel-seo-sri-lanka": "Hotel",
+  "furniture-seo-sri-lanka": "Furniture",
+  "education-seo-sri-lanka": "Education",
+  "healthcare-seo-sri-lanka": "Healthcare",
+  "export-business-seo-sri-lanka": "Export",
+  "clothing-fashion-seo-sri-lanka": "Clothing & Fashion",
+  "construction-real-estate-seo-sri-lanka": "Construction & Real Estate",
+  "restaurant-seo-sri-lanka": "Restaurant",
+  "beauty-salon-seo-sri-lanka": "Beauty Salon",
+  "legal-law-firm-seo-sri-lanka": "Law Firm",
+  "automotive-seo-sri-lanka": "Automotive",
+  "finance-insurance-seo-sri-lanka": "Finance & Insurance",
+  "tea-agri-seo-sri-lanka": "Tea & Agriculture",
+  "it-software-seo-sri-lanka": "IT & Software",
+  "events-wedding-seo-sri-lanka": "Events & Wedding",
+  "freight-logistics-seo-sri-lanka": "Freight & Logistics"
+};
+
+export const INDUSTRIES: Industry[] = RAW_INDUSTRIES.map((ind) => {
+  const name = OWNER_NAMES[ind.slug];
+  if (!name) return ind;
+  return {
+    ...ind,
+    seoTitle: `SEO for ${name} in Sri Lanka | SeoFX`,
+    h1: `SEO for ${name} Businesses in Sri Lanka`,
+    intro: `SEO for ${name.toLowerCase()} owners and marketing teams in Sri Lanka who want more customers from Google, Maps and AI search.`,
+  };
+});
 
 export const getIndustryBySlug = (slug?: string): Industry | undefined =>
   INDUSTRIES.find((i) => i.slug === slug);

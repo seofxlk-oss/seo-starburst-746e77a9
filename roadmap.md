@@ -28,3 +28,9 @@
 - [ ] Part 6 follow-up: three supporting GEO blog posts still to write.
 - [ ] Part 7: company pages, samples and contact content — waiting for its turn.
 - [ ] Part 8: industry and blog content — waiting for its turn.
+# Parts 6–8 batch
+- [x] Three GEO blog posts plus two SEO Before You Build posts.
+- [x] About Us, How We Work and Editorial Standards pages, linked from header/footer.
+- [x] Editorial team box and last-updated dates on every post.
+- [x] Owner-focused titles, H1s and intros on industry pages, with SEO Before You Build section.
+- [ ] Our Work page rework, Contact/FAQ tidy-up, blog categories reduced to five, answer-first openings on older posts.

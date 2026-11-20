@@ -361,6 +361,16 @@ const IndustryPage = () => {
         </div>
       </section>
 
+      <section className="container-tight py-12">
+        <div className="rounded-2xl border border-border bg-card p-6 sm:p-8">
+          <h2 className="font-display text-2xl font-extrabold">Planning a new {industry.navLabel.replace(/ SEO$/, "").toLowerCase()} website?</h2>
+          <p className="mt-3 text-muted-foreground">
+            Plan keywords, pages and URLs before design starts so the site launches ready to rank. Learn about{" "}
+            <Link to="/services/seo-consulting-sri-lanka" className="font-semibold text-accent hover:underline">SEO before you build</Link>.
+          </p>
+        </div>
+      </section>
+
       <CTASection
         title="Need a custom industry SEO strategy?"
         subtitle="Talk to a Sri Lankan SEO specialist who knows your industry — free, no obligation."

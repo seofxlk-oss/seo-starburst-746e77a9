@@ -52,6 +52,14 @@ import Post34 from "./pages/blog/Post34";
 import Post35 from "./pages/blog/Post35";
 import Post36 from "./pages/blog/Post36";
 import Post37 from "./pages/blog/Post37";
+import Post38 from "./pages/blog/Post38";
+import Post39 from "./pages/blog/Post39";
+import Post40 from "./pages/blog/Post40";
+import Post41 from "./pages/blog/Post41";
+import Post42 from "./pages/blog/Post42";
+import AboutUs from "./pages/company/AboutUs";
+import HowWeWork from "./pages/company/HowWeWork";
+import EditorialStandards from "./pages/company/EditorialStandards";
 import IndustriesHub from "./pages/IndustriesHub";
 import IndustryPage from "./pages/IndustryPage";
 import SeoConsultation from "./pages/SeoConsultation";
@@ -126,6 +134,14 @@ const App = ({ serverPath, helmetContext = {} }: { serverPath?: string; helmetCo
             <Route path="/blog/google-ads-vs-facebook-ads-sri-lanka" element={<Post35 />} />
             <Route path="/blog/google-ads-mistakes-sri-lankan-businesses-make" element={<Post36 />} />
             <Route path="/blog/how-to-choose-google-ads-agency-sri-lanka" element={<Post37 />} />
+            <Route path="/blog/what-is-geo-guide-sri-lankan-businesses" element={<Post38 />} />
+            <Route path="/blog/get-business-mentioned-chatgpt-gemini-sri-lanka" element={<Post39 />} />
+            <Route path="/blog/google-ai-overviews-sri-lanka-seo" element={<Post40 />} />
+            <Route path="/blog/seo-checklist-before-building-website-sri-lanka" element={<Post41 />} />
+            <Route path="/blog/website-redesign-without-losing-google-rankings" element={<Post42 />} />
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/how-we-work" element={<HowWeWork />} />
+            <Route path="/editorial-standards" element={<EditorialStandards />} />
             <Route path="/seo-consultant-sri-lanka" element={<SeoConsultation />} />
             <Route path="/seo-consultation" element={<Navigate to="/seo-consultant-sri-lanka" replace />} />
             <Route path="/google-map-optimization" element={<GoogleMapOptimization />} />

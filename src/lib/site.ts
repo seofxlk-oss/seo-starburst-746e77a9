@@ -28,6 +28,46 @@ export const FOOTER_LINKS = [
 
 export const BLOG_POSTS = [
   {
+    slug: "what-is-geo-guide-sri-lankan-businesses",
+    title: "What Is GEO? A Guide for Sri Lankan Businesses",
+    excerpt: "What is GEO (generative engine optimisation)? A plain-English guide for Sri Lankan businesses on getting mentioned in ChatGPT, Gemini and Google AI Overviews.",
+    category: "AI Search",
+    date: "2026-11-20",
+    readTime: "5 min read",
+  },
+  {
+    slug: "get-business-mentioned-chatgpt-gemini-sri-lanka",
+    title: "How to Get Your Business Mentioned in ChatGPT and Gemini in Sri Lanka",
+    excerpt: "Practical steps for Sri Lankan businesses to improve their chances of being mentioned in ChatGPT and Gemini answers, without shortcuts or guarantees.",
+    category: "AI Search",
+    date: "2026-11-20",
+    readTime: "5 min read",
+  },
+  {
+    slug: "google-ai-overviews-sri-lanka-seo",
+    title: "Google AI Overviews in Sri Lanka: What Changes for SEO",
+    excerpt: "What Google AI Overviews mean for SEO in Sri Lanka: fewer clicks on some searches, new ways to be cited, and what local businesses should do now.",
+    category: "AI Search",
+    date: "2026-11-20",
+    readTime: "5 min read",
+  },
+  {
+    slug: "seo-checklist-before-building-website-sri-lanka",
+    title: "SEO Checklist Before Building a Website in Sri Lanka",
+    excerpt: "A practical SEO checklist to complete before building a website in Sri Lanka: keywords, page structure, URLs, technical requirements and content.",
+    category: "SEO Before You Build",
+    date: "2026-11-20",
+    readTime: "5 min read",
+  },
+  {
+    slug: "website-redesign-without-losing-google-rankings",
+    title: "Website Redesign Without Losing Google Rankings",
+    excerpt: "How to redesign your website without losing Google rankings: crawl the old site, map redirects, keep content that ranks and check everything after launch.",
+    category: "SEO Before You Build",
+    date: "2026-11-20",
+    readTime: "5 min read",
+  },
+  {
     slug: "best-seo-company-sri-lanka-guide",
     title: "What Makes the Best SEO Company in Sri Lanka? A Complete Guide",
     excerpt: "What truly makes the best SEO company in Sri Lanka? We break down the criteria, red flags, and why SeoFX is trusted by businesses across the island.",

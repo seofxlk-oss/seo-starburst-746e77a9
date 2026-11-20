@@ -6,6 +6,9 @@ export const CORE_PAGES = {
   consultation: { path: "/seo-consultant-sri-lanka", title: "SEO Consultant Sri Lanka – 1-on-1 SEO Consultation | SeoFX", description: "Book an SEO consultation from LKR 50,000: website review, keyword direction, on-page SEO recommendations and a written roadmap you can act on.", h1: "SEO Consultant in Sri Lanka — 1-on-1 SEO Consultation" },
   pricing: { path: "/seo-packages-sri-lanka", title: "SEO Packages & Prices in Sri Lanka | SeoFX", description: "SEO consultation from LKR 50,000 with on-page SEO recommendations. Monthly SEO, audits and other services are custom-quoted after a free analysis.", h1: "SEO Packages & Pricing in Sri Lanka" },
   guide: { path: "/seo-sri-lanka", title: "SEO in Sri Lanka: How It Works, Costs & Timelines | SeoFX", description: "A plain-English guide to SEO in Sri Lanka: how Google and AI search rank local businesses, what SEO costs, how long it takes and where to start.", h1: "SEO in Sri Lanka — How It Works for Local Businesses" },
+  about: { path: "/about-us", title: "About SeoFX – SEO Company in Rajagiriya, Sri Lanka", description: "SeoFX is an SEO company in Rajagiriya helping Sri Lankan businesses get SEO right before they build, then grow through Google, Maps and AI search.", h1: "About SeoFX" },
+  howWeWork: { path: "/how-we-work", title: "How We Work – Our SEO Process | SeoFX", description: "See the SeoFX SEO process: what happens in week 1, month 1, month 3 and month 6, the deliverables you receive and how we report progress.", h1: "How We Work" },
+  editorial: { path: "/editorial-standards", title: "Editorial Standards | SeoFX", description: "How the SeoFX Editorial Team researches, writes, reviews, updates and corrects the SEO guides published on our blog.", h1: "How We Write and Review Our Content" },
 };
 
 export const CORE_SERVICES = [
@@ -59,5 +62,20 @@ export const CORE_FAQS = {
     { q: "Why custom quotes?", a: "Custom quotes reflect the work your website actually needs rather than a fixed keyword allowance. A small local site, a large shop and an international redesign have different technical and content requirements. We explain the priorities, deliverables and fees in a proposal so you can assess the scope before starting." },
     { q: "Is one-time SEO possible?", a: "Yes, a one-time engagement can cover a consultation, audit, keyword map or a defined set of improvements. It provides a useful starting point when your team can maintain the site afterwards. Search results still change, so one-time work is not a promise of permanent rankings or a replacement for future monitoring." },
     { q: "What does the LKR 50,000 include?", a: "SEO Consultation from LKR 50,000 includes website review, keyword direction, on-page SEO recommendations, a competitor snapshot and a written roadmap within the agreed scope. We confirm arrangements before booking. A full website build, ongoing SEO or Google advertising spend is not automatically included; other services are quoted after a free analysis." },
+  ],
+  about: [
+    { q: "Where is SeoFX based?", a: "SeoFX is based in Rajagiriya, Sri Lanka, and works with businesses across the country, online and by phone." },
+    { q: "What does “SEO before you build” mean?", a: "It means planning keywords, page structure and URLs before a website is designed or rebuilt, so the site launches ready to be found instead of needing expensive fixes later." },
+    { q: "Do you work with existing websites too?", a: "Yes. We audit and improve existing websites as well as plan new ones. A free analysis shows where to start." },
+  ],
+  howWeWork: [
+    { q: "How soon will I see results?", a: "Technical fixes can be picked up within weeks, but meaningful ranking and enquiry changes usually take several months. We report what changed each month without promising fixed outcomes." },
+    { q: "Do I keep access to my accounts?", a: "Yes. Your website, Google Search Console, GA4 and Google Business Profile stay in your name. We work with access you grant." },
+    { q: "What do you need from me to start?", a: "Access to your website and analytics, a list of your main services and locations, and someone who can approve changes and answer questions about your business." },
+  ],
+  editorial: [
+    { q: "Who writes the SeoFX blog?", a: "Articles are written and reviewed by the SeoFX Editorial Team, the people who deliver our SEO work." },
+    { q: "How often are articles updated?", a: "We review articles at least once a year and sooner when Google or AI search changes affect the advice. The last updated date is shown on each post." },
+    { q: "How do I report a mistake?", a: "Email seofx.lk@gmail.com with the article link and the issue. We check it and correct the article if needed." },
   ],
 };
