@@ -31,9 +31,9 @@ import {
 const PAGE_URL = "https://seofx.lk/seo-specialist-sri-lanka";
 
 const STATS = [
-  { stat: "10+", text: "Years as SEO experts in Sri Lanka" },
-  { stat: "50+", text: "Sri Lankan businesses ranked on Google" },
-  { stat: "90 Days", text: "Written ranking promise per client" },
+  { stat: "Rajagiriya", text: "Based in Sri Lanka, serving the whole island" },
+  { stat: "Direct", text: "Work with the specialists doing the job" },
+  { stat: "Written", text: "Scope, deliverables and monthly reports" },
 ];
 
 const TEAM = [
@@ -41,7 +41,7 @@ const TEAM = [
     icon: Brain,
     title: "SEO Strategy Specialists",
     text:
-      "Senior strategists with 10+ years developing keyword strategies, content plans and link roadmaps for Sri Lankan businesses across every major industry.",
+      "Strategists developing keyword strategies, content plans and link roadmaps for Sri Lankan businesses across every major industry.",
   },
   {
     icon: Code2,
@@ -140,9 +140,9 @@ const COMPARISON = [
   {
     factor: "Accountability",
     expert:
-      "90-Day Ranking Promise — rankings move in 90 days or we keep working free.",
+      "Written scope, agreed priorities and honest monthly progress reports.",
     agency:
-      "Vague promises about 'improvement over time' with no written guarantee.",
+      "Vague promises about 'improvement over time' with no written scope.",
   },
   {
     factor: "Reporting depth",
@@ -153,22 +153,22 @@ const COMPARISON = [
   },
   {
     factor: "Contract flexibility",
-    expert: "Month-to-month — no lock-in. We earn your business through results.",
-    agency: "6–12 month minimum contracts — locked in regardless of results.",
+    expert: "Clear terms and notice period agreed upfront.",
+    agency: "Long minimum contracts with unclear deliverables.",
   },
 ];
 
 const RESULTS = [
-  "E-commerce store in Colombo: +220% organic traffic, +360% conversions in 8 months.",
-  "Hotel in Galle: ranked #1 for primary booking-intent keyword — 40+ direct enquiries/month from organic search.",
-  "Education institute in Kandy: 6 of 10 target keywords on Google page 1 within 5 months.",
-  "Real estate agency in Colombo 3: 3× qualified leads from organic, 60% lower cost per lead vs Google Ads.",
-  "Professional services firm in Nugegoda: page 1 for 3 of 5 target keywords within 87 days.",
-  "Restaurant group in Colombo: top 3 in Google Maps for 8 local search terms — direct walk-in customers.",
+  "Sample · Online shop, Colombo: fix category indexing and map product keywords.",
+  "Sample · Hotel, Galle: build booking-intent pages and optimise the Google Business Profile.",
+  "Sample · Education institute, Kandy: one page per course with FAQs parents ask.",
+  "Sample · Real estate agency, Colombo: location pages and relevant property-site mentions.",
+  "Sample · Professional services, Nugegoda: rewrite five service pages and set up reporting.",
+  "Sample · Restaurant, Colombo: Google Business Profile clean-up and local landing page.",
 ];
 
 const WHEN_TO_HIRE = [
-  "Your website gets fewer than 500 organic visitors per month after 12+ months active.",
+  "Your website gets very little organic traffic after a year or more.",
   "You run Google Ads or Facebook Ads but have not invested in organic SEO.",
   "You have worked with an SEO agency before but saw no meaningful results in 6 months.",
   "A competitor that launched after you is outranking you on Google.",
@@ -184,15 +184,15 @@ const FAQS = [
   },
   {
     q: "How do I find the best SEO expert in Sri Lanka?",
-    a: "Look for four things: (1) documented case studies with real numbers, (2) transparent methodology you can verify, (3) a 100% white-hat approach with no PBNs or AI-generated content, and (4) clear monthly reporting on rankings, traffic and leads. SeoFX meets all four and adds Sri Lanka's only written 90-Day Ranking Promise.",
+    a: "Look for four things: (1) relevant examples and labelled samples, (2) transparent methodology you can verify, (3) a white-hat approach with no PBNs or AI-generated content, and (4) clear monthly reporting on rankings, traffic and leads. Avoid anyone who guarantees rankings.",
   },
   {
     q: "How much does an SEO expert cost in Sri Lanka?",
-    a: "A professional SEO expert in Sri Lanka typically costs LKR 29,900–99,900+ per month depending on scope, keyword count and competition. SeoFX packages start at LKR 29,900/month for the Starter (up to 5 keywords) and scale to LKR 99,900+/month for Premium campaigns. All packages are month-to-month with no lock-in and include a free SEO audit. Avoid SEO services priced below LKR 15,000/month — quality and ethics are almost always compromised at that level.",
+    a: "At SeoFX, the SEO Consultation starts from LKR 50,000 and includes on-page SEO recommendations. Ongoing SEO and other services receive a custom quote after a free analysis. Be cautious of very cheap SEO, which often relies on risky tactics.",
   },
   {
     q: "How long does it take to see results from an SEO expert in Sri Lanka?",
-    a: "Most SeoFX clients see measurable ranking improvements within 60–90 days — guaranteed by our 90-Day Ranking Promise. Meaningful traffic and lead growth typically appears in 4–6 months. Highly competitive niches like finance, insurance and legal can take 6–12 months for top-3 positions. SEO compounds — the longer your campaign runs, the stronger your rankings become.",
+    a: "It depends on your website and competition. Technical fixes can be picked up within weeks; meaningful traffic and enquiry growth usually takes several months, and longer in competitive niches. No one can guarantee a position. SEO compounds — the longer your campaign runs, the stronger your rankings become.",
   },
   {
     q: "What is the difference between an SEO expert and an SEO consultant in Sri Lanka?",
@@ -200,15 +200,15 @@ const FAQS = [
   },
   {
     q: "Can an SEO expert in Sri Lanka help my local business rank on Google Maps?",
-    a: "Yes — local SEO and Google Maps ranking is one of the highest-impact areas an SEO expert in Sri Lanka can deliver. Our local SEO specialists optimise your Google Business Profile, build consistent local citations across Sri Lankan directories, earn reviews and implement LocalBusiness schema. Local businesses in Colombo, Kandy, Galle, Negombo and Jaffna typically achieve major Google Maps improvements within 60–90 days.",
+    a: "Yes — local SEO and Google Maps ranking is one of the highest-impact areas an SEO expert in Sri Lanka can deliver. Our local SEO specialists optimise your Google Business Profile, keep business details consistent, encourage genuine reviews and implement LocalBusiness schema for businesses across Colombo, Kandy, Galle, Negombo and Jaffna.",
   },
   {
-    q: "Is SeoFX the best SEO expert team in Sri Lanka?",
-    a: "SeoFX is widely recognised as one of Sri Lanka's most results-focused and transparent SEO expert teams — with 87+ verified 4.9-star Google reviews, 50+ Sri Lankan businesses ranked on page one, 10+ years of local market experience and Sri Lanka's only written 90-Day Ranking Promise. Our entire team focuses exclusively on SEO, delivering deeper specialist knowledge than any generalist agency.",
+    q: "How is SeoFX different from other SEO teams in Sri Lanka?",
+    a: "SeoFX plans SEO before you build, works with written deliverables and reports honestly. Our team focuses exclusively on SEO, delivering deeper specialist knowledge than any generalist agency.",
   },
   {
     q: "Does SeoFX offer a free SEO audit before I hire them?",
-    a: "Yes — SeoFX provides a comprehensive free SEO audit for every potential client before any commitment. Your audit covers current ranking positions, technical SEO health (crawl errors, Core Web Vitals, mobile compliance), content gap analysis, backlink profile review and a prioritised list of the highest-impact opportunities. Delivered in 3–5 business days with zero obligation.",
+    a: "Yes — SeoFX provides a comprehensive free SEO audit for every potential client before any commitment. Your audit covers current ranking positions, technical SEO health (crawl errors, Core Web Vitals, mobile compliance), content gap analysis, backlink profile review and a prioritised list of the highest-impact opportunities. No obligation.",
   },
 ];
 
@@ -217,7 +217,7 @@ const expertLocalBusiness = {
   "@type": "LocalBusiness",
   name: "SeoFX — SEO Expert Sri Lanka",
   description:
-    "Sri Lanka's leading SEO expert team — technical SEO, on-page SEO, link building, local SEO and e-commerce SEO for Sri Lankan businesses. 90-Day Ranking Promise included.",
+    "SeoFX SEO specialists in Rajagiriya — technical SEO, on-page SEO, link building, local SEO and ecommerce SEO for Sri Lankan businesses.",
   url: PAGE_URL,
   telephone: "+94777797035",
   address: {
@@ -228,12 +228,6 @@ const expertLocalBusiness = {
   },
   geo: { "@type": "GeoCoordinates", latitude: "6.9022", longitude: "79.8975" },
   areaServed: { "@type": "Country", name: "Sri Lanka" },
-  priceRange: "LKR 29,900 - LKR 99,900",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "87",
-  },
   knowsAbout: [
     "SEO",
     "Search Engine Optimisation",
@@ -253,10 +247,10 @@ const About = () => {
     <Layout>
       <SEO
         title="SEO Expert Sri Lanka | SEO Specialist & Consultant | SeoFX"
-        description="SeoFX — Sri Lanka's leading SEO expert team. 10+ years ranking Sri Lankan businesses on Google. SEO specialist services in Colombo, island-wide. Free SEO audit."
+        description="Work directly with SEO specialists who plan, build and grow rankings for Sri Lankan websites. See our process, tools and sample work. Free SEO audit."
         canonical="/seo-specialist-sri-lanka"
         keywords="seo expert sri lanka, seo specialist sri lanka, seo consultant sri lanka, best seo expert sri lanka, hire seo expert sri lanka, seo expert colombo, local seo expert sri lanka"
-        ogImageAlt="SeoFX — SEO Expert Sri Lanka, leading SEO specialists & consultants"
+        ogImageAlt="SeoFX — SEO specialists in Sri Lanka"
         jsonLd={[
           orgSchema(),
           websiteSchema(),
@@ -266,7 +260,7 @@ const About = () => {
             type: "AboutPage",
             name: "SEO Expert Sri Lanka — SeoFX",
             description:
-              "SeoFX is Sri Lanka's leading SEO expert team — technical SEO, on-page SEO, link building, local SEO and e-commerce SEO with a written 90-Day Ranking Promise.",
+              "SeoFX SEO specialists — technical SEO, on-page SEO, link building, local SEO and ecommerce SEO for Sri Lankan businesses.",
             url: PAGE_URL,
           }),
           faqSchema(FAQS, { pageUrl: PAGE_URL }),
@@ -279,16 +273,16 @@ const About = () => {
         <div className="mx-auto max-w-4xl text-center">
           <span className="badge-pill">SEO Expert Sri Lanka</span>
           <h1 className="mt-4 font-display text-3xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
-            <span className="text-gradient-accent">SEO Expert Sri Lanka</span> — SeoFX, Sri Lanka's Most Trusted SEO Specialist Team
+            <span className="text-gradient-accent">SEO Expert Sri Lanka</span> — SeoFX, SEO Specialists in Rajagiriya
           </h1>
           <p className="mt-5 text-lg text-muted-foreground">
             When Sri Lankan businesses need a proven{" "}
             <strong className="text-foreground">SEO expert in Sri Lanka</strong> — not a
             generic agency, not an overseas freelancer, but a dedicated team of SEO
             specialists who understand the local market from the inside — they come to
-            SeoFX. Based in Rajagiriya, Colombo, we are the most results-driven{" "}
+            SeoFX. Based in Rajagiriya, we are a focused{" "}
             <strong className="text-foreground">SEO specialist team in Sri Lanka</strong>,
-            with 10+ years ranking Sri Lankan businesses on Google page one.
+            planning and growing Sri Lankan websites on Google.
           </p>
           <p className="mt-4 text-base text-muted-foreground">
             Our SEO experts combine deep technical knowledge, strategic content expertise
@@ -482,7 +476,7 @@ const About = () => {
             SEO Expert Services in Sri Lanka — What SeoFX Delivers
           </h2>
           <p className="mt-4 text-muted-foreground">
-            As Sri Lanka's leading SEO expert team, SeoFX delivers the full spectrum of{" "}
+            As an SEO specialist team, SeoFX delivers the full spectrum of{" "}
             <Link to="/services" className="text-accent underline-offset-4 hover:underline">
               SEO services in Sri Lanka
             </Link>{" "}
@@ -545,17 +539,16 @@ const About = () => {
       {/* RESULTS */}
       <section className="container-tight py-20">
         <div className="mx-auto max-w-4xl">
-          <span className="badge-pill">Proven Results</span>
+          <span className="badge-pill">Sample Plans</span>
           <h2 className="mt-4 font-display text-3xl font-extrabold sm:text-4xl">
-            What Sri Lankan Businesses Achieve with SeoFX SEO Experts
+            What SEO Specialist Work Could Look Like
           </h2>
           <p className="mt-4 text-muted-foreground">
-            The measure of any SEO expert in Sri Lanka is documented, verifiable results
-            — see our{" "}
+            These are fictional samples, not client results. For a real project, see{" "}
             <Link to="/case-studies" className="text-accent underline-offset-4 hover:underline">
-              case studies
+              our work
             </Link>{" "}
-            for the full picture:
+            .
           </p>
 
           <ul className="mt-8 grid gap-3 md:grid-cols-2">
@@ -572,13 +565,12 @@ const About = () => {
 
           <div className="mt-10 rounded-3xl border border-accent/40 bg-accent-gradient p-8 text-accent-foreground">
             <h3 className="font-display text-2xl font-extrabold">
-              90-Day Ranking Promise — Sri Lanka's Only Written SEO Guarantee
+              Written Scope & Honest Reporting
             </h3>
             <p className="mt-3 text-sm leading-relaxed opacity-95">
-              Every SeoFX SEO expert engagement includes our written 90-Day Ranking
-              Promise. If your target keywords do not move significantly within 90 days,
-              our SEO specialists keep working at no additional cost until they do. No
-              other SEO expert or agency in Sri Lanka offers this guarantee.
+              Every engagement starts with a written scope and agreed priorities. You get
+              plain-English monthly reports. We never guarantee rankings, because Google
+              controls them.
             </p>
           </div>
         </div>
@@ -614,7 +606,7 @@ const About = () => {
         <div className="mx-auto max-w-3xl text-center">
           <span className="badge-pill">Why us</span>
           <h2 className="mt-4 font-display text-3xl font-extrabold sm:text-4xl">
-            Why We Are the Best SEO Expert Team in Sri Lanka
+            How Our SEO Specialist Team Works
           </h2>
         </div>
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
@@ -636,7 +628,7 @@ const About = () => {
 
         <div className="mt-14 grid gap-4 sm:grid-cols-3">
           {[
-            { icon: ShieldCheck, label: "100% white-hat SEO" },
+            { icon: ShieldCheck, label: "White-hat SEO only" },
             { icon: Award, label: "Proven results across industries" },
             { icon: CheckCircle2, label: "Local Sri Lanka market expertise" },
           ].map((b) => (

@@ -9,7 +9,7 @@ const PorKenDeliCase = () => {
     <Layout>
       <SEO
         title="PorKenDeli Restaurant SEO Case Study | SeoFX"
-        description="See how SeoFX helped PorKenDeli.lk improve their organic visibility. A real SEO success story from Sri Lanka's best SEO company."
+        description="See how SeoFX helped PorKenDeli.lk improve their organic visibility. A real SEO project from Sri Lanka."
         canonical="/case-studies/porkendeli-seo-case-study"
         keywords="seo case study sri lanka, restaurant seo sri lanka, local seo sri lanka, seo company sri lanka"
         jsonLd={{

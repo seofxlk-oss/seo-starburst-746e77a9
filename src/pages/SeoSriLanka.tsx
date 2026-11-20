@@ -75,20 +75,20 @@ const disciplines = [
   {
     icon: MapPin,
     title: "Local SEO",
-    body: "Google Business Profile optimisation, local landing pages and review strategy so you appear in the Map Pack across Colombo, Kandy, Galle and beyond.",
+    body: "Google Business Profile optimisation, local landing pages and genuine customer feedback so you appear in the Map Pack across Colombo, Kandy, Galle and beyond.",
   },
 ];
 
 const benefits = [
   {
-    stat: "92%",
-    title: "Never leave page one",
-    body: "92% of Google users never click past page one of search results. If you are not on page one, you do not exist for the vast majority of searches in Sri Lanka.",
+    stat: "Page 1",
+    title: "Where attention is",
+    body: "Most searchers choose from the first page of results. If you are not there, customers are far less likely to find you.",
   },
   {
-    stat: "10×",
-    title: "Position one gets 10× clicks",
-    body: "The #1 organic result on Google receives roughly ten times the clicks of the result sitting at position ten. Ranking higher does not give you a little more traffic — it gives you most of the traffic.",
+    stat: "Top",
+    title: "Higher positions get more clicks",
+    body: "Results near the top of the page usually receive far more clicks than those further down, so moving up matters.",
   },
   {
     stat: "∞",
@@ -138,7 +138,7 @@ const comparison: { row: string; with: string; without: string }[] = [
   },
   {
     row: "Brand credibility",
-    with: "Ranking #1 on Google signals authority and trust.",
+    with: "Appearing prominently on Google helps customers trust you.",
     without: "Customers cannot find you, or assume you are too small to compete.",
   },
   {
@@ -192,7 +192,7 @@ const services = [
   {
     icon: MapPin,
     title: "Local SEO & Google Business Profile",
-    body: "Google Business Profile setup and optimisation, local landing pages and review-generation strategy to dominate the Map Pack in your service areas across Sri Lanka.",
+    body: "Google Business Profile setup and optimisation, local landing pages and Google Business Profile improvements to compete in the Map Pack in your service areas across Sri Lanka.",
   },
   {
     icon: TrendingUp,
@@ -231,24 +231,24 @@ const timeline = [
 
 const sriLankaStats = [
   {
-    n: "12.3M+",
-    label: "Internet users in Sri Lanka",
-    body: "More than half of Sri Lanka is online — and almost all of them search Google before making a buying decision.",
+    n: "Online",
+    label: "Sri Lankan buyers search first",
+    body: "Many Sri Lankan customers search online before making a buying decision.",
   },
   {
-    n: "95%+",
-    label: "Google's search market share",
-    body: "Google completely dominates search in Sri Lanka. Ranking on Google is effectively the only SEO that matters here.",
+    n: "Google",
+    label: "The main search engine",
+    body: "Google is the search engine most Sri Lankans use, so it is the focus of SEO here.",
   },
   {
-    n: "70%+",
-    label: "Searches happening on mobile",
-    body: "The majority of Sri Lankan Google searches happen on smartphones — making mobile-first SEO non-negotiable.",
+    n: "Mobile",
+    label: "Where most searching happens",
+    body: "Many Sri Lankan searches happen on smartphones, so mobile-friendly SEO matters.",
   },
   {
-    n: "76%",
-    label: "Local searches that visit within 24 hours",
-    body: "Three out of four people who run a local search visit a related business within a day. Local SEO is direct foot traffic.",
+    n: "Local",
+    label: "Searches with buying intent",
+    body: "People searching for nearby businesses often want to visit or call soon. Local SEO helps them find you.",
   },
   {
     n: "3×",
@@ -446,7 +446,7 @@ const SeoSriLanka = () => {
               </p>
               <p>
                 In Sri Lanka, SEO has a very specific local dimension. Search behaviour is dominated by
-                mobile, by Google (which holds over 95% of the market here), and by location-aware
+                mobile, by Google, and by location-aware
                 queries. Customers searching "near me," "in Colombo" or "in Sri Lanka" expect to see
                 local businesses — and Google's algorithm prioritises businesses that have invested in
                 local SEO signals.
@@ -533,10 +533,10 @@ const SeoSriLanka = () => {
               </p>
             </div>
             <div className="rounded-2xl bg-hero p-6 text-white shadow-card">
-              <div className="font-display text-4xl font-extrabold">76% visit within 24 hours</div>
+              <div className="font-display text-4xl font-extrabold">Local searchers act fast</div>
               <p className="mt-3 text-sm text-white/80">
-                Three out of four people who run a local search on Google visit a related business
-                within a day. For Sri Lankan local businesses, that is direct, measurable foot traffic.
+                People searching for a nearby business often want to call or visit soon. For Sri Lankan
+                local businesses, that can mean real foot traffic.
               </p>
             </div>
           </div>
@@ -546,9 +546,8 @@ const SeoSriLanka = () => {
             <div className="mt-4 grid gap-6 md:grid-cols-2">
               <p className="text-muted-foreground">
                 Sri Lankan consumers do not just see Google as a search engine — they treat it as a
-                recommendation engine. A business sitting at #1 organically is implicitly endorsed by
-                Google as the most relevant, most authoritative answer to the query. That endorsement
-                converts into trust before a single sales conversation happens.
+                recommendation engine. A business that appears prominently in results often earns trust
+                before a single sales conversation happens.
               </p>
               <p className="text-muted-foreground">
                 Paid ads do not carry the same weight. Studies consistently show users skip the ad

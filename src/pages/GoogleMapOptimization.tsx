@@ -48,15 +48,15 @@ import googleMapVideo from "@/assets/google-map-hero.mp4.asset.json";
 const WHY_CRITICAL = [
   {
     icon: Search,
-    stat: "85%",
-    title: "Use Google to find local businesses",
-    body: "85% of customers in Sri Lanka turn to Google first when they need a local product or service — not directories, not social media. Google Maps is where buying decisions begin.",
+    stat: "Google",
+    title: "Where locals search first",
+    body: "Many customers in Sri Lanka turn to Google first when they need a local product or service. Google Maps is where buying decisions begin.",
   },
   {
     icon: TrendingUp,
-    stat: "80%",
-    title: "Of clicks go to the top 3 map results",
-    body: "The Local 3-Pack captures 80% of all local clicks. If you are not ranked in the top three on Google Maps, your competitors are receiving the customers that should be yours.",
+    stat: "Top 3",
+    title: "Map results get the attention",
+    body: "The Local 3-Pack sits above normal results and attracts much of the attention for local searches. If you are not ranked in the top three on Google Maps, your competitors are receiving the customers that should be yours.",
   },
   {
     icon: Phone,
@@ -166,7 +166,7 @@ const INDUSTRY_SEARCHES = [
     icon: Wrench,
     name: "Repair Services",
     searches: ["phone repair near me", "laptop repair Colombo", "ac repair near me"],
-    why: "Urgent need means an instant call to the #1 result.",
+    why: "Urgent need means a quick call to a top result.",
   },
   {
     icon: HardHat,
@@ -234,8 +234,7 @@ const PROCESS = [
     title: "Google Map Ranking Signals",
     body: "We build the signals Google uses to rank your business higher.",
     items: [
-      "NAP consistency across Sri Lanka directories",
-      "Local citations",
+      "Consistent business details",
       "Authority signals",
       "Location trust signals",
     ],
@@ -243,11 +242,11 @@ const PROCESS = [
   {
     n: "04",
     title: "Review Optimization System",
-    body: "Reviews are the #1 ranking factor on Google Maps. We install a system that delivers.",
+    body: "Genuine reviews matter on Google Maps. We set up a simple, honest way to ask happy customers for feedback.",
     items: [
       "Generate real customer reviews",
       "Increase review frequency",
-      "Improve overall ratings",
+      "Respond to every review",
       "Build long-term trust signals",
     ],
   },
@@ -305,30 +304,30 @@ const WHY_US = [
 
 const TIMELINE = [
   {
-    when: "Initial improvements · 30 days",
+    when: "Stage 1 · Foundations",
     title: "Foundations live & indexed",
-    body: "Your Google Business Profile is rebuilt, ranking signals are deployed, and your review system is generating real customer reviews. Google begins re-evaluating your listing.",
+    body: "Your Google Business Profile is rebuilt, ranking signals are deployed, and your review process is in place. Google begins re-evaluating your listing.",
   },
   {
-    when: "Ranking growth · 60 days",
+    when: "Stage 2 · Growth",
     title: "Visibility climbs",
-    body: "Your listing starts ranking for more local queries. Calls and direction requests increase. Customers who never knew you existed begin finding you on Google Maps.",
+    body: "We monitor which local searches your listing appears for and keep improving it. Progress is reported in plain English.",
   },
   {
-    when: "Top 3 positioning · 60–90 days",
-    title: "Local 3-Pack entry",
-    body: "For most businesses in Sri Lanka, this is when you enter the Local 3-Pack. The step-change in inbound calls, walk-ins, and revenue becomes undeniable.",
+    when: "Stage 3 · Review",
+    title: "Review and next steps",
+    body: "We review calls, direction requests and visibility, then agree what to improve next. Map Pack positions are not guaranteed.",
   },
 ];
 
 const FAQS = [
   {
     q: "What is Google Map Optimization?",
-    a: "Google Map Optimization is the process of improving your Google Business Profile so your business ranks higher on Google Maps — particularly inside the Local 3-Pack, where 80% of local clicks happen. It involves category architecture, keyword optimization, ranking signals, citations, and a sustained review acquisition system.",
+    a: "Google Map Optimization is the process of improving your Google Business Profile so your business ranks higher on Google Maps — particularly inside the Local 3-Pack. It involves category choices, keyword optimisation, accurate business details and a sustained review acquisition system.",
   },
   {
     q: "Why is Google Maps important for my Sri Lankan business?",
-    a: "Because most customers in Sri Lanka choose businesses from the top 3 results on Google Maps. 85% of local buyers use Google to discover businesses, and the top three Maps listings receive 80% of clicks. If you are not there, your competitors are getting your customers.",
+    a: "Because many customers in Sri Lanka choose businesses from the top results on Google Maps. If you are not there, your competitors are getting your customers.",
   },
   {
     q: "Do I need a website to rank on Google Maps?",
@@ -336,7 +335,7 @@ const FAQS = [
   },
   {
     q: "How fast can I rank on Google Maps?",
-    a: "Most businesses see initial improvements within 30 days, meaningful ranking growth by 60 days, and Local 3-Pack positioning between 60 and 90 days — depending on your category and the competition in your city.",
+    a: "It depends on your category, location and competition. Profile fixes are often picked up within weeks; stronger visibility usually takes longer. No one can guarantee a Map Pack position.",
   },
   {
     q: "How is Google Map Optimization different from regular SEO?",
@@ -344,11 +343,11 @@ const FAQS = [
   },
   {
     q: "How much does Google Map Optimization in Sri Lanka cost?",
-    a: "The Foundation Package starts from LKR 35,000 as a one-time investment. This covers the complete Google Business Profile rebuild, Maps SEO implementation, ranking signal deployment, review system installation, and full handover documentation. No monthly fees. No retainer.",
+    a: "Google Map Optimisation is a custom quote after a free analysis. The Foundation Package covers the complete Google Business Profile rebuild, Maps SEO implementation, ranking signal deployment, review process set-up and full handover documentation.",
   },
   {
     q: "Will my listing keep ranking after the engagement?",
-    a: "Yes. Local search authority does not depreciate the way ad spend does. Once your Google Business Profile is correctly built and your review system is running, your listing continues to gain strength on its own — for years.",
+    a: "Yes. Local search authority does not depreciate the way ad spend does. Once your Google Business Profile is correctly built and your review process is running, the work keeps helping — though competitors and Google change, so occasional reviews are wise.",
   },
   {
     q: "Does this work outside Colombo?",
@@ -360,17 +359,15 @@ const GoogleMapOptimization = () => {
   const svcSchema = serviceSchema({
     name: "Google Map Optimization Sri Lanka",
     description:
-      "Rank #1 on Google Maps and get more local customers. Google Map Optimization Sri Lanka service — Google Business Profile optimization, Google Maps SEO, Local 3-Pack ranking, review system. One-time investment, no monthly retainer.",
+      "Google Map Optimization Sri Lanka — Google Business Profile optimisation and Google Maps SEO. Custom quote after a free analysis.",
     url: `${SITE.url}/google-map-optimization`,
     serviceType: "Google Maps SEO & Local Search Optimization",
     offers: [
       {
         name: "Google Map Optimization — Foundation Package",
         url: `${SITE.url}/google-map-optimization`,
-        price: "35000",
-        priceCurrency: "LKR",
         description:
-          "One-time Google Business Profile rebuild, Google Maps SEO Sri Lanka implementation, ranking signal build, citation alignment, review system installation, and full documentation.",
+          "One-time Google Business Profile rebuild, Google Maps SEO Sri Lanka implementation, business detail clean-up, review process set-up, and full documentation.",
       },
     ],
   });
@@ -433,7 +430,7 @@ const GoogleMapOptimization = () => {
               Google Map Optimization · Sri Lanka
             </span>
             <h1 className="mt-7 max-w-2xl font-display text-4xl font-extrabold leading-[1.04] tracking-tight text-white sm:text-5xl md:text-6xl">
-              Rank #1 on{" "}
+              Rank higher on{" "}
               <span className="bg-gradient-to-r from-google-blue via-google-red to-google-yellow bg-clip-text text-transparent">
                 Google Maps
               </span>{" "}
@@ -479,9 +476,9 @@ const GoogleMapOptimization = () => {
                   Local 3-Pack · Colombo
                 </p>
                 {[
-                  { rank: "1", name: "Your Business · SeoFX optimised", rating: "4.9", reviews: "248", live: true },
-                  { rank: "2", name: "Competitor A", rating: "4.6", reviews: "112", live: false },
-                  { rank: "3", name: "Competitor B", rating: "4.4", reviews: "87", live: false },
+                  { rank: "1", name: "Your Business · SeoFX optimised", rating: "Sample", reviews: "Sample", live: true },
+                  { rank: "2", name: "Competitor A", rating: "Sample", reviews: "Sample", live: false },
+                  { rank: "3", name: "Competitor B", rating: "Sample", reviews: "Sample", live: false },
                 ].map((b) => (
                   <div
                     key={b.rank}
@@ -498,14 +495,12 @@ const GoogleMapOptimization = () => {
                         <p className="truncate text-sm font-semibold text-foreground">{b.name}</p>
                         {b.live && (
                           <span className="shrink-0 rounded-full bg-google-green/15 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-google-green">
-                            #1
+                            Sample
                           </span>
                         )}
                       </div>
                       <div className="mt-1 flex items-center gap-1 text-[11px] text-muted-foreground">
-                        <span className="font-semibold text-foreground">{b.rating}</span>
-                        <Star className="size-3 fill-google-yellow text-google-yellow" aria-hidden />
-                        <span>({b.reviews})</span>
+                        <span className="font-semibold text-foreground">{b.rating} listing</span>
                         <span className="mx-1.5 text-border">·</span>
                         <span>Dental clinic · Open now</span>
                       </div>
@@ -862,11 +857,10 @@ const GoogleMapOptimization = () => {
               The investment
             </p>
             <h2 className="mt-4 font-display text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl">
-              Pay once. Rank for years.
+              One focused engagement.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-white/45">
-              No retainer. No monthly fee. No lock-in. One investment, one focused engagement, a
-              Google Maps presence that compounds in value every day after.
+              Scoped and quoted after a free analysis, with written deliverables and a clear handover.
             </p>
           </div>
 
@@ -880,22 +874,21 @@ const GoogleMapOptimization = () => {
                   The Foundation Package
                 </h3>
                 <p className="mt-3 max-w-md text-sm leading-relaxed text-white/45">
-                  Everything a Sri Lankan business needs to establish dominant, lasting Google Maps
-                  visibility — done once, done correctly.
+                  A complete Google Business Profile and Maps SEO set-up, done carefully and documented.
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1.5 rounded-full border border-primary/40 bg-primary/15 px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-wider text-accent">
-                  <Check className="size-3.5" /> One-Time Investment · No Monthly Fees
+                  <Check className="size-3.5" /> Custom quote after a free analysis
                 </span>
               </div>
               <div className="lg:text-right">
                 <p className="text-[11px] font-semibold uppercase tracking-wider text-white/35">
-                  One-time investment from
+                  Pricing
                 </p>
                 <p className="mt-1 font-display text-5xl font-extrabold text-white">
-                  <span className="text-2xl align-top font-semibold">LKR </span>35,000
+                  Custom quote
                 </p>
                 <p className="mt-1.5 text-xs text-white/35">
-                  No monthly fees · No retainer · No surprises
+                  After a free analysis
                 </p>
               </div>
             </div>
@@ -1006,19 +999,19 @@ const GoogleMapOptimization = () => {
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-white/55 sm:text-lg">
             Your competitors are already investing in Google Map Optimization. Every day you delay
-            equals lost customers. Get your business ranked on Google Maps today and dominate local
+            equals lost customers. Get your business ranked on Google Maps today and compete in local
             search in Sri Lanka.
           </p>
 
           <div className="mt-12">
             <p className="text-[11px] font-semibold uppercase tracking-wider text-white/30">
-              One-time investment from
+              Pricing
             </p>
             <p className="mt-2 font-display text-6xl font-extrabold text-white sm:text-7xl">
-              LKR 35,000
+              Custom quote
             </p>
             <p className="mt-2 text-sm text-white/30">
-              One-time investment · Lifetime of results · Zero monthly fees
+              After a free analysis · Written deliverables
             </p>
           </div>
 

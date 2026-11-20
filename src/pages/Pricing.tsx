@@ -23,22 +23,10 @@ const wa = (msg: string) =>
   `https://wa.me/${SITE.whatsapp.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(msg)}`;
 
 const PRICING_AI_ANSWERS = [
-  {
-    q: "What is the SEO price in Sri Lanka?",
-    a: "SEO price in Sri Lanka starts from LKR 29,900/month for the Starter package, LKR 59,900/month for Business, and LKR 99,900+/month for Premium at SeoFX. Every package is backed by a 90-Day Ranking Promise.",
-  },
-  {
-    q: "What SEO packages in Sri Lanka does SeoFX offer?",
-    a: "SeoFX offers three SEO packages in Sri Lanka — Starter (get visible on Google), Business (consistent leads + traffic), and Premium (rank #1 + dominate competitors). Each includes keyword targeting, on-page optimisation, link building, monthly reports and a 90-day ranking promise.",
-  },
-  {
-    q: "How much should a small business pay for SEO in Sri Lanka?",
-    a: "A small Sri Lankan business should budget LKR 29,900–59,900 per month for SEO. The Starter package from SeoFX targets up to 5 high-intent keywords, fixes technical issues and starts authority building.",
-  },
-  {
-    q: "Are cheap SEO packages in Sri Lanka worth it?",
-    a: "Cheap SEO packages in Sri Lanka often use spammy black-hat tactics that get sites penalised. SeoFX uses 100% white-hat SEO with a 90-Day Ranking Promise — your keywords move in 90 days or we work free until they do.",
-  },
+  { q: "What is the SEO price in Sri Lanka?", a: "At SeoFX, the SEO Consultation starts from LKR 50,000 and includes on-page SEO recommendations. Every other service, including monthly SEO packages, receives a custom quote after a free analysis." },
+  { q: "What SEO packages in Sri Lanka does SeoFX offer?", a: "SeoFX offers Starter, Business and Premium SEO packages. Each covers keyword targeting, on-page optimisation, link building and monthly reports, scoped and quoted after a free analysis." },
+  { q: "How much should a small business pay for SEO in Sri Lanka?", a: "It depends on competition, website size and goals. A free analysis shows what work is needed, and you receive a written custom quote. A consultation from LKR 50,000 is a lower-cost way to start." },
+  { q: "Are cheap SEO packages in Sri Lanka worth it?", a: "Very cheap SEO often relies on spammy links or automated content that can harm your site. SeoFX uses white-hat methods only, with scope and reporting agreed in writing." },
 ];
 
 // ───────── High-converting packages ─────────
@@ -49,7 +37,7 @@ const packages = [
     badge: "Best for small businesses",
     goal: "Get your site visible on Google",
     desc: "Best for small businesses starting SEO in Sri Lanka",
-    bestFor: "Small businesses, local shops, new websites in Colombo, Kandy or Galle that have never done SEO and need a strong, professional Google foundation within 90 days.",
+    bestFor: "Small businesses, local shops, new websites in Colombo, Kandy or Galle that have never done SEO and need a strong, professional Google foundation with a clear plan.",
     features: [
       "SEO Strategy + Setup",
       "Keyword Targeting (Up to 5 Keywords)",
@@ -83,15 +71,15 @@ const packages = [
   {
     name: "Premium",
     icon: "👑",
-    badge: "Dominate Google",
-    goal: "Rank #1 + dominate competitors",
+    badge: "Competitive markets",
+    goal: "Compete in demanding markets",
     desc: "For dominating Google in Sri Lanka",
-    bestFor: "Competitive industries — finance, e-commerce, real estate, hospitality — where top-3 Google positions are worth millions in monthly revenue. Aggressive, full-service SEO with weekly tracking.",
+    bestFor: "Competitive industries — finance, e-commerce, real estate, hospitality — where search visibility is hard-won. Full-service SEO with weekly tracking.",
     features: [
       "Everything in Business, plus:",
       "20+ High-Intent Keywords",
       "Full Website Optimisation",
-      "Aggressive Backlink Strategy",
+      "Quality Link Building Strategy",
       "Authority Building (PR / Guest Posts)",
       "Conversion Funnel Optimisation",
       "Weekly Tracking + Priority Support",
@@ -100,80 +88,33 @@ const packages = [
 ];
 
 const faqs = [
-  {
-    q: "How does the 90-Day Ranking Promise work?",
-    a: "SeoFX's 90-Day Ranking Promise is a written commitment included with every SEO package in Sri Lanka. If your agreed target keywords don't show significant upward movement in Google rankings within 90 days of launch, we keep working on your campaign at no additional charge until they do. It's our way of ensuring you pay for rankings, not just effort.",
-  },
-  {
-    q: "How much do SEO packages in Sri Lanka cost?",
-    a: "SeoFX SEO packages in Sri Lanka start at LKR 29,900/month (Starter — up to 5 keywords), LKR 59,900/month (Business — 10–15 keywords + strategy call), and LKR 99,900+/month (Premium — 20+ keywords, weekly tracking). All packages are month-to-month with no lock-in contracts and include a free SEO audit before you commit.",
-  },
-  {
-    q: "Are SEO packages in Sri Lanka worth the investment?",
-    a: "Yes — SEO packages in Sri Lanka are among the highest-ROI marketing investments available. Unlike Google Ads which stop the moment you stop paying, SEO builds a lasting digital asset. SeoFX clients average a 73% monthly traffic lift and 99% yearly organic growth — making the cost per organic lead significantly lower than any paid alternative within 6–12 months.",
-  },
-  {
-    q: "How long do SEO packages take to show results in Sri Lanka?",
-    a: "Most SeoFX clients see measurable ranking improvements within 60–90 days — guaranteed by our 90-Day Ranking Promise. Meaningful organic traffic and lead generation typically appear within 4–6 months. Premium clients targeting highly competitive keywords (real estate, finance, insurance) may take 6–12 months for top-3 positions.",
-  },
-  {
-    q: "How much should a small business budget for an SEO package in Sri Lanka?",
-    a: "A small Sri Lankan business should budget LKR 29,900–59,900/month for a professional SEO package. The Starter package at LKR 29,900 covers a full technical audit, on-page optimisation, backlink building and monthly reporting — everything needed to build a legitimate Google presence. Avoid SEO packages priced below LKR 15,000/month — at that price the tactics used almost always violate Google's guidelines.",
-  },
-  {
-    q: "Are cheap SEO packages in Sri Lanka worth it?",
-    a: "Cheap SEO packages priced below LKR 15,000/month almost always rely on black-hat tactics including spammy backlinks, PBNs and auto-generated content. These may produce short-term gains but inevitably trigger Google penalties. The cost of recovering from a penalty typically exceeds months of professional investment. SeoFX starts at LKR 29,900/month — the minimum for genuine, sustainable white-hat SEO.",
-  },
-  {
-    q: "Can I upgrade my SEO package in Sri Lanka as my business grows?",
-    a: "Yes. All SeoFX SEO packages in Sri Lanka are flexible. You can upgrade from Starter to Business or from Business to Premium at any time — simply discuss with your dedicated SEO specialist and the change takes effect from the following month. There are no penalties or fees for upgrading.",
-  },
-  {
-    q: "What is the difference between SEO packages in Sri Lanka and Google Ads?",
-    a: "Google Ads (PPC) delivers immediate traffic by paying for top-of-page placements — but stops the moment your budget runs out. SEO packages build organic rankings that generate free, sustained traffic over the long term. For most Sri Lankan businesses the optimal strategy combines both: Google Ads for immediate leads while SEO builds long-term organic authority.",
-  },
+  { q: "How is progress reported?", a: "You receive a monthly plain-English report covering work completed, Search Console clicks and impressions, available enquiry data and next priorities. Rankings are not guaranteed, because Google controls them." },
+  { q: "How much do SEO packages in Sri Lanka cost?", a: "SEO packages are custom-quoted after a free analysis. The only fixed public starting price is the SEO Consultation, from LKR 50,000, which includes on-page SEO recommendations." },
+  { q: "Are SEO packages in Sri Lanka worth the investment?", a: "For many businesses, yes. Unlike ads, SEO keeps working after the work is done, but results depend on competition, your website and your offer." },
+  { q: "How long do SEO packages take to show results in Sri Lanka?", a: "Technical fixes can be picked up within weeks. Meaningful traffic and enquiry changes usually take several months, and longer in competitive industries." },
+  { q: "How much should a small business budget for an SEO package in Sri Lanka?", a: "Budget depends on what your website needs. Start with a free analysis or an SEO Consultation from LKR 50,000, then decide on ongoing work with a clear quote." },
+  { q: "Are cheap SEO packages in Sri Lanka worth it?", a: "Very cheap SEO often uses spammy backlinks, private blog networks or auto-generated content, which can lead to Google penalties. Recovering usually costs more than doing it properly." },
+  { q: "Can I upgrade my SEO package in Sri Lanka as my business grows?", a: "Yes. You can change scope as your business grows; we agree the new scope and quote in writing first." },
+  { q: "What is the difference between SEO packages in Sri Lanka and Google Ads?", a: "Google Ads buys immediate sponsored placements and stops when spending stops. SEO builds organic visibility over time. Many businesses use both." },
 ];
 
 const COST_TIERS = [
-  {
-    range: "LKR 10,000–20,000/mo",
-    label: "Freelancer-level",
-    body: "Basic on-page edits and low-quality link building. High risk of black-hat tactics that cause Google penalties. Results are inconsistent.",
-    danger: true,
-  },
-  {
-    range: "LKR 29,900–60,000/mo",
-    label: "Professional agency (SeoFX Starter / Business)",
-    body: "Full technical SEO, proper keyword research, white-hat link building and monthly reporting. The minimum for sustainable results.",
-  },
-  {
-    range: "LKR 60,000–100,000/mo",
-    label: "Comprehensive (SeoFX Business / Premium)",
-    body: "Multi-keyword targeting, aggressive link building and conversion optimisation. Suitable for finance, real estate and e-commerce.",
-  },
-  {
-    range: "LKR 100,000–300,000+/mo",
-    label: "Enterprise-level",
-    body: "Large websites, national brands or extreme competition. Multiple specialists and digital PR. Rarely necessary for most Sri Lankan SMEs.",
-  },
+  { range: "Very low-cost", label: "Freelancer-level", body: "Basic on-page edits and low-quality link building. High risk of tactics that cause Google penalties. Results are inconsistent.", danger: true },
+  { range: "Professional", label: "Agency (SeoFX Starter / Business)", body: "Full technical SEO, proper keyword research, white-hat link building and monthly reporting." },
+  { range: "Comprehensive", label: "SeoFX Business / Premium", body: "Multi-keyword targeting, quality link building and conversion optimisation for competitive sectors." },
+  { range: "Enterprise", label: "Enterprise-level", body: "Large websites, national brands or intense competition. Multiple specialists and digital PR." },
 ];
 
 const Pricing = () => {
-  const PACKAGE_PRICES: Record<string, string> = {
-    Starter: "29900",
-    Business: "59900",
-    Premium: "99900",
-  };
 
   const offerService = serviceSchema({
     name: "SEO Packages in Sri Lanka",
     description:
-      "Transparent SEO packages in Sri Lanka — Starter, Business and Premium SEO plans backed by a 90-Day Ranking Promise.",
+      "Transparent SEO packages in Sri Lanka — Starter, Business and Premium SEO plans, custom-quoted after a free analysis.",
     url: `${SITE.url}/seo-packages-sri-lanka`,
     offers: packages.map((p) => ({
       name: `${p.name} SEO Package`,
       url: `${SITE.url}/seo-packages-sri-lanka#${p.name.toLowerCase()}`,
-      price: PACKAGE_PRICES[p.name],
       description: p.desc,
     })),
   });
@@ -181,11 +122,11 @@ const Pricing = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Packages Sri Lanka — Prices from LKR 29,900 | SeoFX"
-        description="Transparent SEO packages in Sri Lanka from LKR 29,900/month. Starter, Business & Premium plans. 90-Day Ranking Promise — rank or we work free. Get a quote."
+        title="SEO Packages & Prices in Sri Lanka | SeoFX"
+        description="SEO consultation from LKR 50,000 with on-page SEO recommendations. Monthly SEO, audits and other services are custom-quoted after a free analysis."
         canonical="/seo-packages-sri-lanka"
         keywords="seo packages sri lanka, seo price sri lanka, seo packages in sri lanka, seo price in sri lanka, seo cost sri lanka, affordable seo sri lanka, cheap seo sri lanka, monthly seo sri lanka, seo plans sri lanka, seo company sri lanka"
-        ogImageAlt="SEO packages in Sri Lanka from LKR 29,900/month — 90-day ranking promise by SeoFX"
+        ogImageAlt="SEO packages in Sri Lanka by SeoFX"
         jsonLd={[
           orgSchema(),
           websiteSchema(),
@@ -203,16 +144,15 @@ const Pricing = () => {
         <div className="mx-auto max-w-4xl text-center">
           <span className="badge-pill">SEO Packages & Pricing</span>
           <h1 className="mt-4 font-display text-3xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
-            <span className="text-gradient-accent">SEO Packages in Sri Lanka</span> — Transparent Pricing, Real Rankings, No Lock-In
+            <span className="text-gradient-accent">SEO Packages in Sri Lanka</span> — Clear Scope, Custom Quotes
           </h1>
           <p className="mt-5 text-lg text-muted-foreground">
-            SeoFX offers the most transparent <strong className="text-foreground">SEO packages in Sri Lanka</strong> — three clearly defined plans starting from{" "}
-            <strong className="text-foreground">LKR 29,900/month</strong>, backed by Sri Lanka's only{" "}
-            <strong className="text-foreground">90-Day Ranking Promise</strong>. Whether you're a local business starting your first Google campaign or a competitive brand fighting for #1, there's an{" "}
+            SeoFX offers the most transparent <strong className="text-foreground">SEO packages in Sri Lanka</strong> — three clearly defined plans, each{" "}
+            <strong className="text-foreground">custom-quoted after a free analysis</strong>. Whether you're a local business starting your first Google campaign or a competitive brand, there's an{" "}
             <Link to="/services" className="text-accent underline-offset-4 hover:underline">SEO service in Sri Lanka</Link> built for your stage.
           </p>
           <p className="mt-4 text-base text-muted-foreground">
-            Unlike most SEO packages in Sri Lanka that hide deliverables behind vague promises, SeoFX publishes exactly what is included, what each plan is built to achieve, and the results Sri Lankan businesses consistently see within 90 days. No hidden fees. No lock-in contracts. Just clear <strong className="text-foreground">SEO pricing in Sri Lanka</strong> tied to measurable Google results.
+            Unlike most SEO packages in Sri Lanka that hide deliverables behind vague promises, SeoFX publishes exactly what is included, what each plan is built to achieve and how progress is reported. No hidden fees. No lock-in contracts. Just clear <strong className="text-foreground">SEO pricing in Sri Lanka</strong> with written deliverables.
           </p>
         </div>
 
@@ -221,13 +161,13 @@ const Pricing = () => {
           <div className="pointer-events-none absolute -top-10 left-1/2 h-40 w-40 -translate-x-1/2 rounded-full bg-accent/30 blur-3xl" aria-hidden />
           <div className="relative">
             <span className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/20 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-white">
-              <ShieldCheck className="size-3.5" /> Our 90-Day Ranking Promise
+              <ShieldCheck className="size-3.5" /> Get SEO Right Before You Build
             </span>
             <h2 className="mt-4 font-display text-2xl font-extrabold leading-tight sm:text-3xl md:text-4xl">
-              Rank on Google in <span className="text-gradient-accent">90 Days</span> — or We Work Free Until You Do.
+              Start With an <span className="text-gradient-accent">SEO Consultation</span> from LKR 50,000
             </h2>
             <p className="mt-3 text-sm text-white/80 sm:text-base">
-              You only pay for results. If your target keywords don't move in 90 days, we keep working at no extra cost.
+              Includes on-page SEO recommendations. Scope is confirmed before booking; all other services are custom-quoted after a free analysis.
             </p>
           </div>
         </div>
@@ -237,10 +177,10 @@ const Pricing = () => {
       <section className="container-tight py-8">
         <div className="grid gap-3 rounded-2xl border border-border bg-card p-6 shadow-card sm:grid-cols-4">
           {[
-            { icon: TrendingUp, n: "73%", l: "Avg. monthly traffic lift" },
-            { icon: Trophy, n: "99%", l: "Yearly organic growth" },
-            { icon: ShieldCheck, n: "100%", l: "White-hat SEO" },
-            { icon: Star, n: "4.9★", l: "Google reviews (87+)" },
+            { icon: TrendingUp, n: "Written", l: "Deliverables & reports" },
+            { icon: Trophy, n: "Free", l: "SEO audit first" },
+            { icon: ShieldCheck, n: "White-hat", l: "Methods only" },
+            { icon: Star, n: "Rajagiriya", l: "Serving all of Sri Lanka" },
           ].map((s) => (
             <div key={s.l} className="flex items-center gap-3 text-left">
               <div className="inline-flex size-10 shrink-0 items-center justify-center rounded-xl bg-accent/10 text-accent">
@@ -296,7 +236,7 @@ const Pricing = () => {
             SeoFX <span className="text-gradient-accent">SEO Packages</span> — What You Get and Why It Works
           </h2>
           <p className="mt-3 text-muted-foreground">
-            Every package includes a 90-Day Ranking Promise — your keywords move in 90 days or we work free until they do.
+            Every package is a custom quote after a free analysis. Only the SEO Consultation has a public starting price: from LKR 50,000.
           </p>
         </div>
 
@@ -382,7 +322,7 @@ const Pricing = () => {
               </div>
 
               <p className={`mt-4 flex items-center justify-center gap-1.5 text-[11px] ${p.featured ? "text-white/70" : "text-muted-foreground"}`}>
-                <ShieldCheck className="size-3" /> 90-Day Ranking Promise included
+                <ShieldCheck className="size-3" /> Custom quote after a free analysis
               </p>
             </article>
           ))}
@@ -407,7 +347,7 @@ const Pricing = () => {
               <span className="text-gradient-accent">SEO Cost in Sri Lanka</span> — What You Actually Pay and Why
             </h2>
             <p className="mt-4 text-muted-foreground">
-              SEO pricing in Sri Lanka varies enormously — from LKR 10,000/month freelancers to LKR 300,000+/month agency retainers. Here's an honest breakdown of what each price range delivers.
+              SEO pricing in Sri Lanka varies widely. Here's an honest breakdown of what different levels of service usually deliver.
             </p>
           </div>
 
@@ -458,11 +398,11 @@ const Pricing = () => {
           <div className="rounded-2xl border border-accent/30 bg-accent/5 p-6">
             <h3 className="font-display text-lg font-extrabold text-foreground">What makes SeoFX genuinely affordable</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>• <strong className="text-foreground">100% white-hat SEO</strong> — sustainable through algorithm updates.</li>
-              <li>• <strong className="text-foreground">In-house Sri Lankan team</strong> — no offshore outsourcing markup.</li>
-              <li>• <strong className="text-foreground">No long-term contracts</strong> — pay month-to-month, cancel anytime.</li>
+              <li>• <strong className="text-foreground">White-hat SEO only</strong> — sustainable through algorithm updates.</li>
+              <li>• <strong className="text-foreground">Rajagiriya-based team</strong> — direct contact with specialists.</li>
+              <li>• <strong className="text-foreground">Clear terms</strong> — scope and notice period agreed upfront.</li>
               <li>• <strong className="text-foreground">Free SEO audit</strong> before you commit a single rupee.</li>
-              <li>• <strong className="text-foreground">90-Day Ranking Promise</strong> — the only written guarantee in Sri Lankan SEO.</li>
+              <li>• <strong className="text-foreground">Monthly reporting</strong> — plain-English progress updates.</li>
             </ul>
           </div>
         </div>
@@ -527,18 +467,17 @@ const Pricing = () => {
       <section className="bg-soft py-16">
         <div className="container-narrow">
           <h2 className="font-display text-3xl font-extrabold sm:text-4xl">
-            <span className="text-gradient-accent">SEO Package Results</span> — What Sri Lankan Businesses Achieve
+            <span className="text-gradient-accent">Sample Package Plans</span> — What Work Could Look Like
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Our SEO packages in Sri Lanka are backed by documented, verifiable results — not promises. Here's what Sri Lankan businesses consistently achieve across our Starter, Business and Premium packages:
+            These are fictional samples showing how a scope might be planned for different businesses. They are not client results.
           </p>
           <ul className="mt-8 space-y-4">
             {[
-              { tag: "E-commerce, Colombo (Business)", r: "220% increase in organic traffic and 360% increase in conversions within 8 months." },
-              { tag: "Hotel, Galle (Premium)", r: "Ranked #1 for primary booking-intent keyword — generating 40+ direct enquiries per month from organic search." },
-              { tag: "Education institute, Kandy (Business)", r: "6 of 10 target keywords on Google page 1 within 5 months." },
-              { tag: "Real estate, Colombo (Premium)", r: "3× increase in qualified leads with 60% lower cost per acquisition vs previous Google Ads spend." },
-              { tag: "Professional services, Nugegoda (Starter)", r: "Page 1 for 3 of 5 target keywords within 87 days — inside the 90-Day Ranking Promise window." },
+              { tag: "Sample · Online shop, Colombo (Business)", r: "Plan: fix category page indexing, map product keywords and improve internal links." },
+              { tag: "Sample · Guesthouse, Galle (Premium)", r: "Plan: build booking-intent pages, optimise the Google Business Profile and earn relevant travel mentions." },
+              { tag: "Sample · Tuition institute, Kandy (Business)", r: "Plan: create course pages for each subject and location, with FAQs parents ask." },
+              { tag: "Sample · Consultancy, Nugegoda (Starter)", r: "Plan: audit the site, rewrite five service pages and set up Search Console reporting." },
             ].map((r) => (
               <li key={r.tag} className="rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <div className="text-xs font-bold uppercase tracking-wider text-accent">{r.tag}</div>
@@ -553,15 +492,15 @@ const Pricing = () => {
       <section className="container-tight py-16">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-3xl font-extrabold sm:text-4xl">
-            Why <span className="text-gradient-accent">SeoFX SEO Packages</span> Outperform the Competition
+            Why <span className="text-gradient-accent">SeoFX SEO Packages</span> Are Built Differently
           </h2>
         </div>
         <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {[
-            { h: "90-Day Ranking Promise", b: "Every package includes our written guarantee. Your keywords move in 90 days or we work free. No other SEO company in Sri Lanka makes this commitment." },
-            { h: "100% In-House Sri Lankan Team", b: "Every specialist works in-house in Rajagiriya. No outsourcing. No quality-control issues. Direct communication with the people doing the work." },
-            { h: "10+ Years of Sri Lankan SEO", b: "Decade-deep understanding of Sri Lankan search behaviour, Sinhala/Tamil/English query patterns and local competition — unmatched in the market." },
-            { h: "100% White-Hat Methodology", b: "Every technique is Google-approved and ethical. No PBNs, no link schemes, no keyword stuffing. Your rankings stay safe through every algorithm update." },
+            { h: "Agreed Scope & Reporting", b: "Deliverables, fees and reporting are agreed in writing before work starts, and you see progress every month." },
+            { h: "Rajagiriya-Based Team", b: "Direct communication with the specialists doing the work." },
+            { h: "Local Search Knowledge", b: "We plan around Sri Lankan search behaviour, including Sinhala, Tamil and English queries." },
+            { h: "White-Hat Methods Only", b: "Every technique is Google-approved and ethical. No PBNs, no link schemes, no keyword stuffing. Your rankings stay safe through every algorithm update." },
           ].map((w) => (
             <div key={w.h} className="rounded-2xl border border-border bg-card p-6 shadow-sm">
               <h3 className="font-display font-bold text-foreground">{w.h}</h3>
@@ -623,8 +562,8 @@ const Pricing = () => {
       </section>
 
       <CTASection
-        title="Ready to rank #1 on Google Sri Lanka?"
-        subtitle="Start with a free SEO audit — we'll show you exactly which package fits your business and what results to expect."
+        title="Ready to plan your SEO properly?"
+        subtitle="Start with a free SEO audit — we'll recommend the right scope and send a custom quote."
       />
     </Layout>
   );

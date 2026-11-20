@@ -37,12 +37,12 @@ import {
 const WHY_CHOOSE = [
   {
     icon: MapPin,
-    title: "10+ Years of Sri Lankan SEO Experience",
-    text: "SeoFX has been ranking Sri Lankan websites since before most current competitors existed. Our depth of local Sri Lankan market knowledge — across Sinhala, Tamil and English search behaviour — is unmatched.",
+    title: "Sri Lankan Market Knowledge",
+    text: "We plan around how Sri Lankans actually search — across Sinhala, Tamil and English — and the places you serve.",
   },
   {
     icon: ShieldCheck,
-    title: "100% White-Hat SEO Methodology",
+    title: "White-Hat SEO Only",
     text: "We never use PBNs, black-hat link schemes or manipulative tactics that risk Google penalties. Every technique we use is Google-approved and built to survive every algorithm update.",
   },
   {
@@ -115,17 +115,17 @@ const LOCATIONS = [
 ];
 
 const HERO_STATS = [
-  { num: "50+", label: "Sri Lankan businesses ranked" },
-  { num: "3×", label: "Average traffic increase" },
-  { num: "10+", label: "Years of SEO experience" },
-  { num: "100%", label: "White-hat methodology" },
+  { num: "Plan", label: "SEO before you build" },
+  { num: "Free", label: "SEO audit first" },
+  { num: "Rajagiriya", label: "Serving all of Sri Lanka" },
+  { num: "White-hat", label: "Methods only" },
 ];
 
 const RESULT_STATS = [
-  { num: "300%", label: "Average organic traffic increase" },
-  { num: "85%", label: "Clients on Google page 1 in 6 months" },
-  { num: "50+", label: "Sri Lankan businesses ranked" },
-  { num: "LKR 890", label: "Average cost per organic lead" },
+  { num: "Audit", label: "Technical & content issues" },
+  { num: "Map", label: "Keywords to pages" },
+  { num: "Fix", label: "Prioritised improvements" },
+  { num: "Report", label: "Plain-English monthly updates" },
 ];
 
 const SERVICES_AI_ANSWERS = [
@@ -135,19 +135,19 @@ const SERVICES_AI_ANSWERS = [
   },
   {
     q: "How much does an SEO service in Sri Lanka cost?",
-    a: "SEO service pricing in Sri Lanka typically ranges from LKR 30,000 to LKR 150,000+ per month for ongoing managed services. SeoFX's Starter SEO package begins at LKR 30,000/month for local businesses, Growth at LKR 60,000/month for established SMEs, and Enterprise from LKR 120,000/month for highly competitive national keywords.",
+    a: "At SeoFX, the SEO Consultation starts from LKR 50,000 and includes on-page SEO recommendations. Ongoing SEO and other services receive a custom quote after a free analysis.",
   },
   {
     q: "How long does an SEO service take to show results in Sri Lanka?",
-    a: "Most Sri Lankan businesses see measurable ranking improvements within 3–4 months. Meaningful organic traffic increases typically appear within 4–6 months. Highly competitive keywords in finance, real estate or insurance may require 6–12 months to achieve top-3 positions.",
+    a: "Most Sri Lankan businesses see measurable ranking improvements within 3–4 months. Meaningful organic traffic increases typically appear within 4–6 months. Highly competitive keywords in finance, real estate or insurance may require 6–12 months to show strong progress. No one can guarantee a position.",
   },
   {
     q: "Is an SEO service worth it for small businesses in Sri Lanka?",
-    a: "Yes — SEO service in Sri Lanka is one of the highest-ROI marketing investments for small Sri Lankan businesses. Unlike Google Ads or Facebook Ads, a well-executed SEO service builds compounding organic traffic that continues delivering leads and sales indefinitely. SeoFX's Starter package at LKR 30,000/month is specifically designed for SMEs.",
+    a: "Yes — SEO service in Sri Lanka is one of the highest-ROI marketing investments for small Sri Lankan businesses. Unlike Google Ads or Facebook Ads, a well-executed SEO service builds compounding organic traffic that continues delivering leads and sales indefinitely. Scope is matched to your budget after a free analysis.",
   },
   {
     q: "What makes SeoFX different from other SEO companies in Sri Lanka?",
-    a: "SeoFX differentiates through three core principles: 100% white-hat SEO methodology (no PBNs or black-hat shortcuts); full transparency with detailed monthly reports and direct access to your dedicated Sri Lankan SEO specialist; and a revenue focus — we measure success by leads and sales generated, not just rankings.",
+    a: "SeoFX differentiates through three core principles: white-hat SEO methodology (no PBNs or black-hat shortcuts); full transparency with detailed monthly reports and direct access to your dedicated Sri Lankan SEO specialist; and a revenue focus — we measure success by leads and sales generated, not just rankings.",
   },
   {
     q: "Do you offer a free SEO audit for Sri Lankan businesses?",
@@ -163,11 +163,11 @@ const Services = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Service in Sri Lanka — Rank #1 on Google | SeoFX"
-        description="The best SEO service in Sri Lanka. Full SEO service: audit, keyword research, on-page, technical, link building, local & e-commerce SEO. 50+ brands ranked. Free audit."
+        title="SEO Services in Sri Lanka | SeoFX"
+        description="SEO services in Sri Lanka from SeoFX: audits, keyword research, on-page, technical, link building, local and ecommerce SEO. Free SEO audit."
         canonical="/services"
         keywords="seo service sri lanka, seo services sri lanka, best seo service sri lanka, seo company sri lanka, technical seo sri lanka, on page seo sri lanka, off page seo sri lanka, local seo sri lanka, ecommerce seo sri lanka, link building sri lanka, seo service price sri lanka"
-        ogImageAlt="Best SEO service in Sri Lanka by SeoFX — rank #1 on Google"
+        ogImageAlt="SEO services in Sri Lanka by SeoFX"
         jsonLd={[
           orgSchema(),
           websiteSchema(),
@@ -193,7 +193,7 @@ const Services = () => {
         <div className="mx-auto max-w-4xl text-center">
           <span className="badge-pill">SEO Service Sri Lanka</span>
           <h1 className="mt-4 font-display text-3xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
-            <span className="text-gradient-accent">SEO Service in Sri Lanka</span> — Rank #1 on Google with SeoFX
+            <span className="text-gradient-accent">SEO Service in Sri Lanka</span> — Plan, Fix and Grow with SeoFX
           </h1>
           <p className="mt-5 text-lg text-muted-foreground">
             SeoFX delivers the most comprehensive <strong className="text-foreground">SEO service in Sri Lanka</strong> — a complete,
@@ -202,9 +202,9 @@ const Services = () => {
             <strong className="text-foreground"> SEO service</strong> is engineered around one objective: generating real leads, sales and revenue through organic search.
           </p>
           <p className="mt-4 text-base text-muted-foreground">
-            As the <strong className="text-foreground">best SEO service in Sri Lanka</strong> for businesses that demand measurable results, SeoFX combines deep technical SEO expertise,
-            strategic content optimisation, ethical link building and granular keyword research — tailored to Sri Lanka's unique search landscape. With 10+ years of SEO experience
-            and 50+ Sri Lankan brands ranked on Google page one, SeoFX is the trusted <strong className="text-foreground">SEO company in Sri Lanka</strong> for businesses serious about dominating search.
+            As an <strong className="text-foreground">SEO service in Sri Lanka</strong> for businesses that want measurable progress, SeoFX combines deep technical SEO expertise,
+            strategic content optimisation, ethical link building and granular keyword research — tailored to Sri Lanka's unique search landscape. Based in Rajagiriya,
+            SeoFX is an <strong className="text-foreground">SEO company in Sri Lanka</strong> for businesses serious about search.
           </p>
 
           <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
@@ -231,7 +231,7 @@ const Services = () => {
               <strong className="text-foreground"> SEO service</strong> builds compounding organic growth: the longer you invest, the stronger and more sustainable your results become.
             </p>
             <p>
-              In Sri Lanka's rapidly digitalising economy, <strong className="text-foreground">83% of consumers use Google</strong> to find local products and services before making a purchase decision.
+              In Sri Lanka's rapidly digitalising economy, <strong className="text-foreground">many consumers use Google</strong> to find local products and services before making a purchase decision.
               If your business does not appear on the first page of Google for your target keywords, you are invisible to the majority of your potential customers — and losing business directly to competitors who do rank.
             </p>
             <p>A full SEO service in Sri Lanka from SeoFX covers every dimension of search optimisation:</p>
@@ -255,7 +255,7 @@ const Services = () => {
           <div className="mt-8 rounded-2xl border-l-4 border-accent bg-accent/5 p-5">
             <div className="font-display text-xs font-bold tracking-widest text-accent">KEY FACT</div>
             <p className="mt-2 text-sm text-foreground sm:text-base">
-              83% of Sri Lankan consumers search on Google before purchasing. Businesses on page 1 capture 91% of all organic clicks. Businesses on page 2 receive less than 5% of total search traffic.
+              Many Sri Lankan consumers search on Google before purchasing, and most clicks go to results on the first page.
             </p>
           </div>
         </div>
@@ -326,10 +326,10 @@ const Services = () => {
           <div className="mx-auto max-w-3xl text-center">
             <span className="badge-pill">Why SeoFX</span>
             <h2 className="mt-4 font-display text-3xl font-extrabold sm:text-4xl">
-              Why SeoFX is the Best SEO Service in Sri Lanka
+              How SeoFX Approaches SEO in Sri Lanka
             </h2>
             <p className="mt-4 text-muted-foreground">
-              There is no shortage of SEO companies in Sri Lanka making promises. The difference with SeoFX is documented, verifiable results — and a methodology that survives every Google algorithm update.
+              There is no shortage of SEO companies in Sri Lanka making promises. SeoFX focuses on written deliverables, honest reporting and white-hat methods.
             </p>
           </div>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -359,12 +359,12 @@ const Services = () => {
       {/* RESULTS */}
       <section className="container-tight py-16 sm:py-20">
         <div className="mx-auto max-w-3xl text-center">
-          <span className="badge-pill">Real Results</span>
+          <span className="badge-pill">What You Get</span>
           <h2 className="mt-4 font-display text-3xl font-extrabold sm:text-4xl">
-            SEO Service Results — What Sri Lankan Businesses Achieve with SeoFX
+            SEO Service Deliverables — What the Work Looks Like
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Numbers speak louder than promises. Here is what Sri Lankan businesses consistently achieve within 6 months of engaging SeoFX's SEO service in Sri Lanka.
+            These are fictional samples showing how work is planned. They are not client results.
           </p>
         </div>
 
@@ -380,10 +380,10 @@ const Services = () => {
         <div className="mx-auto mt-10 max-w-4xl">
           <ul className="space-y-3 text-base text-muted-foreground sm:text-lg">
             {[
-              "E-commerce store in Colombo: 220% increase in organic traffic, 360% increase in conversions within 8 months.",
-              "Hotel in Galle: Ranked #1 for 'hotels in Galle' — generating 40+ direct booking enquiries per month from organic search.",
-              "Professional services firm in Kandy: 6 of 10 target keywords on Google page 1 within 5 months.",
-              "Real estate agency in Colombo: 3× increase in qualified leads with 60% reduction in cost per acquisition vs Google Ads.",
+              "Sample · Online shop, Colombo: fix category indexing, map product keywords, improve internal links.",
+              "Sample · Hotel, Galle: build booking-intent pages and optimise the Google Business Profile.",
+              "Sample · Professional services, Kandy: rewrite service pages and add FAQs customers ask.",
+              "Sample · Real estate agency, Colombo: create location pages and earn relevant property-site mentions.",
             ].map((line) => (
               <li key={line} className="flex items-start gap-2">
                 <CheckCircle2 className="mt-1 size-4 shrink-0 text-accent" />
@@ -393,9 +393,9 @@ const Services = () => {
           </ul>
 
           <div className="mt-8 rounded-2xl border-l-4 border-accent bg-accent/5 p-5">
-            <div className="font-display text-xs font-bold tracking-widest text-accent">CLIENT RESULT</div>
+            <div className="font-display text-xs font-bold tracking-widest text-accent">SAMPLE PLAN</div>
             <p className="mt-2 text-sm text-foreground sm:text-base">
-              A Colombo-based education institute engaged SeoFX's SEO service in Sri Lanka targeting 'MBA programmes Sri Lanka' and 12 related keywords. Within 7 months: <strong>#1 ranking</strong> for the primary keyword, <strong>285% increase</strong> in organic enquiries, and cost per lead <strong>70% lower</strong> than their previous PPC campaigns.
+              A fictional Colombo education institute wants to target 'MBA programmes Sri Lanka' and 12 related keywords. The plan: audit course pages, build one page per programme, add FAQs and track enquiries in GA4. This is a fictional example.
             </p>
           </div>
         </div>
@@ -496,7 +496,7 @@ const Services = () => {
       </section>
 
       <CTASection
-        title="Ready to rank #1 on Google in Sri Lanka?"
+        title="Ready to grow on Google in Sri Lanka?"
         subtitle="Get your free SEO audit today — talk to a Sri Lankan SEO specialist, no obligation."
       />
     </Layout>

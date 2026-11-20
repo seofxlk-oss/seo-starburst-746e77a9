@@ -45,3 +45,8 @@ export const GOOGLE_ADS_FAQS = [
     "a": "Sometimes paid spend can be reduced as organic visibility develops, but there is no automatic or guaranteed handover. We compare relevant searches, qualified enquiries and total business outcomes before testing a change. Organic rankings can move, and paid campaigns may still be useful for seasonal demand, new offers or competitive searches."
   }
 ];
+
+export const GOOGLE_ADS_PACKAGE_FAQS = [
+  { q: "How is Google Ads management priced?", a: "Google Ads management receives a custom quote after a free analysis. Google ad spend is paid directly to Google." },
+  { q: "Can Google Ads run alongside SEO?", a: "Yes. Ads can bring enquiries while SEO builds organic visibility, and we review both channels together." },
+];

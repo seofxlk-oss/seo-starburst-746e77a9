@@ -20,6 +20,7 @@ import {
   faqSchema,
   serviceSchema,
 } from "@/lib/schema";
+import { SampleWork } from "@/components/CorePageSections";
 import caseImg from "@/assets/case-porkendeli.jpg";
 
 const Home = () => {
@@ -33,16 +34,16 @@ const Home = () => {
   // ───────── FAQ (Section 9) — schema-rich, keyword-targeted ─────────
   const faqs = [
     {
-      q: "Who is the best SEO company in Sri Lanka?",
-      a: "SeoFX is widely considered the best SEO company in Sri Lanka, delivering an average 73% monthly traffic increase and 99% yearly organic growth using 100% white-hat SEO. We serve businesses, ad agencies and web development companies across Colombo, Kandy, Galle and the rest of the island.",
+      q: "How do I choose an SEO company in Sri Lanka?",
+      a: "Look for clear written deliverables, white-hat methods, honest reporting and no ranking guarantees. SeoFX is an SEO company in Rajagiriya that plans SEO before you build and uses white-hat methods only. We serve businesses, ad agencies and web development companies across Colombo, Kandy, Galle and the rest of the island.",
     },
     {
       q: "How much do SEO services in Sri Lanka cost?",
-      a: "SEO services in Sri Lanka from SeoFX start at LKR 29,900/month for the Starter package, LKR 59,900/month for Business, and LKR 99,900+/month for Premium. We also offer a paid 60-minute SEO consultation session at LKR 50,000 with a written roadmap.",
+      a: "SEO Consultation starts from LKR 50,000 and includes on-page SEO recommendations. Every other service, including monthly SEO packages, receives a custom quote after a free analysis.",
     },
     {
       q: "How long does it take to rank on Google in Sri Lanka?",
-      a: "Most SeoFX clients see measurable ranking improvements within 60–90 days and strong page-one results in 4–6 months. We back our work with a 90-Day Ranking Promise — if your keywords don't move, we keep working free until they do.",
+      a: "It depends on your website, competition and goals. Technical fixes can be picked up within weeks; meaningful ranking and enquiry changes usually take several months. No one can guarantee a Google position.",
     },
     {
       q: "Do you work with marketing agencies and web developers in Sri Lanka?",
@@ -78,10 +79,10 @@ const Home = () => {
       tagline: "More leads. More sales. Less ad spend.",
       desc: "For Sri Lankan businesses ready to turn their website into a 24/7 lead generation machine.",
       points: [
-        "Rank #1 for buyer-intent keywords on Google.lk",
-        "Cut Google Ads cost by 60%+ with organic traffic",
+        "Target buyer-intent keywords on Google",
+        "Reduce reliance on paid ads over time",
         "Predictable monthly leads — without paid ads",
-        "90-Day Ranking Promise on every campaign",
+        "Written scope and monthly reporting",
       ],
       cta: "WhatsApp Us",
       href: wa,
@@ -94,7 +95,7 @@ const Home = () => {
       tagline: "Add SEO. Keep your client. Grow margins.",
       desc: "For marketing & ad agencies in Sri Lanka that want to offer SEO without hiring an SEO team.",
       points: [
-        "100% white-label SEO delivery (we stay invisible)",
+        "White-label SEO delivery (we stay invisible)",
         "Reports & dashboards branded as yours",
         "Generous revenue share on every retainer",
         "Dedicated account manager for all your clients",
@@ -122,7 +123,7 @@ const Home = () => {
 
   // ───────── Section 4 — Partner pitch points ─────────
   const partnerBenefits = [
-    { icon: ShieldCheck, title: "100% White-Label", text: "Reports, dashboards and emails branded as yours. We stay invisible." },
+    { icon: ShieldCheck, title: "White-Label", text: "Reports, dashboards and emails branded as yours. We stay invisible." },
     { icon: TrendingUp, title: "Revenue Share", text: "Healthy margins on every retainer — pricing built for resale." },
     { icon: Users, title: "Dedicated Account Manager", text: "One point of contact for all your client SEO campaigns." },
     { icon: Calendar, title: "Monthly Reporting", text: "Branded performance reports delivered before your client meetings." },
@@ -131,7 +132,7 @@ const Home = () => {
   // ───────── Section 6 — Services Grid ─────────
   const services = [
     { title: "SEO Consulting", text: "Strategy that aligns rankings with revenue.", href: "/services/seo-consulting-sri-lanka" },
-    { title: "Website SEO Audit", text: "200+ ranking factors checked end to end.", href: "/services/website-audit-sri-lanka" },
+    { title: "Website SEO Audit", text: "Technical, content and local issues checked end to end.", href: "/services/website-audit-sri-lanka" },
     { title: "Keyword Research", text: "High-intent Sri Lanka keywords mapped to URLs.", href: "/services/keyword-research-sri-lanka" },
     { title: "On-Site SEO", text: "Titles, schema, speed, internal links — fixed.", href: "/services/on-page-seo-sri-lanka" },
     { title: "Off-Site SEO", text: "Authority through citations & brand mentions.", href: "/services/off-page-seo-sri-lanka" },
@@ -142,12 +143,12 @@ const Home = () => {
   const packages = [
     {
       name: "SEO Consultation",
-      price: "LKR 50,000",
-      unit: "/ session",
+      price: "From LKR 50,000",
+      unit: "",
       tagline: "One-time strategy session",
       goal: "Get a clear roadmap before you spend",
       icon: Calendar,
-      features: ["60-min 1-on-1 with senior SEO", "Keyword & competitor report", "Written SEO roadmap", "Budget & agency advice"],
+      features: ["1-on-1 with an SEO specialist", "On-page SEO recommendations", "Written SEO roadmap", "Scope confirmed before booking"],
       cta: "Book Session",
       href: "/contact-us",
       external: false,
@@ -175,10 +176,10 @@ const Home = () => {
     },
     {
       name: "Premium",
-      tagline: "Dominate competitive industries",
-      goal: "Outrank every competitor & own page 1",
+      tagline: "Competitive industries",
+      goal: "Compete for demanding keywords",
       icon: Crown,
-      features: ["Everything in Business", "High-priority keywords", "Multi-page optimisation", "Aggressive link building", "Strategy reviews"],
+      features: ["Everything in Business", "High-priority keywords", "Multi-page optimisation", "Quality link building", "Strategy reviews"],
       cta: "WhatsApp Us",
       href: wa,
       external: true,
@@ -192,37 +193,22 @@ const Home = () => {
     features: [
       "Google Business Profile setup & optimisation",
       "Local keyword & geo targeting",
-      "Review generation strategy",
+      "Genuine review process",
       "Monthly local ranking report",
     ],
     cta: "Explore Map SEO",
     href: "/google-map-optimization",
   };
 
-  // ───────── Section 8 — Testimonials ─────────
-  const testimonials = [
-    {
-      role: "Client",
-      text: "From near-zero traffic to a flood of online orders. SeoFX built our online presence from scratch — best marketing decision we've made.",
-    },
-    {
-      role: "Client",
-      text: "We white-label SeoFX to our clients. Reports are flawless, results are real, and our retainers grew 3x. Genuine partner.",
-    },
-    {
-      role: "Client",
-      text: "Now we sell SEO with every website. Zero in-house headache, full margin, happy clients. SeoFX delivers — every single time.",
-    },
-  ];
 
   return (
     <Layout>
       <SEO
-        title="SEO Company Sri Lanka — #1 Rated SEO Agency | SeoFX"
-        description="Sri Lanka's #1 SEO company. Rank on Google in 90 days or we work free. White-hat SEO services for businesses, agencies & web devs. Free SEO audit today."
+        title="SEO Company in Sri Lanka | Get SEO Right Before You Build | SeoFX"
+        description="SeoFX is an SEO company in Rajagiriya, Sri Lanka. Plan SEO before you build, then grow on Google, Maps and AI search. SEO Consultation from LKR 50,000."
         canonical="/"
         keywords="seo company sri lanka, seo sri lanka, best seo company in sri lanka, seo services sri lanka, seo packages sri lanka, seo agency sri lanka, seo specialist sri lanka, white label seo sri lanka, local seo sri lanka, seo colombo"
-        ogImageAlt="SeoFX — #1 SEO Company in Sri Lanka with 90-day ranking promise"
+        ogImageAlt="SeoFX — SEO Company in Sri Lanka"
         jsonLd={jsonLd}
       />
 
@@ -365,9 +351,9 @@ const Home = () => {
           {/* Stats strip */}
           <div className="mx-auto mt-10 grid max-w-4xl grid-cols-2 gap-4 rounded-3xl border border-border bg-card p-8 shadow-card sm:grid-cols-4">
             {[
-              { n: "73%", l: "Avg. monthly traffic lift" },
-              { n: "99%", l: "Yearly organic growth" },
-              { n: "100%", l: "White-hat SEO" },
+              { n: "Plan", l: "SEO before you build" },
+              { n: "Written", l: "Deliverables & reports" },
+              { n: "White-hat", l: "Methods only" },
               { n: "90", l: "Days to first results" },
             ].map((s) => (
               <div key={s.l} className="text-center">
@@ -381,7 +367,7 @@ const Home = () => {
             {[
               { icon: TrendingUp, title: "Compounds Over Time", text: "Every page you rank keeps generating traffic for years — no recurring ad spend." },
               { icon: Target, title: "High-Intent Traffic", text: "People searching are ready to buy. Conversion rates beat any social ad." },
-              { icon: ShieldCheck, title: "Builds Brand Trust", text: "Ranking #1 signals credibility. Customers trust Google's top pick." },
+              { icon: ShieldCheck, title: "Builds Brand Trust", text: "Appearing prominently on Google helps customers trust you." },
               { icon: Globe, title: "24/7 Lead Generation", text: "Your website works while you sleep — no paused budgets, no day-off." },
               { icon: BarChart3, title: "Measurable ROI", text: "Every keyword, lead and sale tracked in monthly reports." },
               { icon: Zap, title: "Beats Paid Ads Long-Term", text: "Ads cost more every year. SEO costs less per lead each month." },
@@ -405,7 +391,7 @@ const Home = () => {
             <div className="max-w-2xl">
               <span className="badge-pill">SEO Services</span>
               <h2 id="services-heading" className="mt-4 font-display text-3xl font-extrabold sm:text-4xl">
-                Our <span className="text-gradient-accent">SEO Sri Lanka</span> services to rank #1 on Google.lk
+                Our <span className="text-gradient-accent">SEO Sri Lanka</span> services to grow on Google
               </h2>
               <p className="mt-4 text-muted-foreground">
                 As a leading <strong className="text-foreground">SEO company Sri Lanka</strong> businesses trust, we
@@ -456,8 +442,8 @@ const Home = () => {
               Transparent <span className="text-gradient-accent">SEO packages in Sri Lanka</span>
             </h2>
             <p className="mt-4 text-base text-muted-foreground sm:text-lg">
-              Pick a plan or start with a one-time consultation. Every package backed by our{" "}
-              <strong className="text-foreground">90-Day Ranking Promise</strong>.
+              Start with an SEO Consultation from LKR 50,000, or choose a plan.{" "}
+              <strong className="text-foreground">Plans are custom-quoted after a free analysis</strong>.
             </p>
           </div>
 
@@ -612,13 +598,13 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ═══ SECTION 8 — CASE STUDY + TESTIMONIALS + REVIEWS ═══ */}
+      {/* ═══ SECTION 8 — CASE STUDY + SAMPLES ═══ */}
       <section className="bg-soft py-16 sm:py-20" aria-labelledby="proof-heading">
         <div className="container-tight">
           <div className="mx-auto max-w-3xl text-center">
-            <span className="badge-pill"><Trophy className="size-3.5" /> Proof & Results</span>
+            <span className="badge-pill"><Trophy className="size-3.5" /> Our Work</span>
             <h2 id="proof-heading" className="mt-4 font-display text-3xl font-extrabold sm:text-4xl">
-              Real Sri Lankan businesses. <span className="text-gradient-accent">Real Google rankings.</span>
+              A real Sri Lankan project. <span className="text-gradient-accent">Honest reporting.</span>
             </h2>
           </div>
 
@@ -630,20 +616,20 @@ const Home = () => {
                   <Award className="size-3 text-google-yellow" /> Featured Case Study
                 </span>
                 <h3 className="mt-4 font-display text-2xl font-extrabold sm:text-3xl">
-                  PorKenDeli.lk — From zero traffic to one of Colombo's most-searched restaurants
+                  PorKenDeli.lk — Restaurant SEO in Dehiwala
                 </h3>
                 <div className="mt-6 grid grid-cols-3 gap-4">
                   <div>
-                    <div className="font-display text-2xl font-extrabold text-accent">+850%</div>
-                    <div className="text-xs text-muted-foreground">Organic traffic</div>
+                    <div className="font-display text-2xl font-extrabold text-accent">Traffic ↑</div>
+                    <div className="text-xs text-muted-foreground">Significant growth</div>
                   </div>
                   <div>
-                    <div className="font-display text-2xl font-extrabold text-accent">#1</div>
-                    <div className="text-xs text-muted-foreground">Google rankings</div>
+                    <div className="font-display text-2xl font-extrabold text-accent">Local</div>
+                    <div className="text-xs text-muted-foreground">Profile and website improvements</div>
                   </div>
                   <div>
-                    <div className="font-display text-2xl font-extrabold text-accent">5x</div>
-                    <div className="text-xs text-muted-foreground">Online orders</div>
+                    <div className="font-display text-2xl font-extrabold text-accent">Reach</div>
+                    <div className="text-xs text-muted-foreground">National & intl.</div>
                   </div>
                 </div>
                 <Button asChild size="lg" className="mt-7" variant="hero">
@@ -665,47 +651,9 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Google reviews badge */}
-          <div className="mx-auto mt-10 flex max-w-md items-center justify-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-card">
-            <div className="font-display text-xl font-extrabold leading-none">
-              <span className="text-google-blue">G</span>
-              <span className="text-google-red">o</span>
-              <span className="text-google-yellow">o</span>
-              <span className="text-google-blue">g</span>
-              <span className="text-google-green">l</span>
-              <span className="text-google-red">e</span>
-            </div>
-            <div className="h-8 w-px bg-border" />
-            <div>
-              <div className="flex items-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="size-4 fill-google-yellow text-google-yellow" />
-                ))}
-                <span className="ml-1.5 font-display text-base font-bold">4.9</span>
-              </div>
-              <div className="text-xs text-muted-foreground">Based on 87 client reviews</div>
-            </div>
-          </div>
-
-          {/* Testimonials */}
-          <div className="mt-10 grid gap-5 md:grid-cols-3">
-            {testimonials.map((t) => (
-              <figure key={t.role} className="relative rounded-2xl border border-border bg-card p-6 shadow-card">
-                <Quote className="absolute right-5 top-5 size-8 text-accent/15" />
-                <div className="flex gap-0.5">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="size-3.5 fill-google-yellow text-google-yellow" />
-                  ))}
-                </div>
-                <blockquote className="mt-3 text-sm leading-relaxed text-foreground">"{t.text}"</blockquote>
-                <figcaption className="mt-4 border-t border-border pt-4">
-                  <div className="text-xs text-muted-foreground">{t.role}</div>
-                </figcaption>
-              </figure>
-            ))}
-          </div>
         </div>
       </section>
+      <SampleWork title="Sample deliverables" />
 
       {/* ═══ SECTION 9 — FAQ + SCHEMA ═══ */}
       <section className="py-16 sm:py-20" aria-labelledby="faq-heading">
@@ -753,7 +701,7 @@ const Home = () => {
             <Sparkles className="size-3.5 text-accent" /> Ready when you are
           </span>
           <h2 id="final-cta" className="mx-auto mt-5 max-w-3xl font-display text-3xl font-extrabold leading-tight sm:text-4xl md:text-5xl">
-            Let's get your business <span className="text-gradient-accent">ranking #1 on Google Sri Lanka</span>
+            Let's get your business <span className="text-gradient-accent">found on Google Sri Lanka</span>
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base text-white/80 sm:text-lg">
             Pick the path that fits you — book a strategy session, partner with us, or just message on WhatsApp. We reply within the hour.
@@ -779,7 +727,7 @@ const Home = () => {
 
           <div className="mx-auto mt-10 flex max-w-md items-center justify-center gap-6 border-t border-white/15 pt-6 text-xs text-white/70">
             <span className="inline-flex items-center gap-1.5"><Phone className="size-3.5" /> {SITE.phone}</span>
-            <span className="inline-flex items-center gap-1.5"><ShieldCheck className="size-3.5" /> 90-Day Promise</span>
+            <span className="inline-flex items-center gap-1.5"><ShieldCheck className="size-3.5" /> White-hat only</span>
           </div>
         </div>
       </section>
