@@ -18,7 +18,8 @@
 # Eight-part website brief (complete one part, then wait for Continue)
 - [x] Part 1: pre-render complete route HTML, unique metadata, canonical/schema, crawler files, generated sitemap/routing and tracking/contact form.
 - [ ] Part 1 hosted checks: actual Netlify 301/404 responses, form receipt and mobile PageSpeed targets — require Netlify deployment; image conversion/preloads remain for later page work.
-- [ ] Part 2: header, footer and page-specific consultation actions — waiting for Continue after Part 1.
+- [x] Part 2: header, footer and page-specific consultation actions — tested desktop/mobile menus and contact journeys.
+- [ ] Part 2 deferred links: AI SEO & GEO waits for Part 6; About, How We Work and Editorial Standards wait for Part 7. About retains its working existing destination until then.
 - [ ] Part 3: site-wide claims and pricing cleanup — waiting for its turn.
 - [ ] Part 4: core page content — waiting for its turn.
 - [ ] Part 5: service and add-on content — waiting for its turn.

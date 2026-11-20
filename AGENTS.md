@@ -6,3 +6,4 @@
 - Pre-render the actual React routes at deploy time using Vite's server module loader and StaticRouter; runtime page content and Helmet are the single source for deployed body, metadata and schema.
 - Discover deploy routes from App and service/industry slugs in one shared script; generate explicit Netlify rewrites and a real 404 fallback so crawler URLs match the app.
 - Track contact actions centrally from href clicks and submit enquiries through Netlify Forms; no separate persistent application server is needed.
+- Keep shared navigation and page-specific contact actions in dedicated data modules; header, footer and shared CTAs must agree, and planned links are only exposed once their routes exist.
