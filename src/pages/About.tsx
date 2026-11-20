@@ -659,7 +659,7 @@ const About = () => {
       </section>
 
       <CTASection
-        title="Hire Sri Lanka's Most Trusted SEO Expert Team"
+        title="Work With Our SEO Specialist Team"
         subtitle="Get a free SEO audit from SeoFX and a clear roadmap to dominate Google in Sri Lanka."
       />
     </Layout>
