@@ -96,7 +96,13 @@ export const SERVICE_PAGE_CONTENT: ServicePageContent[] = [
       {
         "q": "How long does an SEO audit take?",
         "a": "The audit schedule depends on site size, access, page types and the depth of review agreed. We confirm the delivery arrangements before starting rather than publish one deadline for every website. Missing account access or complex platform issues can affect the work, and completed fixes still need separate testing and search monitoring."
-      }
+      },
+      {"q": "How much does an SEO audit cost in Sri Lanka?", "a": "A full SEO audit receives a custom quote after a free analysis, because cost depends on site size, platform and how deep the review needs to go. If you want expert direction first, an SEO Consultation starts from LKR 50,000 and includes on-page SEO recommendations."},
+      {"q": "What access do you need for an SEO audit?", "a": "Ideally read access to Google Search Console and GA4, plus a list of your main services and locations. We can start with public crawling alone, but account data shows which pages Google indexes and where clicks come from, so findings are more precise."},
+      {"q": "Will an audit tell me why my traffic dropped?", "a": "An audit looks for likely causes such as indexing problems, lost pages, redirects, content changes or wider search updates. We compare available data around the date of the drop and list the evidence for each possible cause, rather than claim one certain answer."},
+      {"q": "Do you audit WordPress, Shopify and custom websites?", "a": "Yes. We review WordPress, Shopify, Wix, Webflow and custom-built sites. Recommendations are written for your platform, so your developer knows whether a fix needs a setting, a plugin, a template change or custom code."},
+      {"q": "How often should a website have an SEO audit?", "a": "Most business websites benefit from a full audit once a year and a lighter check after major changes such as a redesign, platform move or new section. Ongoing monitoring between audits catches broken pages and indexing issues earlier."},
+      {"q": "What happens after the audit report?", "a": "We walk you through the priorities, answer questions and agree who fixes what. You can implement the fixes yourself, hand them to your developer or ask us to scope implementation. A follow-up check confirms changes were made correctly."}
     ],
     "related": [
       [
@@ -196,7 +202,13 @@ export const SERVICE_PAGE_CONTENT: ServicePageContent[] = [
       {
         "q": "Is keyword research a one-time task?",
         "a": "Keyword research can be a one-time deliverable, but it should be reviewed when your offer, customers or search results change. New performance data can reveal queries that need different content or a clearer landing page. The frequency of updates is agreed around the business rather than an automatic refresh schedule for every site."
-      }
+      },
+      {"q": "How much does keyword research cost?", "a": "Keyword research is custom quoted after a free analysis, based on the number of services, locations and pages involved. An SEO Consultation from LKR 50,000 includes keyword direction if you need a smaller starting point."},
+      {"q": "Do Sri Lankans search in Sinhala and Tamil?", "a": "Many do, especially on mobile and for local services, although English queries are common for business and professional searches. We check search data in each language where your customers search and only recommend pages in a language your team can support properly."},
+      {"q": "Which keyword tools do you use?", "a": "We use Google Search Console, Google Keyword Planner, Semrush and live Google results. Tool volumes for Sri Lanka are estimates, so we combine them with search intent and your business knowledge instead of relying on one number."},
+      {"q": "Should I target high-volume keywords first?", "a": "Not always. Broad terms are often highly competitive and less likely to bring enquiries. We usually prioritise specific searches that match what you sell, then build towards broader terms as the site earns authority."},
+      {"q": "What is a keyword map?", "a": "A keyword map assigns each important search topic to one page on your site, with its intent, primary term and supporting questions. It stops two pages competing for the same search and gives writers and developers a clear brief."},
+      {"q": "Can keyword research help with Google Ads too?", "a": "Yes. The same research shows which searches signal buying intent, which can inform an ad campaign. Google Ads management is quoted separately, and ad spend is paid directly to Google."}
     ],
     "related": [
       [
@@ -296,7 +308,13 @@ export const SERVICE_PAGE_CONTENT: ServicePageContent[] = [
       {
         "q": "How quickly does on-page SEO improve rankings?",
         "a": "Ranking changes have no fixed timetable after on-page improvements. Search engines must discover and reassess the page, while competition, content quality and other signals still matter. We verify that changes are published correctly and monitor available search data, without promise of page-one movement within a certain number of weeks."
-      }
+      },
+      {"q": "How much does on-page SEO cost in Sri Lanka?", "a": "On-page SEO is custom quoted after a free analysis, depending on how many pages need work and whether we write content or advise your team. An SEO Consultation from LKR 50,000 includes on-page SEO recommendations for key pages."},
+      {"q": "What is the difference between on-page and technical SEO?", "a": "On-page SEO improves what each page says: titles, headings, content, images and internal links. Technical SEO covers how search engines access the site: speed, crawling, indexing, redirects and structured data. Most sites need some of both."},
+      {"q": "Do you rewrite my website content?", "a": "We can rewrite or create content, or give your writer a detailed brief. Either way, the content must stay accurate to your business, so we ask you to confirm facts, services and claims before anything is published."},
+      {"q": "How long before on-page changes show results?", "a": "Google needs to recrawl the page first, which can take days to weeks. Ranking changes usually follow over the next few months, and depend on competition and the site's overall authority. We track progress in Search Console."},
+      {"q": "Is keyword stuffing still effective?", "a": "No. Repeating a keyword unnaturally can make a page harder to read and may hurt performance. We use the main term where it fits naturally, in the title and headings, and cover related questions customers actually ask."},
+      {"q": "Will on-page SEO help me appear in AI answers?", "a": "Clear, well-structured pages that answer questions directly are easier for Google AI Overviews, ChatGPT and Gemini to understand and cite. It improves your chances but cannot guarantee a mention."}
     ],
     "related": [
       [
@@ -396,7 +414,13 @@ export const SERVICE_PAGE_CONTENT: ServicePageContent[] = [
       {
         "q": "Does off-page SEO guarantee better rankings?",
         "a": "No, off-page activity cannot guarantee a search position or permanent visibility. Relevant references may support discovery and customer understanding, but Google considers many signals and competitors continue to change. We report the agreed work and available observations without treating a mention count or third-party authority score as proof of sales."
-      }
+      },
+      {"q": "How much does off-page SEO cost?", "a": "Off-page SEO is custom quoted after a free analysis, because the work depends on your industry, competitors and the outreach needed. We do not sell fixed bundles of links."},
+      {"q": "Is off-page SEO the same as link building?", "a": "Link building is part of off-page SEO. Off-page work also covers business mentions, directory and profile accuracy, digital PR, partnerships and reviews that help search engines trust your business."},
+      {"q": "Are paid links safe?", "a": "Buying links to manipulate rankings breaks Google's spam policies and can lead to lost visibility. We focus on relevant, earned mentions and properly labelled sponsorships where appropriate."},
+      {"q": "Which Sri Lankan websites can mention my business?", "a": "Relevant options often include industry associations, local news, supplier and partner sites, chambers of commerce and trusted business directories. We look for sources your customers would actually recognise."},
+      {"q": "How long does off-page SEO take to work?", "a": "Off-page work builds slowly, usually over several months. Each new relevant mention adds a little trust, so results depend on consistency and on the quality of your website itself."},
+      {"q": "Can off-page SEO fix a poor website?", "a": "No. Mentions and links help most when the pages they point to are useful and technically sound. We usually recommend fixing major on-page and technical issues first."}
     ],
     "related": [
       [
@@ -496,7 +520,13 @@ export const SERVICE_PAGE_CONTENT: ServicePageContent[] = [
       {
         "q": "Is link building the same as off-page SEO?",
         "a": "No, link building focuses on editorial hyperlinks, while off-page SEO also includes unlinked brand mentions, business citations, genuine review guidance and digital PR. We separate these deliverables in reporting so a directory listing is not counted as an editorial placement. Either service should support useful discovery rather than manipulate search signals."
-      }
+      },
+      {"q": "How much does link building cost in Sri Lanka?", "a": "Link building is custom quoted after a free analysis. Cost depends on the outreach effort and content needed to earn relevant links, not a fixed price per link."},
+      {"q": "How many links do I need to rank?", "a": "There is no fixed number. One relevant link from a trusted Sri Lankan site can matter more than many weak ones. We compare your profile with the pages that currently rank and set realistic targets."},
+      {"q": "Do you use private blog networks (PBNs)?", "a": "No. Private blog networks and link schemes break Google's spam policies and put your site at risk. We only pursue editorial, relevant links."},
+      {"q": "What makes a good backlink?", "a": "A good backlink comes from a real, relevant website, sits naturally inside useful content and is likely to send interested visitors. Domain metrics help, but relevance and trust matter more."},
+      {"q": "Can you remove bad links pointing to my site?", "a": "We can review your link profile, identify clearly harmful patterns and request removal where possible. Google ignores most low-quality links on its own, so disavowing is only used in specific cases."},
+      {"q": "Will I own the links you build?", "a": "Links are placed on third-party sites, so no one can fully own them. We report every earned link with its URL and source so you know exactly what was achieved."}
     ],
     "related": [
       [
@@ -596,7 +626,13 @@ export const SERVICE_PAGE_CONTENT: ServicePageContent[] = [
       {
         "q": "What happens to existing URLs during a redesign?",
         "a": "Existing URLs should be inventoried before a redesign and retained where practical, with relevant redirects planned for necessary changes. We review internal links, canonical settings and live responses after launch. A migration still carries risk, so no provider should promise unchanged traffic without assess the actual pages, implementation and post-launch behaviour."
-      }
+      },
+      {"q": "How much does an SEO-friendly website cost in Sri Lanka?", "a": "Website development is custom quoted after a free analysis, based on the number of pages, features and platform. SEO planning can be added before the build, and an SEO Consultation starts from LKR 50,000."},
+      {"q": "Which platform is best for SEO: WordPress, Shopify or custom?", "a": "Each can perform well when set up correctly. WordPress suits content-led sites, Shopify suits online shops and custom builds suit specific needs. We recommend the platform that fits your business and team, not one that suits us."},
+      {"q": "Will a new website lose my current Google rankings?", "a": "It can if URLs change without redirects or content is removed. We map old URLs to new ones, keep valuable content and check the launch carefully to protect existing traffic."},
+      {"q": "Do you make websites fast on mobile?", "a": "Yes. We plan image sizes, fonts, scripts and hosting with mobile speed in mind and test Core Web Vitals before launch. Speed is one ranking factor among many, but it also improves enquiries."},
+      {"q": "Can you work with my existing designer?", "a": "Yes. We can provide SEO requirements for page structure, headings, URLs and content while your designer handles the look and feel."},
+      {"q": "What happens after the website launches?", "a": "We check indexing, redirects, forms and Search Console in the weeks after launch. Ongoing SEO support can be scoped separately if you want continued growth."}
     ],
     "related": [
       [
@@ -696,7 +732,13 @@ export const SERVICE_PAGE_CONTENT: ServicePageContent[] = [
       {
         "q": "Will ecommerce SEO generate free sales permanently?",
         "a": "No, ecommerce SEO does not guarantee free or permanent sales. Organic visits have no advertising click charge, but research, content, development and maintenance still cost time and money. Purchases depend on demand, stock, pricing and the customer experience, so reporting should assess useful visits and available sales data without promise lifetime results."
-      }
+      },
+      {"q": "How much does ecommerce SEO cost in Sri Lanka?", "a": "Ecommerce SEO is custom quoted after a free analysis, depending on the number of products and categories, the platform and the competition. An SEO Consultation from LKR 50,000 is available as a starting point."},
+      {"q": "Which ecommerce platforms do you work with?", "a": "We work with Shopify, WooCommerce, Magento and custom stores. Recommendations are written for your platform's templates, so changes apply across all products where possible."},
+      {"q": "Should every product have a unique description?", "a": "Yes, where practical. Copied manufacturer descriptions appear on many sites and give Google little reason to rank yours. We prioritise your best-selling and highest-margin products first."},
+      {"q": "How do you handle out-of-stock products?", "a": "Temporarily unavailable products usually stay live with a clear stock message. Permanently discontinued products may be redirected to a close alternative or category, depending on their traffic and links."},
+      {"q": "Can SEO help my store appear in Google Shopping?", "a": "Free product listings in Google Shopping use your product feed and Merchant Center, which we can help set up and optimise. Paid Shopping ads are a separate Google Ads service."},
+      {"q": "Do category pages matter for SEO?", "a": "Very much. Category pages often match broader searches like 'buy running shoes Sri Lanka', so we give them helpful introductions, clear filters and strong internal links."}
     ],
     "related": [
       [
