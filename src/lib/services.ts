@@ -1,3 +1,4 @@
+import { getServicePageContent } from "@/lib/service-page-content";
 import {
   Compass,
   FileSearch,
@@ -34,7 +35,7 @@ export interface ServiceDetail {
   faqs: { q: string; a: string }[];
 }
 
-export const SERVICES: ServiceDetail[] = [
+const LEGACY_SERVICES: ServiceDetail[] = [
   {
     slug: "seo-consulting-sri-lanka",
     icon: Compass,
@@ -609,6 +610,12 @@ export const SERVICES: ServiceDetail[] = [
     ],
   },
 ];
+
+export const SERVICES: ServiceDetail[] = LEGACY_SERVICES.map(service => {
+  const page = getServicePageContent(`/services/${service.slug}`);
+  if (!page) return service;
+  return { ...service, title: page.h1, seoTitle: page.title, seoDescription: page.description, cardIntro: page.intro, bullets: page.deliverables.map(([title]) => title), hero: { ...service.hero, h1: page.h1, intro: page.intro }, faqs: page.faqs };
+});
 
 export const getServiceBySlug = (slug?: string) =>
   SERVICES.find((s) => s.slug === slug);

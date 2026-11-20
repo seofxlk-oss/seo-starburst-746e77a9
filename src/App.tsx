@@ -59,6 +59,7 @@ import GoogleMapOptimization from "./pages/GoogleMapOptimization";
 import GoogleAdsSriLanka from "./pages/GoogleAdsSriLanka";
 import GoogleAdsSpecialist from "./pages/GoogleAdsSpecialist";
 import SeoSriLanka from "./pages/SeoSriLanka";
+import EcommerceSeo from "./pages/EcommerceSeo";
 import { INDUSTRIES } from "@/lib/industries";
 import NotFound from "./pages/NotFound";
 
@@ -126,6 +127,7 @@ const App = ({ serverPath, helmetContext = {} }: { serverPath?: string; helmetCo
             <Route path="/seo-consultant-sri-lanka" element={<SeoConsultation />} />
             <Route path="/seo-consultation" element={<Navigate to="/seo-consultant-sri-lanka" replace />} />
             <Route path="/google-map-optimization" element={<GoogleMapOptimization />} />
+            <Route path="/ecommerce-seo-sri-lanka" element={<EcommerceSeo />} />
             <Route path="/google-ads-sri-lanka" element={<GoogleAdsSriLanka />} />
             <Route path="/seo-sri-lanka" element={<SeoSriLanka />} />
             <Route path="/industries" element={<IndustriesHub />} />

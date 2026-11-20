@@ -10,3 +10,4 @@
 
 - Keep consultation starting terms and custom-quote wording in the shared offer-terms module; public offers may expose only the consultation starting price, keeping displays and schema consistent.
 - Keep core-page metadata, service navigation and FAQ answers in the shared core-page data module; reusable sections render visible answers and matching schema, while pre-build SEO uses an explicit route ahead of the generic service template.
+- Keep service-specific deliverables, sample records and FAQ answers in the shared service-page content module; one presentation renders this data and matching schema without altering other industry pages.

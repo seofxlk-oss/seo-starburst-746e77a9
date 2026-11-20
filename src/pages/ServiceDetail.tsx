@@ -6,9 +6,13 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CTASection } from "@/components/CTASection";
 import { Button } from "@/components/ui/button";
 import { getServiceBySlug, SERVICES } from "@/lib/services";
+import { ServicePageContent } from "@/components/ServicePageContent";
+import { getServicePageContent } from "@/lib/service-page-content";
 
 const ServiceDetail = () => {
   const { slug } = useParams();
+  const page = getServicePageContent(`/services/${slug}`);
+  if (page) return <ServicePageContent page={page} />;
   const service = getServiceBySlug(slug);
 
   if (!service) return <Navigate to="/services" replace />;

@@ -23,7 +23,7 @@
 - [x] Part 3: site-wide claims and pricing cleanup — complete; all 78 route outputs audited and 24 tests passed.
 - [x] Part 4: seven core pages updated; unique source metadata, one FAQ block per page, consultation pricing, sample formats, internal links and 2,500+ word guide verified on desktop/mobile.
 - [ ] Part 4 deferred links: dedicated AI SEO/GEO destination waits for Part 6; About, How We Work and standalone sample destinations wait for Part 7. Existing links and inline labelled samples remain usable.
-- [ ] Part 5: service and add-on content — waiting for its turn.
+- [x] Part 5: eight SEO service pages and Google Ads updated with deliverables, fictional samples, FAQs, pricing and related links; desktop/mobile and source output verified. Social media remains live and absent from the header.
 - [ ] Part 6: AI SEO & GEO page and supporting content — waiting for its turn.
 - [ ] Part 7: company pages, samples and contact content — waiting for its turn.
 - [ ] Part 8: industry and blog content — waiting for its turn.
