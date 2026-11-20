@@ -9,3 +9,4 @@
 - Keep shared navigation and page-specific contact actions in dedicated data modules; header, footer and shared CTAs must agree, and planned links are only exposed once their routes exist.
 
 - Keep consultation starting terms and custom-quote wording in the shared offer-terms module; public offers may expose only the consultation starting price, keeping displays and schema consistent.
+- Keep core-page metadata, service navigation and FAQ answers in the shared core-page data module; reusable sections render visible answers and matching schema, while pre-build SEO uses an explicit route ahead of the generic service template.

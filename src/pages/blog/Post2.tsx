@@ -11,11 +11,12 @@ const Post2 = () => (
     category="SEO for Beginners"
     date="2024-09-13"
     readTime="5 min read"
-    cta="Planning a new website for your Sri Lankan business? Contact SeoFX for a free pre-build SEO consultation today."
+    cta="Planning a new website for your Sri Lankan business? Start with a free SEO audit or book a separately scoped SEO consultation."
   >
     <p>Building a website is one of the most important steps a Sri Lankan business can take toward digital growth. But too many businesses make the costly mistake of building a website first and thinking about SEO later — only to spend double the time and money fixing it. This is exactly why working with an experienced <Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialist in Sri Lanka</Link> from day one matters.</p>
     <p>At SeoFX — a trusted <Link to="/" className="text-accent underline-offset-4 hover:underline">SEO agency in Sri Lanka</Link> — we strongly recommend involving SEO strategy in your website planning from day one.</p>
     <h2>Why Does SEO Matter Before a Website Exists?</h2>
+    <p>Our <Link to="/services/seo-consulting-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO planning for new websites and redesigns</Link> turns keyword research, page structure, content briefs and developer requirements into a shared plan before the build begins.</p>
     <p>To have a website that works as a real business asset — one that attracts organic traffic and converts visitors into customers — it must be built with search engine optimisation in mind from the start. An SEO-ready website from day one means:</p>
     <ul>
       <li>Search engine friendly URL structure from launch</li>

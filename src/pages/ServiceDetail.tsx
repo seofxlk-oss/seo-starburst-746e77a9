@@ -93,6 +93,7 @@ const ServiceDetail = () => {
       </section>
 
       {/* What is */}
+      {service.slug === "seo-web-development-sri-lanka" && <section className="container-tight pb-10"><p className="text-muted-foreground">Before approving a design or rebuilding your site, explore <Link to="/services/seo-consulting-sri-lanka" className="font-semibold text-accent hover:underline">SEO planning for new websites and redesigns</Link> to align keyword research, URLs and developer requirements.</p></section>}
       <section className="bg-soft py-16">
         <div className="container-tight grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5">
