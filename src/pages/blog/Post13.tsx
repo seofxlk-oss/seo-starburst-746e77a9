@@ -8,7 +8,7 @@ const Post13 = () => (
     metaTitle="SEO Packages in Sri Lanka — What's Right for You? | SeoFX"
     metaDesc="Explore SEO packages in Sri Lanka — what each includes, what to pay, and how to choose the right plan for your business. Expert guide by SeoFX Sri Lanka."
     keywords="seo packages in sri lanka, seo packages sri lanka, seo price sri lanka, affordable seo sri lanka, seo plans sri lanka, seo company sri lanka"
-    category="SEO Packages"
+    category="SEO"
     date="2025-01-15"
     readTime="7 min read"
     cta="Not sure which SEO package fits your business? Talk to SeoFX for a free, no-pressure recommendation."

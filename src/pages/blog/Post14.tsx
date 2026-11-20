@@ -8,7 +8,7 @@ const Post14 = () => (
     metaTitle="SEO Price in Sri Lanka — How Much Should You Pay? | SeoFX"
     metaDesc="How much does SEO cost in Sri Lanka? We break down SEO pricing honestly — from cheap options to premium services — so you can invest wisely. Guide by SeoFX."
     keywords="seo price sri lanka, seo cost sri lanka, how much does seo cost in sri lanka, seo packages price sri lanka, affordable seo sri lanka, seo company sri lanka"
-    category="SEO Pricing"
+    category="SEO"
     date="2025-01-16"
     readTime="8 min read"
     cta="Want an honest SEO price quote tailored to your business? Contact SeoFX for a free audit and pricing consultation."

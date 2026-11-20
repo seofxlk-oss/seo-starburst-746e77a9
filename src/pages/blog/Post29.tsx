@@ -8,7 +8,7 @@ const Post29 = () => (
     metaTitle="Red Flags vs Green Flags: Good SEO Companies in Sri Lanka | SeoFX"
     metaDesc="Not all SEO companies in Sri Lanka deliver what they promise. SeoFX reveals the red flags that expose bad providers and the green flags that identify the real ones."
     keywords="seo company sri lanka, best seo company sri lanka, seo company in sri lanka, seo agency sri lanka, choosing seo company sri lanka"
-    category="SEO Company"
+    category="SEO"
     date="2026-04-26"
     readTime="11 min read"
     cta="Looking for an SEO company in Sri Lanka that earns trust? Start with a free SeoFX audit and judge for yourself."

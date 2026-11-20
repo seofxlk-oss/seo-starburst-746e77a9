@@ -6,34 +6,13 @@ import { orgSchema, websiteSchema, localBusinessSchema, faqSchema } from "@/lib/
 import { SITE } from "@/lib/site";
 
 const faqs = [
-  {
-    q: "What factors does my Google SEO ranking depend on?",
-    a: "SEO ranking depends on many factors, but the most critical are: the quality and quantity of content on your website, the number and quality of backlinks pointing to your site, your anchor text profile, and whether your content is regularly updated. Factors that hurt rankings include: auto-generated or duplicate content, keyword stuffing, too many ads, slow page load speed, and poor mobile experience.",
-  },
-  {
-    q: "Why does SEO take time?",
-    a: "SEO is a long-term investment, not an overnight fix. The time it takes to see results depends on your website's age, current content quality, existing backlink profile, and how competitive your target keywords are. Most clients see meaningful results within 3–6 months, with rankings improving consistently over time. Unlike paid ads that stop working the moment you stop paying, SEO results compound over time — making it the highest long-term ROI marketing investment available.",
-  },
-  {
-    q: "How much do SEO services cost in Sri Lanka?",
-    a: "SEO pricing in Sri Lanka varies by scope and competition. SeoFX offers three packages — Starter, Business, and Premium — with pricing tailored to the scale of your campaign. Contact us for a free, no-obligation quote. We will recommend the right package for your business and budget.",
-  },
-  {
-    q: "When should I start SEO for my business?",
-    a: "The best time to start SEO is today. Every day without SEO is a day your competitors could be getting ahead of you on Google. If you are building a new website, starting SEO from the very beginning is the most cost-effective approach. Contact us now and start your SEO journey.",
-  },
-  {
-    q: "Will my business grow after an SEO campaign?",
-    a: "Yes — and the growth is sustainable. More Google visibility leads to more website visitors. More visitors lead to more enquiries, leads, and sales. Unlike paid advertising, SEO builds a permanent digital asset that continues generating returns for your business long after the initial investment.",
-  },
-  {
-    q: "What is the difference between an SEO company and a digital marketing agency?",
-    a: "A digital marketing agency offers a wide range of services including social media, paid ads, email marketing, and more. An SEO company like SeoFX specialises exclusively in Search Engine Optimisation — meaning we go deeper, know more, and deliver better SEO results than a generalist agency.",
-  },
-  {
-    q: "Do you offer SEO services for local businesses in Sri Lanka?",
-    a: "Absolutely. Local SEO is one of our core specialities. Whether you are a restaurant in Colombo, a hotel in Kandy, or a retailer in Galle, we can optimise your business for local searches so you appear when customers nearby are looking for what you offer.",
-  },
+  { q: "How does working with SeoFX start?", a: "We begin with a free analysis of your website and goals. You then receive a recommended scope and a written quote, or you can start with an SEO Consultation from LKR 50,000." },
+  { q: "What is your process?", a: "Research and audit first, then fixes and page improvements, then ongoing content, local SEO and reporting. See How We Work for the full timeline." },
+  { q: "How do payments work?", a: "Fees and payment terms are agreed in writing before work starts. One-time work is usually paid in stages; ongoing work is billed monthly." },
+  { q: "Do I have to sign a long contract?", a: "No long lock-in is required. Ongoing SEO usually needs a few months to show progress, so we agree the scope and notice period with you upfront." },
+  { q: "Who owns my website and accounts?", a: "You do. Your website, Search Console, GA4 and Google Business Profile stay in your name." },
+  { q: "Where are you located?", a: "SeoFX is based in Rajagiriya, Sri Lanka, and works with businesses across the country online and by phone." },
+  { q: "Where can I find answers about a specific service?", a: "Each service page has its own questions and answers, for example SEO audits, Google Maps optimisation, Google Ads and AI SEO." },
 ];
 
 const FAQ = () => {
@@ -47,8 +26,8 @@ const FAQ = () => {
   return (
     <Layout>
       <SEO
-        title="SEO FAQ Sri Lanka — Pricing, Timelines & Results | SeoFX"
-        description="Top SEO questions answered: SEO price in Sri Lanka, how long SEO takes, what's included & how to choose an SEO company. Honest answers from SeoFX experts."
+        title="FAQ – Working With SeoFX | SeoFX"
+        description="Answers about working with SeoFX: how we start, our process, payments, contracts, account ownership and our Rajagiriya location."
         canonical="/faq"
         keywords="seo faq sri lanka, seo questions sri lanka, seo price sri lanka, seo cost sri lanka, how long does seo take sri lanka, seo packages sri lanka, seo company sri lanka, seo service questions sri lanka"
         ogImageAlt="SEO FAQ — Sri Lanka SEO pricing, timelines & results explained by SeoFX"

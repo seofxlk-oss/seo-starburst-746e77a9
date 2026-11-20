@@ -8,7 +8,7 @@ const Post25 = () => (
     metaTitle="Is SEO Worth It for Sri Lankan Businesses? Honest Answer | SeoFX"
     metaDesc="Is SEO actually worth the investment for your Sri Lankan business? SeoFX gives an honest, no-nonsense answer — including when SEO works, when it doesn't, and what to expect."
     keywords="seo sri lanka, seo services sri lanka, seo company sri lanka, is seo worth it sri lanka, seo for small business sri lanka"
-    category="SEO Guide"
+    category="SEO"
     date="2026-04-26"
     readTime="11 min read"
     cta="Want an honest, specific assessment of what SEO could realistically deliver for your business? Request your free SeoFX audit."

@@ -8,7 +8,7 @@ const Post2 = () => (
     metaTitle="Plan SEO Before Building Your Website in Sri Lanka | SeoFX"
     metaDesc="Building a new business website in Sri Lanka? Discover why you must plan SEO first — and save time, money & effort. Expert advice from SeoFX Sri Lanka."
     keywords="website seo sri lanka, seo before website, website development sri lanka seo, seo company sri lanka"
-    category="SEO for Beginners"
+    category="SEO Before You Build"
     date="2024-09-13"
     readTime="5 min read"
     cta="Planning a new website for your Sri Lankan business? Start with a free SEO audit or book a separately scoped SEO consultation."

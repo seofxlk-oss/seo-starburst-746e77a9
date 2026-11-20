@@ -8,7 +8,7 @@ const Post26 = () => (
     metaTitle="How SEO in Sri Lanka Has Changed in 2026 — What Businesses Must Do Now | SeoFX"
     metaDesc="Google search in Sri Lanka has changed significantly. SeoFX explains the biggest shifts in 2026 SEO and what Sri Lankan businesses must do to stay visible and competitive."
     keywords="seo sri lanka, seo sri lanka 2026, google sri lanka 2026, seo trends sri lanka, search engine optimisation sri lanka"
-    category="SEO Guide"
+    category="SEO"
     date="2026-04-26"
     readTime="11 min read"
     cta="Want an SEO strategy built around how Google actually works today? Request a free SeoFX audit and a 2026-ready roadmap."

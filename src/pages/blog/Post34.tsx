@@ -12,7 +12,7 @@ const Post34 = () => (
     metaTitle="How Much Does Google Ads Cost in Sri Lanka? Complete Budget Guide | SeoFX"
     metaDesc="A complete guide to Google Ads cost in Sri Lanka — auction costs, budget planning and how to make every rupee count."
     keywords="Google Ads cost Sri Lanka, Google Ads pricing Sri Lanka, Google Ads budget Sri Lanka, CPC Sri Lanka, Google Ads Sri Lanka"
-    category="PPC Strategy"
+    category="Google Ads"
     date="2026-04-28"
     readTime="6 min read"
     cta="Want a custom budget recommendation? Our team analyses your industry and competition before recommending a spend level."

@@ -8,7 +8,7 @@ const Post21 = () => (
     metaTitle="What to Look for When Hiring an SEO Company in Sri Lanka | SeoFX"
     metaDesc="Hiring an SEO company in Sri Lanka? Know exactly what to look for before you commit. SeoFX gives Sri Lankan business owners a clear, honest hiring guide."
     keywords="seo company in sri lanka, seo company sri lanka, hire seo company sri lanka, best seo company in sri lanka, seo agency sri lanka"
-    category="SEO Company"
+    category="SEO"
     date="2026-04-26"
     readTime="10 min read"
     cta="Evaluating an SEO company in Sri Lanka? Get a free preliminary audit from SeoFX before you commit anywhere."

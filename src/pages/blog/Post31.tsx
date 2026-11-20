@@ -8,7 +8,7 @@ const Post31 = () => (
     metaTitle="On-Page vs Off-Page SEO Services in Sri Lanka — What Each Does | SeoFX"
     metaDesc="What is the difference between on-page and off-page SEO services in Sri Lanka? SeoFX explains what each discipline covers, how they work together, and why both matter."
     keywords="seo services sri lanka, on-page seo sri lanka, off-page seo sri lanka, seo service sri lanka, link building sri lanka"
-    category="SEO Services"
+    category="SEO"
     date="2026-04-26"
     readTime="11 min read"
     cta="Want to know whether your current SEO programme has the right balance? Get a free, specific assessment from SeoFX."

@@ -8,7 +8,7 @@ const Post19 = () => (
     metaTitle="In-House SEO Specialist vs SEO Agency in Sri Lanka — How to Decide | SeoFX"
     metaDesc="Should you hire an in-house SEO specialist or outsource to an agency in Sri Lanka? SeoFX breaks down the real pros, cons, and how to make the right decision for your business."
     keywords="seo specialist in sri lanka, seo specialist sri lanka, hire seo specialist sri lanka, seo agency sri lanka, in-house seo sri lanka"
-    category="SEO Specialist"
+    category="SEO"
     date="2026-04-26"
     readTime="10 min read"
     cta="Not sure whether to hire in-house or outsource? Talk to SeoFX — we help Sri Lankan businesses think through the right SEO model for their stage."

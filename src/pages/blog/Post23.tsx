@@ -8,7 +8,7 @@ const Post23 = () => (
     metaTitle="How an SEO Company in Sri Lanka Builds Long-Term Google Presence | SeoFX"
     metaDesc="How does a professional SEO company in Sri Lanka actually build lasting Google rankings? SeoFX explains the complete process — step by step — from audit to compounding results."
     keywords="seo company in sri lanka, seo company sri lanka, seo services sri lanka, seo process sri lanka, how seo works sri lanka"
-    category="SEO Company"
+    category="SEO"
     date="2026-04-26"
     readTime="13 min read"
     cta="Want SeoFX to walk you through this process for your specific website? Start with a free audit and a clear, custom roadmap."

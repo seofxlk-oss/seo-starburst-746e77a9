@@ -8,7 +8,7 @@ const Post17 = () => (
     metaTitle="How to Find the Best SEO Specialist in Sri Lanka — 7 Things to Check | SeoFX"
     metaDesc="Before hiring an SEO specialist in Sri Lanka, check these 7 things. SeoFX reveals what separates real experts from those who waste your time and budget."
     keywords="seo specialist in sri lanka, seo specialist sri lanka, best seo specialist sri lanka, hire seo specialist sri lanka, seo expert sri lanka"
-    category="SEO Specialist"
+    category="SEO"
     date="2025-02-10"
     readTime="10 min read"
     cta="Ready to hire the right SEO specialist in Sri Lanka? Get a free, no-obligation SEO audit from SeoFX today."

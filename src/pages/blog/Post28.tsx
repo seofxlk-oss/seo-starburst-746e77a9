@@ -8,7 +8,7 @@ const Post28 = () => (
     metaTitle="What an SEO Company in Sri Lanka Should Deliver at Month 1, 3 & 6 | SeoFX"
     metaDesc="What should your SEO company actually be delivering each month? SeoFX sets honest, realistic expectations for what good SEO looks like at month 1, 3, and 6 in Sri Lanka."
     keywords="seo company in sri lanka, seo company sri lanka, seo agency sri lanka, seo results timeline sri lanka, what to expect from seo sri lanka"
-    category="SEO Company"
+    category="SEO"
     date="2026-04-26"
     readTime="10 min read"
     cta="Wondering whether your current SEO provider is on track? Get a free, honest second opinion from SeoFX."

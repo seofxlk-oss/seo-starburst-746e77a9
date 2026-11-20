@@ -8,7 +8,7 @@ const Post4 = () => (
     metaTitle="Why Organic Traffic is the Most Valuable Traffic in Sri Lanka | SeoFX"
     metaDesc="Learn why organic search traffic is more valuable than paid traffic for Sri Lankan businesses. Expert insight from SeoFX — an SEO company in Sri Lanka."
     keywords="organic traffic sri lanka, organic search sri lanka, seo traffic sri lanka, seo vs paid ads sri lanka, seo companies sri lanka"
-    category="SEO Education"
+    category="SEO"
     date="2024-09-12"
     readTime="7 min read"
     cta="Ready to build a sustainable organic traffic strategy for your Sri Lankan business? Contact SeoFX today."

@@ -8,7 +8,7 @@ const Post3 = () => (
     metaTitle="Why Online Presence is Critical for Sri Lankan Businesses | SeoFX"
     metaDesc="Discover why having a strong online presence in Sri Lanka is no longer optional. Learn how SEO helps Sri Lankan businesses grow in the digital age."
     keywords="online presence sri lanka, digital marketing sri lanka, seo sri lanka, google ranking sri lanka, seo company sri lanka"
-    category="Digital Marketing"
+    category="SEO"
     date="2024-09-12"
     readTime="5 min read"
     cta="Do not wait for your competitors to get ahead. Contact SeoFX today and let Sri Lanka's best SEO team build your online presence."

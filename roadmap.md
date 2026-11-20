@@ -33,4 +33,5 @@
 - [x] About Us, How We Work and Editorial Standards pages, linked from header/footer.
 - [x] Editorial team box and last-updated dates on every post.
 - [x] Owner-focused titles, H1s and intros on industry pages, with SEO Before You Build section.
-- [ ] Our Work page rework, Contact/FAQ tidy-up, blog categories reduced to five, answer-first openings on older posts.
+- [x] Our Work page, Contact/FAQ tidy-up, blog categories reduced to five.
+- [ ] Answer-first openings on the 37 older posts (needs per-post rewriting).

@@ -12,7 +12,7 @@ const Post33 = () => (
     metaTitle="Why Every Sri Lankan Business Needs Google Ads in 2025 | SeoFX"
     metaDesc="Discover why Google Ads is the fastest growth lever for Sri Lankan businesses in 2025 — instant visibility, intent-based targeting and measurable ROI."
     keywords="Google Ads Sri Lanka, Google Ads 2025, PPC Sri Lanka, paid search Sri Lanka, digital marketing Sri Lanka"
-    category="Digital Marketing"
+    category="Google Ads"
     date="2026-04-28"
     readTime="6 min read"
     cta="Ready to launch your first campaign? Explore SeoFX's full-service Google Ads packages and discover how we build campaigns that convert."

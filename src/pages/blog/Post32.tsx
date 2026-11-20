@@ -8,7 +8,7 @@ const Post32 = () => (
     metaTitle="Monthly SEO Services vs One-Time SEO Audit in Sri Lanka — Which to Choose? | SeoFX"
     metaDesc="Should you invest in monthly SEO services or a one-time audit in Sri Lanka? SeoFX explains the real difference, what each delivers, and how to decide what your business actually needs."
     keywords="seo services sri lanka, seo audit sri lanka, monthly seo sri lanka, seo service sri lanka, seo consultant sri lanka"
-    category="SEO Services"
+    category="SEO"
     date="2026-04-26"
     readTime="11 min read"
     cta="Not sure which option fits your business? Request a free SeoFX consultation and get an honest recommendation based on your specific situation."

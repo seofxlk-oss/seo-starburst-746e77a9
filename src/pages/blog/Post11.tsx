@@ -8,7 +8,7 @@ const Post11 = () => (
     metaTitle="SEO Service Sri Lanka — What's Actually Included? | SeoFX"
     metaDesc="What does an SEO service in Sri Lanka actually include? We break down every component — keyword research, on-page, link building & more. Clear, jargon-free guide by SeoFX."
     keywords="seo service sri lanka, seo services sri lanka, seo company sri lanka, seo consultant sri lanka, on-page seo sri lanka"
-    category="SEO Services"
+    category="SEO"
     date="2025-01-13"
     readTime="8 min read"
     cta="Want a clear, transparent SEO service for your Sri Lankan business? Enquire about SeoFX's SEO service today."

@@ -12,7 +12,7 @@ const Post35 = () => (
     metaTitle="Google Ads vs Facebook Ads Sri Lanka — Which Delivers Better ROI? | SeoFX"
     metaDesc="Should Sri Lankan businesses choose Google Ads or Facebook Ads? A clear comparison of cost, intent, targeting and ROI to help you decide."
     keywords="Google Ads vs Facebook Ads Sri Lanka, Google Ads Sri Lanka, Facebook Ads Sri Lanka, paid advertising Sri Lanka, ROI Sri Lanka"
-    category="Paid Advertising"
+    category="Google Ads"
     date="2026-04-28"
     readTime="6 min read"
     cta="Need help deciding which platform is right for your business? SeoFX specialists will audit your market and recommend the smartest paid media strategy."

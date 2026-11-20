@@ -8,7 +8,7 @@ const Post5 = () => (
     metaTitle="How to Make Your Website a Lead Generation Machine | SeoFX Sri Lanka"
     metaDesc="Is your website generating leads? Learn the 6 key steps to turn your Sri Lankan business website into a powerful lead generation machine. Expert tips from SeoFX."
     keywords="website lead generation sri lanka, convert website visitors sri lanka, seo lead generation, best seo company sri lanka"
-    category="Website Optimisation"
+    category="SEO"
     date="2024-09-12"
     readTime="6 min read"
     cta="Ready to make your website work harder for your business? Contact SeoFX — an SEO company in Sri Lanka — for a SEO consultation today."

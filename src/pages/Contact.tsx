@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <Layout>
       <SEO
-        title="Contact SeoFX — Free SEO Audit Sri Lanka | Call Us"
+        title="Contact SeoFX – Free SEO Audit | SeoFX"
         description="Talk to SEO company in Sri Lanka. Get a free SEO audit, service quote or book a consultation. Call +94 777 797 035 or WhatsApp us — contact options available."
         canonical="/contact-us"
         keywords="contact seo company sri lanka, free seo audit sri lanka, seo consultation sri lanka, seo quote sri lanka, seo agency contact sri lanka, seo colombo contact, whatsapp seo sri lanka"
@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="mx-auto max-w-4xl text-center">
           <span className="badge-pill">Contact Us</span>
           <h1 className="mt-4 font-display text-3xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
-            Contact <span className="text-gradient-accent">SeoFX</span> — Get a Free Website Audit Today
+            Contact <span className="text-gradient-accent">SeoFX</span>
           </h1>
           <p className="mt-5 text-lg text-muted-foreground">
             Ready to take your business to the top of Google? Whether you want a free SEO audit, a pricing quote for

@@ -12,7 +12,7 @@ const Post37 = () => (
     metaTitle="How to Choose the Right Google Ads Agency in Sri Lanka | SeoFX"
     metaDesc="A practical 6-step framework to evaluate any Google Ads agency in Sri Lanka — from credentials and reporting to landing pages and fee structures."
     keywords="Google Ads agency Sri Lanka, Google Ads management Sri Lanka, Google Partner Sri Lanka, hire Google Ads agency Sri Lanka, Google Ads Sri Lanka"
-    category="Agency Selection"
+    category="Google Ads"
     date="2026-04-28"
     readTime="7 min read"
     cta="Work with a Google Ads team built for Sri Lankan businesses. SeoFX combines local market knowledge with proven campaign methodology to drive measurable results."

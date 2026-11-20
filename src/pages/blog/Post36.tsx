@@ -12,7 +12,7 @@ const Post36 = () => (
     metaTitle="5 Common Google Ads Mistakes Sri Lankan Businesses Make | SeoFX"
     metaDesc="The 5 most common Google Ads mistakes Sri Lankan businesses make — from broad match keywords to no conversion tracking — and how to fix each one."
     keywords="Google Ads mistakes Sri Lanka, Google Ads Sri Lanka, PPC mistakes, Google Ads optimisation Sri Lanka, conversion tracking Sri Lanka"
-    category="PPC Optimisation"
+    category="Google Ads"
     date="2026-04-28"
     readTime="6 min read"
     cta="Are your current campaigns making these mistakes? Request a free audit from the SeoFX team and discover exactly what is costing you."

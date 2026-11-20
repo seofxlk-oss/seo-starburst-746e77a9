@@ -8,7 +8,7 @@ const Post20 = () => (
     metaTitle="8 Signs of a Genuinely Good SEO Specialist in Sri Lanka | SeoFX"
     metaDesc="How do you know when you've found a genuinely skilled SEO specialist in Sri Lanka? SeoFX identifies 8 clear signs that separate real expertise from convincing presentation."
     keywords="seo specialist in sri lanka, seo specialist sri lanka, best seo specialist sri lanka, seo expert sri lanka, seo consultant sri lanka"
-    category="SEO Specialist"
+    category="SEO"
     date="2026-04-26"
     readTime="9 min read"
     cta="Looking for a genuinely skilled SEO specialist in Sri Lanka? SeoFX welcomes scrutiny — request a free audit and judge our work for yourself."

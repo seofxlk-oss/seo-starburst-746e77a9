@@ -8,7 +8,7 @@ const Post1 = () => (
     metaTitle="Stop Paying for Leads — Turn Your Website Into a Lead Machine | SeoFX"
     metaDesc="Tired of paying for Google Ads & Facebook Ads? Discover how SEO can turn your Sri Lankan business website into a 24/7 lead generation machine."
     keywords="lead generation sri lanka, seo lead generation, stop paying for leads, seo vs google ads sri lanka, seo company sri lanka"
-    category="SEO Strategy"
+    category="SEO"
     date="2024-10-15"
     readTime="6 min read"
     cta="Ready to turn your website into a lead generation machine? Contact SeoFX — an SEO company in Sri Lanka — for a SEO consultation today."

@@ -8,7 +8,7 @@ const Post10 = () => (
     metaTitle="SEO Sri Lanka — Complete 2025 Guide for Business Owners | SeoFX"
     metaDesc="The complete guide to SEO in Sri Lanka for 2025. Learn how SEO works, why your business needs it, and how to get started with Sri Lanka's expert SEO team at SeoFX."
     keywords="seo sri lanka, search engine optimisation sri lanka, google ranking sri lanka, seo tips sri lanka, seo company sri lanka"
-    category="SEO Guide"
+    category="SEO"
     date="2025-01-12"
     readTime="9 min read"
     cta="Ready to start your SEO journey? Talk to Sri Lanka's SEO experts at SeoFX for a SEO consultation today."

@@ -5,30 +5,29 @@ import { Layout } from "@/components/Layout";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { CTASection } from "@/components/CTASection";
+import { SampleWork } from "@/components/CorePageSections";
 import caseImg from "@/assets/case-porkendeli.jpg";
 
 const CaseStudies = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Case Studies Sri Lanka — Real Ranking Results | SeoFX"
-        description="See real SEO results from Sri Lankan brands. Explore the PorKenDeli restaurant project and its SEO work. Browse SeoFX case studies & client wins."
+        title="Our Work – SEO Samples & Results | SeoFX"
+        description="See SeoFX project work: the PorKenDeli restaurant case study, labelled sample deliverables and our founding client programme."
         canonical="/case-studies"
         keywords="seo case studies sri lanka, seo results sri lanka, seo success stories sri lanka, sri lanka seo portfolio, seo company sri lanka, best seo company sri lanka, proven seo results sri lanka"
         ogImageAlt="SEO case studies from Sri Lankan brands — real ranking & traffic results by SeoFX"
       />
-      <Breadcrumbs items={[{ label: "Case Studies" }]} />
+      <Breadcrumbs items={[{ label: "Our Work" }]} />
 
       <section className="container-tight py-16 sm:py-20">
         <div className="mx-auto max-w-4xl text-center">
-          <span className="badge-pill">Case Studies</span>
+          <span className="badge-pill">Our Work</span>
           <h1 className="mt-4 font-display text-3xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
-            Real SEO Results for Real <span className="text-gradient-accent">Sri Lankan Businesses</span>
+            Our Work
           </h1>
           <p className="mt-5 text-lg text-muted-foreground">
-            Talk is cheap — results speak for themselves. Browse our SEO case studies to see exactly how we helped
-            Sri Lankan businesses grow their online presence, generate more leads, and increase revenue through
-            strategic SEO.
+            A featured project, sample deliverables showing exactly what you receive, and a founding client programme for businesses that want to start early.
           </p>
         </div>
       </section>
@@ -87,11 +86,15 @@ const CaseStudies = () => {
           </div>
         </article>
 
-        <div className="mt-10 rounded-2xl border border-dashed border-border bg-soft p-8 text-center">
-          <p className="text-sm text-muted-foreground">
-            More case studies coming soon. Want to be our next success story?{" "}
-            <Link to="/contact-us" className="font-semibold text-accent hover:underline">Contact us</Link>.
-          </p>
+      </section>
+
+      <SampleWork title="Sample deliverables" />
+
+      <section className="container-tight py-16">
+        <div className="rounded-2xl border border-border bg-soft p-8">
+          <h2 className="font-display text-2xl font-extrabold sm:text-3xl">Founding client programme</h2>
+          <p className="mt-3 text-muted-foreground">We are taking on a limited number of founding clients at a reduced fee. In return, we publish the results as case studies, only with your permission. Places and terms are confirmed after a free analysis.</p>
+          <Button asChild variant="hero" size="lg" className="mt-5"><Link to="/contact-us#partner">Ask about a founding place <ArrowRight className="size-4" /></Link></Button>
         </div>
       </section>
 

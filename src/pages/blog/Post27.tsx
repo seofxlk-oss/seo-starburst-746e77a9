@@ -8,7 +8,7 @@ const Post27 = () => (
     metaTitle="How to Choose an SEO Company in Sri Lanka — 10 Questions to Ask | SeoFX"
     metaDesc="Choosing the right SEO company in Sri Lanka is critical. SeoFX reveals the 10 questions every Sri Lankan business owner must ask before signing with any SEO provider."
     keywords="seo company sri lanka, seo company in sri lanka, best seo company sri lanka, hire seo company sri lanka, seo agency sri lanka"
-    category="SEO Company"
+    category="SEO"
     date="2026-04-26"
     readTime="12 min read"
     cta="Want an SEO company that welcomes every one of these questions? Talk to SeoFX and start with a free, specific audit of your website."

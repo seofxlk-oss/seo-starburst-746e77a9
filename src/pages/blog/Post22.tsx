@@ -8,7 +8,7 @@ const Post22 = () => (
     metaTitle="Why Most Sri Lankan Businesses Get SEO Wrong — and How to Fix It | SeoFX"
     metaDesc="Most Sri Lankan businesses approach SEO incorrectly. SeoFX explains the most common mistakes, why they happen, and what a genuinely effective approach looks like instead."
     keywords="seo company in sri lanka, seo company sri lanka, seo sri lanka, seo mistakes sri lanka, seo strategy sri lanka"
-    category="SEO Company"
+    category="SEO Before You Build"
     date="2026-04-26"
     readTime="9 min read"
     cta="Avoiding the most common SEO mistakes starts with an honest audit. Get yours free from SeoFX — Sri Lanka's transparent SEO company."

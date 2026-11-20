@@ -8,7 +8,7 @@ const Post15 = () => (
     metaTitle="What Does an SEO Specialist in Sri Lanka Do? | SeoFX"
     metaDesc="Wondering what an SEO specialist in Sri Lanka actually does day to day? SeoFX explains the real roles, skills, and results you should expect. Read the full guide."
     keywords="seo specialist sri lanka, seo specialist in sri lanka, seo expert sri lanka, seo consultant sri lanka"
-    category="SEO Specialist"
+    category="SEO"
     date="2025-02-01"
     readTime="9 min read"
     cta="Ready to work with a real SEO specialist in Sri Lanka? Request a free SEO audit from SeoFX today."

@@ -8,7 +8,7 @@ const Post18 = () => (
     metaTitle="What Results to Expect From an SEO Specialist in Sri Lanka | SeoFX"
     metaDesc="What should an SEO specialist in Sri Lanka actually deliver — and when? SeoFX sets honest, specific expectations for timelines, KPIs, and what real progress looks like."
     keywords="seo specialist in sri lanka, seo specialist sri lanka, seo results sri lanka, seo timeline sri lanka, seo kpis sri lanka"
-    category="SEO Specialist"
+    category="SEO"
     date="2026-04-26"
     readTime="11 min read"
     cta="Want honest, data-backed expectations for your SEO investment? Talk to SeoFX — Sri Lanka's transparent SEO specialist team — for a free audit today."

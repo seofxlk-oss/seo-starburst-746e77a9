@@ -8,7 +8,7 @@ const Post16 = () => (
     metaTitle="SEO Specialist vs SEO Agency Sri Lanka — Which Is Right for You? | SeoFX"
     metaDesc="Should you hire an SEO specialist or an SEO agency in Sri Lanka? SeoFX breaks down the real differences, key factors, and which option fits your business goals."
     keywords="seo specialist sri lanka, seo agency sri lanka, seo consultant sri lanka, seo company sri lanka, seo specialist in sri lanka"
-    category="SEO Specialist"
+    category="SEO"
     date="2025-02-05"
     readTime="9 min read"
     cta="Not sure whether you need a specialist or an agency? Talk to SeoFX — we'll give you an honest recommendation based on your business."
