@@ -1,24 +1,30 @@
 import { Link, useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { Menu, X, Phone, MessageCircle, ChevronDown, ArrowUpRight } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { Menu, X, Phone, ChevronDown, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { SITE } from "@/lib/site";
-import { MAIN_NAVIGATION, SEO_NAVIGATION } from "@/lib/navigation";
-import { headerAction, whatsappHref } from "@/lib/contact-actions";
+import { NAV_LINKS, SITE } from "@/lib/site";
+import { GOOGLE_ADS } from "@/lib/google-ads";
+import { SERVICES } from "@/lib/services";
+import { INDUSTRIES } from "@/lib/industries";
 import { cn } from "@/lib/utils";
 import logo from "@/assets/logo.png";
 
+const HEADER_LINKS = NAV_LINKS.flatMap((link) =>
+  link.href === "/services"
+    ? [link, { label: "Google Ads Sri Lanka", href: GOOGLE_ADS.path }]
+    : [link]
+);
+
 export const Header = () => {
   const [open, setOpen] = useState(false);
-  const [servicesOpen, setServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [industriesOpen, setIndustriesOpen] = useState(false);
+  const [mobileIndustriesOpen, setMobileIndustriesOpen] = useState(false);
   const { pathname } = useLocation();
-  const action = headerAction(pathname);
-
-  useEffect(() => {
-    setOpen(false);
-    setServicesOpen(false);
-  }, [pathname]);
+  const closeTimer = useRef<number | null>(null);
+  const closeIndustriesTimer = useRef<number | null>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -27,57 +33,338 @@ export const Header = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const serviceLinks = (
-    <>
-      {SEO_NAVIGATION.map((item) => (
-        <Link key={item.href} to={item.href} className="block rounded-md px-3 py-2 text-sm text-foreground/80 transition-colors hover:bg-muted hover:text-accent" onClick={() => { setOpen(false); setServicesOpen(false); }}>{item.label}</Link>
-      ))}
-      <div className="mt-2 border-t border-border pt-2">
-        <p className="px-3 py-1 text-xs font-semibold uppercase text-muted-foreground">Add-on</p>
-        <Link to="/google-ads-sri-lanka" className="flex items-center justify-between rounded-md px-3 py-2 text-sm hover:bg-muted hover:text-accent" onClick={() => { setOpen(false); setServicesOpen(false); }}>Google Ads <ArrowUpRight className="size-4" /></Link>
-      </div>
-    </>
-  );
+  useEffect(() => {
+    setOpen(false);
+    setServicesOpen(false);
+    setMobileServicesOpen(false);
+    setIndustriesOpen(false);
+    setMobileIndustriesOpen(false);
+  }, [pathname]);
+
+  const openServices = () => {
+    if (closeTimer.current) window.clearTimeout(closeTimer.current);
+    setServicesOpen(true);
+  };
+  const scheduleCloseServices = () => {
+    if (closeTimer.current) window.clearTimeout(closeTimer.current);
+    closeTimer.current = window.setTimeout(() => setServicesOpen(false), 120);
+  };
+
+  const openIndustries = () => {
+    if (closeIndustriesTimer.current) window.clearTimeout(closeIndustriesTimer.current);
+    setIndustriesOpen(true);
+  };
+  const scheduleCloseIndustries = () => {
+    if (closeIndustriesTimer.current) window.clearTimeout(closeIndustriesTimer.current);
+    closeIndustriesTimer.current = window.setTimeout(() => setIndustriesOpen(false), 120);
+  };
 
   return (
-    <header className={cn("sticky top-0 z-40 w-full bg-background transition-all", scrolled && "border-b border-border/60 bg-background/95 backdrop-blur-lg")}>
-      <div className="container-tight flex h-16 items-center justify-between gap-3">
-        <Link to="/" aria-label="SeoFX home" className="shrink-0"><img src={logo} alt="SeoFX" className="h-8 w-auto" width={140} height={36} /></Link>
-        <nav className="hidden 2xl:flex items-center gap-0.5" aria-label="Main">
-          {MAIN_NAVIGATION.map((item) => item.href === "/services" ? (
-            <div key={item.href} className="relative" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setServicesOpen(false); }} onKeyDown={(event) => { if (event.key === "Escape") setServicesOpen(false); }}>
-              <div className="flex items-center">
-                <Link to={item.href} className={cn("px-2 py-2 text-sm font-medium hover:text-accent", pathname.startsWith("/services") ? "text-accent" : "text-foreground/75")}>SEO Services</Link>
-                <Button variant="ghost" size="icon" className="h-8 w-6" aria-label="Toggle SEO services" aria-expanded={servicesOpen} aria-controls="desktop-services" onClick={() => setServicesOpen((value) => !value)}><ChevronDown className={cn("size-4 transition-transform", servicesOpen && "rotate-180")} /></Button>
-              </div>
-              {servicesOpen && <div id="desktop-services" className="absolute left-0 top-full w-72 pt-2"><div className="max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-lg border border-border bg-background p-2 shadow-card">{serviceLinks}</div></div>}
-            </div>
-          ) : (
-            <Link key={item.href} to={item.href} aria-current={pathname === item.href ? "page" : undefined} className={cn("px-2 py-2 text-sm font-medium transition-colors hover:text-accent", pathname === item.href ? "text-accent" : "text-foreground/75")}>{item.label}</Link>
-          ))}
+    <header
+      className={cn(
+        "sticky top-0 z-40 w-full transition-all",
+        scrolled
+          ? "border-b border-border/60 bg-background/85 backdrop-blur-lg"
+          : "bg-background"
+      )}
+    >
+      <div className="container-tight flex h-16 items-center justify-between gap-4">
+        <Link to="/" aria-label="SeoFX home" className="flex items-center">
+          <img
+            src={logo}
+            alt="SeoFX — SEO Company Sri Lanka"
+            className="h-8 w-auto sm:h-9"
+            width={140}
+            height={36}
+          />
+        </Link>
+
+        <nav className="hidden lg:flex items-center gap-1" aria-label="Main">
+          {HEADER_LINKS.map((l) => {
+            const active = pathname === l.href || (l.href !== "/" && pathname.startsWith(l.href));
+
+            if (l.href === "/services") {
+              return (
+                <div
+                  key={l.href}
+                  className="relative"
+                  onMouseEnter={openServices}
+                  onMouseLeave={scheduleCloseServices}
+                >
+                  <Link
+                    to={l.href}
+                    aria-haspopup="menu"
+                    aria-expanded={servicesOpen}
+                    onFocus={openServices}
+                    className={cn(
+                      "inline-flex items-center gap-1 rounded-full px-3 py-2 text-sm font-medium transition-colors",
+                      active ? "text-accent" : "text-foreground/70 hover:text-foreground"
+                    )}
+                  >
+                    {l.label}
+                    <ChevronDown className={cn("size-4 transition-transform", servicesOpen && "rotate-180")} />
+                  </Link>
+
+                  {servicesOpen && (
+                    <div
+                      role="menu"
+                      onMouseEnter={openServices}
+                      onMouseLeave={scheduleCloseServices}
+                      className="absolute left-1/2 top-full z-50 mt-2 w-[640px] -translate-x-1/2 animate-fade-in"
+                    >
+                      <div className="overflow-hidden rounded-2xl border border-border bg-background shadow-xl">
+                        <div className="h-1 w-full bg-gradient-google" />
+                        <div className="grid grid-cols-2 gap-1 p-3">
+                          {SERVICES.map((s) => {
+                            const Icon = s.icon;
+                            return (
+                              <Link
+                                key={s.slug}
+                                to={`/services/${s.slug}`}
+                                role="menuitem"
+                                className="group flex items-start gap-3 rounded-xl px-3 py-2.5 hover:bg-muted transition-colors"
+                              >
+                                <span className="mt-0.5 inline-flex size-9 shrink-0 items-center justify-center rounded-lg bg-accent/10 text-accent group-hover:bg-accent group-hover:text-accent-foreground transition-colors">
+                                  <Icon className="size-4" />
+                                </span>
+                                <span className="min-w-0">
+                                  <span className="block text-sm font-semibold text-foreground group-hover:text-accent">
+                                    {s.shortTitle}
+                                  </span>
+                                  <span className="line-clamp-2 text-xs text-muted-foreground">
+                                    {s.cardIntro}
+                                  </span>
+                                </span>
+                              </Link>
+                            );
+                          })}
+                          <Link to={GOOGLE_ADS.path} role="menuitem" className="group flex items-start gap-3 rounded-xl px-3 py-2.5 transition-colors hover:bg-muted">
+                            <span className="mt-0.5 inline-flex size-9 shrink-0 items-center justify-center rounded-lg bg-accent/10 text-accent"><Target className="size-4" /></span>
+                            <span className="min-w-0"><span className="block text-sm font-semibold group-hover:text-accent">Google Ads Sri Lanka</span><span className="block text-xs text-muted-foreground">Search campaigns, pricing and conversion tracking.</span></span>
+                          </Link>
+                        </div>
+                        <Link
+                          to="/services"
+                          className="block border-t border-border bg-muted/40 px-4 py-2.5 text-center text-xs font-semibold text-accent hover:bg-muted"
+                        >
+                          View all SEO services →
+                        </Link>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            }
+
+            if (l.href === "/industries") {
+              return (
+                <div
+                  key={l.href}
+                  className="relative"
+                  onMouseEnter={openIndustries}
+                  onMouseLeave={scheduleCloseIndustries}
+                >
+                  <Link
+                    to={l.href}
+                    aria-haspopup="menu"
+                    aria-expanded={industriesOpen}
+                    onFocus={openIndustries}
+                    className={cn(
+                      "inline-flex items-center gap-1 rounded-full px-3 py-2 text-sm font-medium transition-colors",
+                      active ? "text-accent" : "text-foreground/70 hover:text-foreground"
+                    )}
+                  >
+                    {l.label}
+                    <ChevronDown className={cn("size-4 transition-transform", industriesOpen && "rotate-180")} />
+                  </Link>
+
+                  {industriesOpen && (
+                    <div
+                      role="menu"
+                      onMouseEnter={openIndustries}
+                      onMouseLeave={scheduleCloseIndustries}
+                      className="absolute left-1/2 top-full z-50 mt-2 w-[640px] -translate-x-1/2 animate-fade-in"
+                    >
+                      <div className="overflow-hidden rounded-2xl border border-border bg-background shadow-xl">
+                        <div className="h-1 w-full bg-gradient-google" />
+                        <div className="grid grid-cols-2 gap-1 p-3">
+                          {INDUSTRIES.map((ind) => {
+                            const Icon = ind.icon;
+                            return (
+                              <Link
+                                key={ind.slug}
+                                to={`/${ind.slug}`}
+                                role="menuitem"
+                                className="group flex items-start gap-3 rounded-xl px-3 py-2.5 hover:bg-muted transition-colors"
+                              >
+                                <span className="mt-0.5 inline-flex size-9 shrink-0 items-center justify-center rounded-lg bg-accent/10 text-accent group-hover:bg-accent group-hover:text-accent-foreground transition-colors">
+                                  <Icon className="size-4" />
+                                </span>
+                                <span className="min-w-0">
+                                  <span className="block text-sm font-semibold text-foreground group-hover:text-accent">
+                                    {ind.navLabel}
+                                  </span>
+                                  <span className="line-clamp-2 text-xs text-muted-foreground">
+                                    {ind.hubTagline}
+                                  </span>
+                                </span>
+                              </Link>
+                            );
+                          })}
+                        </div>
+                        <Link
+                          to="/industries"
+                          className="block border-t border-border bg-muted/40 px-4 py-2.5 text-center text-xs font-semibold text-accent hover:bg-muted"
+                        >
+                          View all industries →
+                        </Link>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            }
+
+            return (
+              <Link
+                key={l.href}
+                to={l.href}
+                className={cn(
+                  "rounded-full px-3 py-2 text-sm font-medium transition-colors",
+                  active ? "text-accent" : "text-foreground/70 hover:text-foreground"
+                )}
+              >
+                {l.label}
+              </Link>
+            );
+          })}
         </nav>
-        <div className="flex items-center gap-1">
-          <Button asChild variant="ghost" size="icon" className="hidden sm:inline-flex" title="Call SeoFX"><a href={`tel:${SITE.phoneRaw}`} aria-label="Call SeoFX"><Phone className="size-4" /></a></Button>
-          <Button asChild variant="ghost" size="icon" className="hidden sm:inline-flex" title="WhatsApp SeoFX"><a href={whatsappHref(pathname)} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp SeoFX"><MessageCircle className="size-4" /></a></Button>
-          <Button asChild variant="hero" className="hidden lg:inline-flex px-4"><Link to={action.href}>{action.label}</Link></Button>
-          <Button variant="ghost" size="icon" className="2xl:hidden" onClick={() => setOpen((value) => !value)} aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open} aria-controls="mobile-navigation">{open ? <X className="size-6" /> : <Menu className="size-6" />}</Button>
+
+        <div className="hidden lg:flex items-center gap-3">
+          <a
+            href={`tel:${SITE.phoneRaw}`}
+            className="hidden 2xl:inline-flex items-center gap-2 text-sm font-semibold text-foreground/80 hover:text-accent"
+          >
+            <Phone className="size-4" /> {SITE.phone}
+          </a>
+          <Button asChild variant="hero" size="default">
+            <Link to="/contact-us#audit">Free SEO Audit</Link>
+          </Button>
         </div>
+
+        <button
+          className="lg:hidden inline-flex items-center justify-center rounded-full p-2 text-foreground"
+          onClick={() => setOpen((v) => !v)}
+          aria-label="Toggle menu"
+          aria-expanded={open}
+        >
+          {open ? <X className="size-6" /> : <Menu className="size-6" />}
+        </button>
       </div>
+
       {open && (
-        <div id="mobile-navigation" className="2xl:hidden max-h-[calc(100dvh-4rem)] overflow-y-auto border-t border-border bg-background">
+        <div className="lg:hidden border-t border-border bg-background animate-fade-in">
           <nav className="container-tight flex flex-col py-4" aria-label="Mobile">
-            {MAIN_NAVIGATION.map((item) => item.href === "/services" ? (
-              <div key={item.href} className="border-b border-border">
-                <div className="flex items-center justify-between"><Link to="/services" className="py-3 font-medium" onClick={() => setOpen(false)}>SEO Services</Link><Button variant="ghost" size="icon" aria-label="Toggle SEO services" aria-expanded={servicesOpen} aria-controls="mobile-services" onClick={() => setServicesOpen((value) => !value)}><ChevronDown className={cn("transition-transform", servicesOpen && "rotate-180")} /></Button></div>
-                {servicesOpen && <div id="mobile-services" className="mb-3 border-l border-border pl-2">{serviceLinks}</div>}
-              </div>
-            ) : <Link key={item.href} to={item.href} className="py-3 font-medium text-foreground/80 hover:text-accent" onClick={() => setOpen(false)}>{item.label}</Link>)}
-            <div className="mt-3 border-t border-border pt-4">
-              <Button asChild variant="hero" className="w-full"><Link to={action.href} onClick={() => setOpen(false)}>{action.label}</Link></Button>
-              <div className="mt-3 flex flex-wrap justify-center gap-3">
-                <Button asChild variant="ghost"><a href={`tel:${SITE.phoneRaw}`}><Phone />{SITE.phone}</a></Button>
-                <Button asChild variant="ghost"><a href={whatsappHref(pathname)} target="_blank" rel="noopener noreferrer"><MessageCircle />WhatsApp</a></Button>
-              </div>
+            {HEADER_LINKS.map((l) => {
+              if (l.href === "/services") {
+                return (
+                  <div key={l.href} className="border-b border-border/50 last:border-0">
+                    <button
+                      type="button"
+                      onClick={() => setMobileServicesOpen((v) => !v)}
+                      aria-expanded={mobileServicesOpen}
+                      className="flex w-full items-center justify-between py-3 text-base font-medium text-foreground/80 hover:text-accent"
+                    >
+                      <span>{l.label}</span>
+                      <ChevronDown
+                        className={cn("size-4 transition-transform", mobileServicesOpen && "rotate-180")}
+                      />
+                    </button>
+                    {mobileServicesOpen && (
+                      <ul className="mb-3 ml-1 space-y-1 border-l border-border pl-3">
+                        <li>
+                          <Link
+                            to="/services"
+                            className="block py-2 text-sm font-semibold text-accent"
+                          >
+                            All SEO Services
+                          </Link>
+                        </li>
+                        {SERVICES.map((s) => (
+                          <li key={s.slug}>
+                            <Link
+                              to={`/services/${s.slug}`}
+                              className="block py-2 text-sm text-foreground/75 hover:text-accent"
+                            >
+                              {s.shortTitle}
+                            </Link>
+                          </li>
+                        ))}
+                        <li><Link to={GOOGLE_ADS.path} className="block py-2 text-sm text-foreground/75 hover:text-accent">Google Ads Sri Lanka</Link></li>
+                      </ul>
+                    )}
+                  </div>
+                );
+              }
+              if (l.href === "/industries") {
+                return (
+                  <div key={l.href} className="border-b border-border/50 last:border-0">
+                    <button
+                      type="button"
+                      onClick={() => setMobileIndustriesOpen((v) => !v)}
+                      aria-expanded={mobileIndustriesOpen}
+                      className="flex w-full items-center justify-between py-3 text-base font-medium text-foreground/80 hover:text-accent"
+                    >
+                      <span>{l.label}</span>
+                      <ChevronDown
+                        className={cn("size-4 transition-transform", mobileIndustriesOpen && "rotate-180")}
+                      />
+                    </button>
+                    {mobileIndustriesOpen && (
+                      <ul className="mb-3 ml-1 space-y-1 border-l border-border pl-3">
+                        <li>
+                          <Link
+                            to="/industries"
+                            className="block py-2 text-sm font-semibold text-accent"
+                          >
+                            All Industries
+                          </Link>
+                        </li>
+                        {INDUSTRIES.map((ind) => (
+                          <li key={ind.slug}>
+                            <Link
+                              to={`/${ind.slug}`}
+                              className="block py-2 text-sm text-foreground/75 hover:text-accent"
+                            >
+                              {ind.navLabel}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                );
+              }
+              return (
+                <Link
+                  key={l.href}
+                  to={l.href}
+                  className="py-3 text-base font-medium text-foreground/80 hover:text-accent"
+                >
+                  {l.label}
+                </Link>
+              );
+            })}
+            <div className="mt-3 flex flex-col gap-3">
+              <a
+                href={`tel:${SITE.phoneRaw}`}
+                className="inline-flex items-center gap-2 text-sm font-semibold text-foreground"
+              >
+                <Phone className="size-4" /> {SITE.phone}
+              </a>
+              <Button asChild variant="hero" size="lg">
+                <Link to="/contact-us#audit">Free SEO Audit</Link>
+              </Button>
             </div>
           </nav>
         </div>

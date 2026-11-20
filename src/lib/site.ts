@@ -13,7 +13,7 @@ export const SITE = {
 
 export const NAV_LINKS = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/seo-specialist-sri-lanka" },
+  { label: "About", href: "/about-us" },
   { label: "Services", href: "/services" },
   { label: "Industries", href: "/industries" },
   { label: "SEO Consultation", href: "/seo-consultant-sri-lanka" },
