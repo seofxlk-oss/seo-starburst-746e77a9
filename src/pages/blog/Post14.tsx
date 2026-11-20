@@ -66,6 +66,7 @@ const Post14 = () => (
     </ul>
 
     <h2>The Real ROI Calculation for SEO in Sri Lanka</h2>
+    <p>If you also need paid traffic while SEO develops, compare the separate management and advertising costs of <Link to="/google-ads-sri-lanka" className="text-accent underline-offset-4 hover:underline">Google Ads Sri Lanka</Link>. Track qualified leads from each channel before deciding how to divide your marketing budget.</p>
     <p>The true measure of SEO price in Sri Lanka is not the cost — it is the return. If your business generates revenue from each new customer, and your SEO campaign consistently delivers new customers who found you organically on Google, the ROI calculation quickly justifies the investment.</p>
     <p>Unlike paid advertising where you pay for every click and lead, SEO builds a permanent organic ranking that generates traffic and leads indefinitely — making the long-term cost per lead significantly lower than any paid channel.</p>
 

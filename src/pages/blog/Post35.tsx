@@ -17,7 +17,7 @@ const Post35 = () => (
     readTime="6 min read"
     cta="Need help deciding which platform is right for your business? SeoFX specialists will audit your market and recommend the smartest paid media strategy."
   >
-    <p>When business owners in Sri Lanka decide to invest in digital advertising, they typically face one immediate question: should they run <GA>Google Ads in Sri Lanka</GA>, Facebook Ads, or both? Each platform has distinct strengths, and the right choice depends on your product, customer journey, and marketing objectives.</p>
+    <p>When business owners in Sri Lanka decide to invest in digital advertising, they typically face one immediate question: should they use <GA>Google Ads Sri Lanka</GA> services, Facebook Ads, or both? Each platform has distinct strengths, and the right choice depends on your product, customer journey, and marketing objectives.</p>
 
     <h2>The Core Difference: Intent vs. Interruption</h2>
     <p>Google Ads is a pull-based channel. Users are actively searching for a product or service when they see your ad. They have intent. Facebook Ads, on the other hand, is a push-based channel — your ad interrupts someone scrolling through their feed who was not necessarily thinking about buying what you offer.</p>

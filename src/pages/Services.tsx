@@ -314,6 +314,13 @@ const Services = () => {
       </section>
 
       {/* WHY CHOOSE SEOFX */}
+      <section className="border-y border-border bg-muted/40 py-12">
+        <div className="container-tight max-w-4xl">
+          <h2 className="font-display text-2xl font-bold">Paid search alongside your SEO strategy</h2>
+          <p className="mt-4 leading-relaxed text-muted-foreground">If you need to reach customers while organic visibility develops, our <Link to="/google-ads-sri-lanka" className="font-medium text-accent underline underline-offset-4">Google Ads Sri Lanka</Link> service covers Search campaigns, conversion tracking and ongoing optimisation. Paid advertising and SEO have separate budgets and outcomes; we review how they work together for your business.</p>
+        </div>
+      </section>
+
       <section className="bg-soft py-16 sm:py-20">
         <div className="container-tight">
           <div className="mx-auto max-w-3xl text-center">

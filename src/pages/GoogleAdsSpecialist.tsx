@@ -85,7 +85,7 @@ export default function GoogleAdsSpecialist() {
             <h2 className="mt-3 font-display text-2xl font-extrabold tracking-normal sm:text-3xl">What Is a Google Ads Specialist?</h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground"><strong className="text-foreground">A Google Ads specialist plans, builds and manages paid advertising campaigns.</strong> They choose keywords, write ads, set bids and budgets, track conversions and optimise performance so your advertising supports measurable business goals.</p>
             <p className="mt-4 leading-relaxed text-muted-foreground">Anyone can switch on Google Ads. The hard part is avoiding wasted spend: irrelevant search terms, weak ads, poor landing pages and broken tracking. A specialist connects these pieces and evaluates what actually brings qualified enquiries.</p>
-            <p className="mt-4 text-muted-foreground">For a broader introduction, read our <Link className="font-medium text-accent underline underline-offset-4" to="/google-ads-sri-lanka">Google Ads Sri Lanka guide</Link>.</p>
+            <p className="mt-4 text-muted-foreground">For campaign options, budgets and common questions, explore <Link className="font-medium text-accent underline underline-offset-4" to="/google-ads-sri-lanka">Google Ads Sri Lanka</Link> and choose the approach that fits your business.</p>
           </div>
           <figure className="overflow-hidden rounded-lg">
             <img src={office} alt="Illustrative campaign planning scene in a Colombo office" width={1536} height={1024} loading="lazy" className="aspect-[3/2] w-full object-cover" />

@@ -2,3 +2,4 @@
 - Travel-specific educational sections and FAQ data are isolated from the shared industry layout; this keeps improvements to the travel page from changing other industries and shares visible FAQ answers with JSON-LD.
 - Industry title and description data remain the source for both runtime metadata and Netlify-generated route metadata, so travel metadata stays consistent across both outputs.
 - Keep Google Ads specialist metadata and package terms in its shared data module so the service page, Netlify source metadata and pricing tests agree.
+- Keep the main Google Ads page metadata, offer terms and FAQ answers in its own shared data module so navigation, Netlify HTML, visible answers and JSON-LD agree.

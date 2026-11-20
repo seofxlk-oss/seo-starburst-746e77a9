@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { Menu, X, Phone, ChevronDown, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { NAV_LINKS, SITE } from "@/lib/site";
-import { GOOGLE_ADS_SPECIALIST } from "@/lib/google-ads-specialist";
+import { GOOGLE_ADS } from "@/lib/google-ads";
 import { SERVICES } from "@/lib/services";
 import { INDUSTRIES } from "@/lib/industries";
 import { cn } from "@/lib/utils";
@@ -11,7 +11,7 @@ import logo from "@/assets/logo.png";
 
 const HEADER_LINKS = NAV_LINKS.flatMap((link) =>
   link.href === "/services"
-    ? [link, { label: "Google Ads", href: GOOGLE_ADS_SPECIALIST.path }]
+    ? [link, { label: "Google Ads Sri Lanka", href: GOOGLE_ADS.path }]
     : [link]
 );
 
@@ -138,9 +138,9 @@ export const Header = () => {
                               </Link>
                             );
                           })}
-                          <Link to="/services/google-ads-specialist-sri-lanka" role="menuitem" className="group flex items-start gap-3 rounded-xl px-3 py-2.5 transition-colors hover:bg-muted">
+                          <Link to={GOOGLE_ADS.path} role="menuitem" className="group flex items-start gap-3 rounded-xl px-3 py-2.5 transition-colors hover:bg-muted">
                             <span className="mt-0.5 inline-flex size-9 shrink-0 items-center justify-center rounded-lg bg-accent/10 text-accent"><Target className="size-4" /></span>
-                            <span className="min-w-0"><span className="block text-sm font-semibold group-hover:text-accent">Google Ads Specialist</span><span className="block text-xs text-muted-foreground">Campaign setup, management and optimisation.</span></span>
+                            <span className="min-w-0"><span className="block text-sm font-semibold group-hover:text-accent">Google Ads Sri Lanka</span><span className="block text-xs text-muted-foreground">Search campaigns, pricing and conversion tracking.</span></span>
                           </Link>
                         </div>
                         <Link
@@ -300,7 +300,7 @@ export const Header = () => {
                             </Link>
                           </li>
                         ))}
-                        <li><Link to="/services/google-ads-specialist-sri-lanka" className="block py-2 text-sm text-foreground/75 hover:text-accent">Google Ads Specialist</Link></li>
+                        <li><Link to={GOOGLE_ADS.path} className="block py-2 text-sm text-foreground/75 hover:text-accent">Google Ads Sri Lanka</Link></li>
                       </ul>
                     )}
                   </div>

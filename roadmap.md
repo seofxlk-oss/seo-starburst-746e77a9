@@ -8,3 +8,9 @@
 - [x] Add the attached specialist content as a styled service page with FAQs and consultation actions.
 - [x] Add desktop and mobile header links, sitemap URL and Netlify source metadata.
 - [x] Verify navigation, page layout, pricing and contact journey.
+
+# Google Ads Sri Lanka search improvements
+- [x] Replace specialist header links with Google Ads Sri Lanka links.
+- [x] Improve main page answers, FAQs, trustworthy campaign guidance and Netlify source metadata.
+- [x] Add natural contextual links from relevant blogs and service pages.
+- [x] Verify navigation, package terms, FAQ schema and consultation flow.
