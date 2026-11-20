@@ -1,3 +1,6 @@
+import { mergeFaqs } from "@/lib/merge-faqs";
+import { BriefAdditions } from "@/components/BriefAdditions";
+import { CORE_FAQS } from "@/lib/core-pages";
 import { Link } from "react-router-dom";
 import {
   CheckCircle2,
@@ -128,7 +131,7 @@ const RESULT_STATS = [
   { num: "Report", label: "Plain-English monthly updates" },
 ];
 
-const SERVICES_AI_ANSWERS = [
+const SERVICES_AI_ANSWERS = mergeFaqs(CORE_FAQS.services, [
   {
     q: "What does an SEO service in Sri Lanka include?",
     a: "A complete SEO service in Sri Lanka from SeoFX includes a comprehensive website SEO audit, keyword research targeting Sri Lankan search intent across Sinhala, Tamil and English queries, on-page optimisation (titles, headers, schema, internal links, content), technical SEO (Core Web Vitals, mobile compliance, crawl health), white-hat off-page SEO and link building, local SEO for Google Maps ranking, and detailed monthly performance reporting.",
@@ -157,7 +160,7 @@ const SERVICES_AI_ANSWERS = [
     q: "Which industries do you provide SEO service for in Sri Lanka?",
     a: "SeoFX provides SEO service across e-commerce, hotels and tourism, healthcare clinics, education providers, real estate agencies, professional services (lawyers, accountants, agencies), manufacturing, logistics and B2B companies — across Colombo, Kandy, Galle, Negombo, Jaffna and the entire island.",
   },
-];
+]);
 
 const Services = () => {
   return (
@@ -495,6 +498,7 @@ const Services = () => {
         </div>
       </section>
 
+      <BriefAdditions services samples />
       <CTASection
         title="Ready to grow on Google in Sri Lanka?"
         subtitle="Get your free SEO audit today — talk to a Sri Lankan SEO specialist, no obligation."

@@ -1,3 +1,6 @@
+import { mergeFaqs } from "@/lib/merge-faqs";
+import { BriefAdditions } from "@/components/BriefAdditions";
+import { CORE_FAQS } from "@/lib/core-pages";
 import { Link } from "react-router-dom";
 import {
   AlertTriangle,
@@ -221,7 +224,7 @@ const STATS = [
   { num: "Organic", label: "Visits without paying per click", ctx: "Unlike paid ads that stop when you stop paying" },
 ];
 
-const FAQS = [
+const FAQS = mergeFaqs(CORE_FAQS.consultation, [
   {
     q: "My web developer says they handle SEO. Isn't that enough?",
     a: "Web developers handle technical implementation — coding, design, speed, and functionality. SEO consultants handle strategy — which keywords to target, how to structure content, how to beat competitors, and how to earn rankings. These are fundamentally different skills. A developer who says they do SEO typically means they install an SEO plugin. That is not the same as a strategy that gets you to page one of Google. You need both — a developer who builds well, and an SEO specialist who tells them what to build for.",
@@ -250,7 +253,7 @@ const FAQS = [
     q: "Does SeoFX also offer ongoing SEO after the consultation?",
     a: "Yes. The consultation is the foundation. Many clients continue with SeoFX for ongoing monthly SEO — implementing the strategy, building backlinks, creating content, and monitoring rankings. Consultation clients get priority onboarding into our monthly packages. But there is no obligation — the consultation is a standalone deliverable and you are free to implement it with any team you choose.",
   },
-];
+]);
 
 const SeoConsultation = () => {
   const serviceSchema = {
@@ -301,6 +304,7 @@ const SeoConsultation = () => {
             <AlertTriangle className="size-3.5" /> Critical Advice for Every Business in Sri Lanka
           </span>
           <h1 className="mx-auto mt-6 max-w-4xl font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
+            <span className="mb-3 block text-2xl text-accent sm:text-3xl">SEO Consultant Sri Lanka</span>
             Building a Website Without SEO is Like Building a{" "}
             <span className="text-google-red">House Without</span> an{" "}
             <span className="text-gradient-accent">Architect.</span>
@@ -972,6 +976,7 @@ const SeoConsultation = () => {
         </div>
       </section>
 
+      <BriefAdditions buildFirst samples />
       <CTASection
         title="Don't Build Your Digital House Without an Architect."
         subtitle="SEO Consultation from LKR 50,000, including on-page SEO recommendations. Scope confirmed before booking."

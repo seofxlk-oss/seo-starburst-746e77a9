@@ -1,3 +1,6 @@
+import { mergeFaqs } from "@/lib/merge-faqs";
+import { BriefAdditions } from "@/components/BriefAdditions";
+import { CORE_FAQS } from "@/lib/core-pages";
 import { Link } from "react-router-dom";
 import {
   ArrowRight, Search, TrendingUp, Users, Target, BarChart3, MessageCircle,
@@ -32,7 +35,7 @@ const Home = () => {
   )}`;
 
   // ───────── FAQ (Section 9) — schema-rich, keyword-targeted ─────────
-  const faqs = [
+  const faqs = mergeFaqs(CORE_FAQS.home, [
     {
       q: "How do I choose an SEO company in Sri Lanka?",
       a: "Look for clear written deliverables, white-hat methods, honest reporting and no ranking guarantees. SeoFX is an SEO company in Rajagiriya that plans SEO before you build and uses white-hat methods only. We serve businesses, ad agencies and web development companies across Colombo, Kandy, Galle and the rest of the island.",
@@ -49,7 +52,7 @@ const Home = () => {
       q: "Do you work with marketing agencies and web developers in Sri Lanka?",
       a: "Yes. SeoFX partners with ad agencies and web development companies in Sri Lanka under a white-label SEO model. You keep your client relationship, we deliver the SEO under your branding — with revenue share and white-label monthly reports.",
     },
-  ];
+  ]);
 
   const jsonLd = [
     orgSchema(),
@@ -731,6 +734,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <BriefAdditions buildFirst services companyLinks />
     </Layout>
   );
 };

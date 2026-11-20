@@ -1,3 +1,6 @@
+import { mergeFaqs } from "@/lib/merge-faqs";
+import { BriefAdditions } from "@/components/BriefAdditions";
+import { CORE_FAQS } from "@/lib/core-pages";
 import { Link } from "react-router-dom";
 import {
   Search,
@@ -290,7 +293,7 @@ const industries = [
   },
 ];
 
-const faqs = [
+const faqs = mergeFaqs(CORE_FAQS.home, [
   {
     q: "What is SEO in Sri Lanka?",
     a: "SEO in Sri Lanka is the process of optimising your website so it ranks higher on Google for the searches Sri Lankan customers are making. It combines technical fixes, on-page optimisation, content, backlinks and local SEO to deliver organic traffic and qualified leads from Google.lk and Google.com.",
@@ -323,7 +326,7 @@ const faqs = [
     q: "What makes SEO in Sri Lanka different from SEO elsewhere?",
     a: "The fundamentals of SEO are universal, but execution in Sri Lanka requires understanding local search behaviour, language preferences, cultural context, the country's dominant industries, the mix of mobile-first users and the specific Google.lk versus Google.com dynamics. Local relevance signals carry significant weight for ranking in Sri Lankan search results.",
   },
-];
+]);
 
 const SeoSriLanka = () => {
   const wa = `https://wa.me/${SITE.whatsapp.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(
@@ -941,6 +944,7 @@ const SeoSriLanka = () => {
         </div>
       </section>
 
+      <BriefAdditions buildFirst services />
       <CTASection
         title="Ready to rank your business on Google Sri Lanka?"
         subtitle="Get a free SEO audit and a clear, no-jargon roadmap to grow your business with SEO Sri Lanka."

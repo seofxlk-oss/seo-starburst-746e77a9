@@ -1,3 +1,6 @@
+import { mergeFaqs } from "@/lib/merge-faqs";
+import { BriefAdditions } from "@/components/BriefAdditions";
+import { CORE_FAQS } from "@/lib/core-pages";
 import { Link } from "react-router-dom";
 import {
   CheckCircle2, ArrowRight, Sparkles, ShieldCheck, MessageCircle, Search,
@@ -87,7 +90,7 @@ const packages = [
   },
 ];
 
-const faqs = [
+const faqs = mergeFaqs(CORE_FAQS.pricing, [
   { q: "How is progress reported?", a: "You receive a monthly plain-English report covering work completed, Search Console clicks and impressions, available enquiry data and next priorities. Rankings are not guaranteed, because Google controls them." },
   { q: "How much do SEO packages in Sri Lanka cost?", a: "SEO packages are custom-quoted after a free analysis. The only fixed public starting price is the SEO Consultation, from LKR 50,000, which includes on-page SEO recommendations." },
   { q: "Are SEO packages in Sri Lanka worth the investment?", a: "For many businesses, yes. Unlike ads, SEO keeps working after the work is done, but results depend on competition, your website and your offer." },
@@ -96,7 +99,7 @@ const faqs = [
   { q: "Are cheap SEO packages in Sri Lanka worth it?", a: "Very cheap SEO often uses spammy backlinks, private blog networks or auto-generated content, which can lead to Google penalties. Recovering usually costs more than doing it properly." },
   { q: "Can I upgrade my SEO package in Sri Lanka as my business grows?", a: "Yes. You can change scope as your business grows; we agree the new scope and quote in writing first." },
   { q: "What is the difference between SEO packages in Sri Lanka and Google Ads?", a: "Google Ads buys immediate sponsored placements and stops when spending stops. SEO builds organic visibility over time. Many businesses use both." },
-];
+]);
 
 const COST_TIERS = [
   { range: "Very low-cost", label: "Freelancer-level", body: "Basic on-page edits and low-quality link building. High risk of tactics that cause Google penalties. Results are inconsistent.", danger: true },
@@ -561,6 +564,7 @@ const Pricing = () => {
         />
       </section>
 
+      <BriefAdditions samples />
       <CTASection
         title="Ready to plan your SEO properly?"
         subtitle="Start with a free SEO audit — we'll recommend the right scope and send a custom quote."

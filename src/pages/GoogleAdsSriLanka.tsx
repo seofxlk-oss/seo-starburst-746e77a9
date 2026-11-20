@@ -1,3 +1,4 @@
+import { BriefAdditions } from "@/components/BriefAdditions";
 import { Link } from "react-router-dom";
 import {
   Target,
@@ -455,6 +456,7 @@ const GoogleAdsSriLanka = () => {
           </div>
         </div>
       </section>
+      <BriefAdditions samples />
     </Layout>
   );
 };

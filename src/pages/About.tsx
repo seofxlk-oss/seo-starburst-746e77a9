@@ -1,3 +1,6 @@
+import { mergeFaqs } from "@/lib/merge-faqs";
+import { BriefAdditions } from "@/components/BriefAdditions";
+import { CORE_FAQS } from "@/lib/core-pages";
 import { Link } from "react-router-dom";
 import {
   Award,
@@ -177,7 +180,7 @@ const WHEN_TO_HIRE = [
   "You want to reduce dependence on paid ads and build sustainable organic leads.",
 ];
 
-const FAQS = [
+const FAQS = mergeFaqs(CORE_FAQS.specialists, [
   {
     q: "What does an SEO expert in Sri Lanka do?",
     a: "An SEO expert in Sri Lanka analyses, strategises and implements every search engine optimisation activity needed to rank a Sri Lankan business on Google page one — generating organic traffic, leads and revenue without paid ads. This includes technical SEO audits, keyword research for Sri Lankan search intent, on-page optimisation, content strategy, white-hat link building, local SEO, Google Business Profile management and monthly performance reporting. A genuine SEO expert focuses on business outcomes — leads and sales — not just rankings.",
@@ -210,7 +213,7 @@ const FAQS = [
     q: "Does SeoFX offer a free SEO audit before I hire them?",
     a: "Yes — SeoFX provides a comprehensive free SEO audit for every potential client before any commitment. Your audit covers current ranking positions, technical SEO health (crawl errors, Core Web Vitals, mobile compliance), content gap analysis, backlink profile review and a prioritised list of the highest-impact opportunities. No obligation.",
   },
-];
+]);
 
 const expertLocalBusiness = {
   "@context": "https://schema.org",
@@ -273,7 +276,7 @@ const About = () => {
         <div className="mx-auto max-w-4xl text-center">
           <span className="badge-pill">SEO Expert Sri Lanka</span>
           <h1 className="mt-4 font-display text-3xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
-            <span className="text-gradient-accent">SEO Expert Sri Lanka</span> — SeoFX, SEO Specialists in Rajagiriya
+            <span className="text-gradient-accent">SEO Specialist &amp; SEO Expert Sri Lanka</span> — SeoFX, SEO Specialists in Rajagiriya
           </h1>
           <p className="mt-5 text-lg text-muted-foreground">
             When Sri Lankan businesses need a proven{" "}
@@ -658,6 +661,7 @@ const About = () => {
         </div>
       </section>
 
+      <BriefAdditions samples companyLinks />
       <CTASection
         title="Work With Our SEO Specialist Team"
         subtitle="Get a free SEO audit from SeoFX and a clear roadmap to dominate Google in Sri Lanka."

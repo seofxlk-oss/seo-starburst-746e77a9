@@ -1,3 +1,6 @@
+import { mergeFaqs } from "@/lib/merge-faqs";
+import { BriefAdditions } from "@/components/BriefAdditions";
+import { getServicePageContent } from "@/lib/service-page-content";
 import { Link } from "react-router-dom";
 import {
   MapPin,
@@ -320,7 +323,7 @@ const TIMELINE = [
   },
 ];
 
-const FAQS = [
+const FAQS = mergeFaqs(getServicePageContent("/google-map-optimization")?.faqs ?? [], [
   {
     q: "What is Google Map Optimization?",
     a: "Google Map Optimization is the process of improving your Google Business Profile so your business ranks higher on Google Maps — particularly inside the Local 3-Pack. It involves category choices, keyword optimisation, accurate business details and a sustained review acquisition system.",
@@ -353,7 +356,7 @@ const FAQS = [
     q: "Does this work outside Colombo?",
     a: "Absolutely. Our Google Map Optimization Sri Lanka service works in Colombo, Kandy, Galle, Negombo, Jaffna, Matara, Kurunegala, Anuradhapura, Trincomalee, Batticaloa and beyond. Businesses outside Colombo often see faster results because local competition is less mature.",
   },
-];
+]);
 
 const GoogleMapOptimization = () => {
   const svcSchema = serviceSchema({
@@ -1025,6 +1028,7 @@ const GoogleMapOptimization = () => {
           </div>
         </div>
       </section>
+      <BriefAdditions samples />
     </Layout>
   );
 };
