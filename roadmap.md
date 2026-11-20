@@ -20,7 +20,7 @@
 - [ ] Part 1 hosted checks: actual Netlify 301/404 responses, form receipt and mobile PageSpeed targets — require Netlify deployment; image conversion/preloads remain for later page work.
 - [x] Part 2: header, footer and page-specific consultation actions — tested desktop/mobile menus and contact journeys.
 - [ ] Part 2 deferred links: AI SEO & GEO waits for Part 6; About, How We Work and Editorial Standards wait for Part 7. About retains its working existing destination until then.
-- [ ] Part 3: site-wide claims and pricing cleanup — waiting for its turn.
+- [x] Part 3: site-wide claims and pricing cleanup — complete; all 78 route outputs audited and 24 tests passed.
 - [ ] Part 4: core page content — waiting for its turn.
 - [ ] Part 5: service and add-on content — waiting for its turn.
 - [ ] Part 6: AI SEO & GEO page and supporting content — waiting for its turn.

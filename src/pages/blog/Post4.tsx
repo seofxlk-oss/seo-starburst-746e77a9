@@ -6,7 +6,7 @@ const Post4 = () => (
     slug="organic-traffic-importance-sri-lanka"
     title="Why Organic Search Traffic is the Most Valuable Asset for Your Sri Lankan Business"
     metaTitle="Why Organic Traffic is the Most Valuable Traffic in Sri Lanka | SeoFX"
-    metaDesc="Learn why organic search traffic is more valuable than paid traffic for Sri Lankan businesses. Expert insight from SeoFX — the #1 SEO company in Sri Lanka."
+    metaDesc="Learn why organic search traffic is more valuable than paid traffic for Sri Lankan businesses. Expert insight from SeoFX — an SEO company in Sri Lanka."
     keywords="organic traffic sri lanka, organic search sri lanka, seo traffic sri lanka, seo vs paid ads sri lanka, seo companies sri lanka"
     category="SEO Education"
     date="2024-09-12"

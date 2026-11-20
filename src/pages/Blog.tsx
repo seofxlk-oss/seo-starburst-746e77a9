@@ -11,7 +11,7 @@ const Blog = () => {
     <Layout>
       <SEO
         title="SEO Blog Sri Lanka — Expert SEO Tips & Guides | SeoFX"
-        description="The Sri Lanka SEO blog: actionable tips, ranking guides, local SEO strategies & case studies from SeoFX — Sri Lanka's leading SEO team. New posts weekly."
+        description="The Sri Lanka SEO blog: actionable tips, ranking guides, local SEO strategies & case studies from SeoFX — SeoFX SEO team. New posts weekly."
         canonical="/blog"
         keywords="seo blog sri lanka, seo tips sri lanka, seo guide sri lanka, sri lanka seo strategies, local seo sri lanka, google ranking sri lanka, seo company sri lanka, seo learning sri lanka"
         ogImageAlt="SeoFX SEO Blog — Sri Lanka SEO tips, guides & ranking strategies"
@@ -32,7 +32,7 @@ const Blog = () => {
           </h1>
           <p className="mt-5 text-lg text-muted-foreground">
             Stay ahead of the competition with expert SEO tips, digital marketing guides, and practical insights from
-            Sri Lanka's leading SEO team. Written for Sri Lankan business owners who want to understand SEO and grow
+            SeoFX SEO team. Written for Sri Lankan business owners who want to understand SEO and grow
             online.
           </p>
         </div>

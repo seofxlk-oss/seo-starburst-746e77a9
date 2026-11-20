@@ -80,21 +80,9 @@ const disciplines = [
 ];
 
 const benefits = [
-  {
-    stat: "92%",
-    title: "Never leave page one",
-    body: "92% of Google users never click past page one of search results. If you are not on page one, you do not exist for the vast majority of searches in Sri Lanka.",
-  },
-  {
-    stat: "10×",
-    title: "Position one gets 10× clicks",
-    body: "The #1 organic result on Google receives roughly ten times the clicks of the result sitting at position ten. Ranking higher does not give you a little more traffic — it gives you most of the traffic.",
-  },
-  {
-    stat: "∞",
-    title: "Free traffic forever",
-    body: "Unlike Google Ads, organic rankings keep delivering visitors after the work is done. SEO turns your website into an asset that produces compounding traffic month after month.",
-  },
+ { stat: "Discover", title: "Reach relevant searches", body: "Useful pages help search engines understand your services and connect your business with relevant searches. Visibility depends on competition and search-platform decisions." },
+ { stat: "Compare", title: "Support customer decisions", body: "Clear service details and helpful answers allow potential customers to compare options before enquiring." },
+ { stat: "Measure", title: "Review business outcomes", body: "Track search visibility, website visits and enquiries. Organic traffic has no click charge, but maintaining SEO still involves work and cost." },
 ];
 
 const growthChain = [
@@ -120,7 +108,7 @@ const growthChain = [
   },
   {
     n: "05",
-    title: "A permanent business asset",
+    title: "A maintained business asset",
     body: "Rankings, content and backlinks compound. Years from now, the SEO work you do today will still be sending visitors and revenue to your business.",
   },
 ];
@@ -229,33 +217,7 @@ const timeline = [
   },
 ];
 
-const sriLankaStats = [
-  {
-    n: "12.3M+",
-    label: "Internet users in Sri Lanka",
-    body: "More than half of Sri Lanka is online — and almost all of them search Google before making a buying decision.",
-  },
-  {
-    n: "95%+",
-    label: "Google's search market share",
-    body: "Google completely dominates search in Sri Lanka. Ranking on Google is effectively the only SEO that matters here.",
-  },
-  {
-    n: "70%+",
-    label: "Searches happening on mobile",
-    body: "The majority of Sri Lankan Google searches happen on smartphones — making mobile-first SEO non-negotiable.",
-  },
-  {
-    n: "76%",
-    label: "Local searches that visit within 24 hours",
-    body: "Three out of four people who run a local search visit a related business within a day. Local SEO is direct foot traffic.",
-  },
-  {
-    n: "3×",
-    label: "Conversion rate of organic vs paid",
-    body: "Organic search visitors convert into customers at roughly three times the rate of cold paid traffic in most Sri Lankan business categories.",
-  },
-];
+const sriLankaStats = [ { n: "Research", label: "Search demand", body: "Validate keywords and competition for your actual customers." }, { n: "Mobile", label: "Usable pages", body: "Check mobile speed, readability and contact actions." }, { n: "Local", label: "Relevant locations", body: "Explain the places and service areas you genuinely cover." } ];
 
 const industries = [
   {
@@ -373,7 +335,7 @@ const SeoSriLanka = () => {
             <p className="mx-auto mt-5 max-w-3xl text-lg text-muted-foreground">
               Looking for SEO in Sri Lanka? You are in the right place. This page explains exactly how
               SEO works, why ranking on Google page one transforms a business, and how a results-driven
-              SEO Sri Lanka strategy turns your website into a permanent source of qualified leads.
+              SEO Sri Lanka strategy turns your website into a source of relevant organic enquiries.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -433,7 +395,7 @@ const SeoSriLanka = () => {
 
             <div className="mt-6 space-y-4 text-muted-foreground">
               <p>
-                Every day, hundreds of thousands of searches happen across Sri Lanka — people looking
+                People search across Sri Lanka for
                 for hotels in Galle, dentists in Colombo, accountants in Kandy, online stores, schools,
                 lawyers and every other product and service imaginable. SEO determines which businesses
                 Google shows them and which businesses remain invisible.
@@ -446,7 +408,7 @@ const SeoSriLanka = () => {
               </p>
               <p>
                 In Sri Lanka, SEO has a very specific local dimension. Search behaviour is dominated by
-                mobile, by Google (which holds over 95% of the market here), and by location-aware
+                mobile use, relevant search engines and location-aware
                 queries. Customers searching "near me," "in Colombo" or "in Sri Lanka" expect to see
                 local businesses — and Google's algorithm prioritises businesses that have invested in
                 local SEO signals.
@@ -522,23 +484,6 @@ const SeoSriLanka = () => {
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{b.body}</p>
               </div>
             ))}
-          </div>
-
-          <div className="mt-6 grid gap-5 md:grid-cols-2">
-            <div className="rounded-2xl bg-hero p-6 text-white shadow-card">
-              <div className="font-display text-4xl font-extrabold">3× conversion rate</div>
-              <p className="mt-3 text-sm text-white/80">
-                Organic search visitors convert into customers at roughly three times the rate of cold
-                paid traffic — because they came actively searching for what you sell.
-              </p>
-            </div>
-            <div className="rounded-2xl bg-hero p-6 text-white shadow-card">
-              <div className="font-display text-4xl font-extrabold">76% visit within 24 hours</div>
-              <p className="mt-3 text-sm text-white/80">
-                Three out of four people who run a local search on Google visit a related business
-                within a day. For Sri Lankan local businesses, that is direct, measurable foot traffic.
-              </p>
-            </div>
           </div>
 
           <div className="mt-10 rounded-3xl border border-border bg-card p-6 sm:p-10 shadow-sm">

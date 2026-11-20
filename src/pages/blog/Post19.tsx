@@ -94,7 +94,7 @@ const Post19 = () => (
     <p>Many Sri Lankan businesses that eventually hire in-house SEO capability start by outsourcing. The external engagement builds the strategy, establishes the foundation, and produces ranking results. As the business grows and SEO becomes more central to its operations, the option to bring capability in-house — often working alongside the retained external specialist — becomes a natural next step.</p>
     <p>Starting with outsourcing and building in-house capability over time is often a more pragmatic sequence than attempting to hire in-house before you fully understand what your SEO needs actually are.</p>
     <p>At SeoFX, we work with Sri Lankan businesses at every stage of this journey — from initial SEO engagements for businesses new to the discipline, to specialist support for businesses with growing in-house teams. Our <Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialists in Sri Lanka</Link> are happy to discuss your specific situation. For a related comparison, read our breakdown on <Link to="/blog/seo-specialist-vs-seo-agency-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialist vs SEO agency in Sri Lanka</Link>.</p>
-    <p><Link to="/contact-us" className="text-accent underline-offset-4 hover:underline">Request a free consultation</Link> or call +94 777 797 035.</p>
+    <p><Link to="/contact-us" className="text-accent underline-offset-4 hover:underline">Request a SEO consultation</Link> or call +94 777 797 035.</p>
   </BlogPost>
 );
 export default Post19;

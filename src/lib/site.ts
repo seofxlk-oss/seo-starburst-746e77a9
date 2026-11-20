@@ -1,6 +1,6 @@
 export const SITE = {
   name: "SeoFX",
-  tagline: "Sri Lanka's #1 SEO Company",
+  tagline: "SEO Company in Sri Lanka",
   url: "https://seofx.lk",
   phone: "+94 777 797 035",
   phoneRaw: "+94777797035",
@@ -46,7 +46,7 @@ export const BLOG_POSTS = [
   {
     slug: "how-to-choose-seo-company-sri-lanka",
     title: "How to Choose the Right SEO Company in Sri Lanka for Your Business",
-    excerpt: "Looking for a reliable SEO company in Sri Lanka? Discover what to look for, what to avoid, and why SeoFX is the #1 choice for Sri Lankan businesses.",
+    excerpt: "Looking for a reliable SEO company in Sri Lanka? Discover what to look for, what to avoid, and why SeoFX offers practical SEO support for Sri Lankan businesses.",
     category: "SEO",
     date: "2025-01-08",
     readTime: "8 min read",
@@ -77,8 +77,8 @@ export const BLOG_POSTS = [
   },
   {
     slug: "why-seofx-best-seo-company-in-sri-lanka",
-    title: "7 Reasons SeoFX is the Best SEO Company in Sri Lanka for Growing Businesses",
-    excerpt: "Why is SeoFX the best SEO company in Sri Lanka? 7 clear reasons — proven results, white-hat methods, custom strategies & more.",
+    title: "7 Ways SeoFX Approaches SEO in Sri Lanka for Growing Businesses",
+    excerpt: "How does SeoFX approach SEO in Sri Lanka? 7 clear reasons — proven results, white-hat methods, custom strategies & more.",
     category: "SEO",
     date: "2025-01-14",
     readTime: "7 min read",

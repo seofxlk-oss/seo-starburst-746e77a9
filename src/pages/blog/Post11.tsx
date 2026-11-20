@@ -19,7 +19,7 @@ const Post11 = () => (
       },
       {
         q: "How much does an SEO service in Sri Lanka cost per month?",
-        a: "Professional SEO services in Sri Lanka typically range from LKR 25,000 to 150,000+ per month depending on industry competitiveness, number of target keywords and depth of work. Cheaper SEO services usually rely on automated link spam that risks Google penalties.",
+        a: "SEO Consultation from LKR 50,000 (includes on-page SEO recommendations). All other services: custom quote after a free analysis.",
       },
       {
         q: "What's the difference between on-page SEO and off-page SEO services in Sri Lanka?",

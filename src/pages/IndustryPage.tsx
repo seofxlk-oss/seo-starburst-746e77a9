@@ -126,20 +126,6 @@ const IndustryPage = () => {
         </div>
       </section>
 
-      {/* ═══ STATS STRIP ═══ */}
-      <section className="container-tight pb-12">
-        <div className="grid gap-3 rounded-2xl border border-border bg-soft p-6 sm:grid-cols-4">
-          {industry.stats.map((s) => (
-            <div key={s.label} className="text-center">
-              <div className={`font-display text-2xl font-extrabold sm:text-3xl ${industry.themeText}`}>
-                {s.value}
-              </div>
-              <div className="mt-1 text-xs text-muted-foreground sm:text-sm">{s.label}</div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {isTravel && <TravelSeoOverview />}
 
       {/* ═══ SEARCH INTENT GRID ═══ */}
@@ -228,16 +214,16 @@ const IndustryPage = () => {
         <Link
           to="/seo-consultant-sri-lanka"
           className="group relative block rounded-3xl border-2 border-accent/30 bg-card p-8 shadow-card transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-glow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 sm:p-10"
-          aria-label="Book Your SEO Consultation — Rs. 50,000"
+          aria-label="SEO Consultation from LKR 50,000"
         >
           <div className="grid gap-8 lg:grid-cols-[1.1fr,1fr] lg:items-start">
             <div>
               <span className="badge-pill">SEO Consultation Package</span>
               <div className="mt-4 flex items-baseline gap-3">
                 <span className="font-display text-4xl font-extrabold text-gradient-accent sm:text-5xl">
-                  Rs.50,000
+                  From LKR 50,000
                 </span>
-                <span className="text-sm text-muted-foreground">one-time fee</span>
+                <span className="text-sm text-muted-foreground">starting fee</span>
               </div>
               <p className="mt-3 text-sm text-muted-foreground">
                 Delivered within 5–7 business days. Includes a 2-hour strategy session.
@@ -249,6 +235,7 @@ const IndustryPage = () => {
                   "Site Structure Blueprint",
                   "Competitor Gap Analysis",
                   "Content Roadmap & Page Briefs",
+                  "On-page SEO recommendations",
                   "Technical SEO Specification",
                   "Local / International Strategy",
                   "60-Day Post-Launch Action Plan",
@@ -263,11 +250,7 @@ const IndustryPage = () => {
             </div>
 
             <div className="flex flex-col gap-4 rounded-2xl border border-border bg-soft p-6">
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                This consultation is the cheapest investment you will make. One missed
-                keyword or wrong URL structure costs more to fix than Rs. 50,000 —
-                guaranteed.
-              </p>
+              <p className="text-sm leading-relaxed text-muted-foreground">We agree practical SEO priorities and deliverables before starting. Rankings and results vary; no fixed position or deadline is promised.</p>
               <Button asChild variant="hero" size="lg" className="w-full pointer-events-none">
                 <span>
                   Book Your Consultation <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
@@ -340,7 +323,7 @@ const IndustryPage = () => {
             beyond {industry.navLabel.toLowerCase()}?
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-            SeoFX is a leading{" "}
+            SeoFX is an{" "}
             <Link to="/" className="text-accent underline-offset-4 hover:underline">
               SEO Sri Lanka
             </Link>{" "}

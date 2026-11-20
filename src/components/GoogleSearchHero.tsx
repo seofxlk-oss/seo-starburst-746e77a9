@@ -30,11 +30,11 @@ export const GoogleSearchHero = () => {
           {/* Brand pill */}
           <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-xs font-semibold tracking-wide shadow-card">
             <span className="size-2 rounded-full bg-accent" />
-            <span className="text-muted-foreground">Page 1 SEO Specialists · Sri Lanka</span>
+            <span className="text-muted-foreground">SEO Planning · Sri Lanka</span>
           </div>
 
           <h1 className="mt-6 font-display text-[1.625rem] font-extrabold leading-[1.15] text-foreground xs:text-3xl sm:text-5xl md:text-6xl">
-            <span className="text-gradient-accent">SEO Company Sri Lanka</span> — Rank #1 on Google &amp; Grow Your Business
+            <span className="text-gradient-accent">SEO Company Sri Lanka</span> — Plan SEO Before You Build
           </h1>
 
           <h2 className="mt-4 font-display text-lg font-bold leading-snug text-foreground/90 sm:text-xl md:text-2xl">
@@ -54,9 +54,6 @@ export const GoogleSearchHero = () => {
               <span className="truncate font-medium text-foreground">
                 seo company sri lanka
               </span>
-              <span className="ml-auto hidden items-center gap-1 rounded-full bg-accent/10 px-2.5 py-1 text-[11px] font-bold text-accent sm:inline-flex">
-                <ChevronUp className="size-3" /> #1 Result
-              </span>
             </div>
 
             {/* Suggestion chips — keyword targets */}
@@ -75,8 +72,8 @@ export const GoogleSearchHero = () => {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild variant="hero" size="lg">
-              <Link to="/contact-us">
-                Book Free Consultation <ArrowRight className="size-4" />
+              <Link to="/seo-consultant-sri-lanka">
+                Book an SEO Consultation <ArrowRight className="size-4" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
@@ -94,16 +91,16 @@ export const GoogleSearchHero = () => {
           {/* Trust strip */}
           <div className="mt-10 grid grid-cols-3 gap-4 border-t border-border pt-6 max-w-md">
             <div>
-              <div className="font-display text-2xl font-extrabold text-accent sm:text-3xl">73%</div>
-              <div className="mt-1 text-xs text-muted-foreground">Avg. monthly traffic lift</div>
+              <div className="font-display text-2xl font-extrabold text-accent sm:text-3xl">Research</div>
+              <div className="mt-1 text-xs text-muted-foreground">Keyword priorities</div>
             </div>
             <div>
-              <div className="font-display text-2xl font-extrabold text-accent sm:text-3xl">99%</div>
-              <div className="mt-1 text-xs text-muted-foreground">Yearly organic growth</div>
+              <div className="font-display text-2xl font-extrabold text-accent sm:text-3xl">Plan</div>
+              <div className="mt-1 text-xs text-muted-foreground">Website structure</div>
             </div>
             <div>
-              <div className="font-display text-2xl font-extrabold text-accent sm:text-3xl">100%</div>
-              <div className="mt-1 text-xs text-muted-foreground">White-hat SEO</div>
+              <div className="font-display text-2xl font-extrabold text-accent sm:text-3xl">Review</div>
+              <div className="mt-1 text-xs text-muted-foreground">On-page recommendations</div>
             </div>
           </div>
         </div>
@@ -159,26 +156,15 @@ export const GoogleSearchHero = () => {
                   <div className="font-semibold text-foreground">SeoFX</div>
                   <div className="text-muted-foreground">https://seofx.lk</div>
                 </div>
-                <span className="ml-auto inline-flex items-center gap-1 rounded-full bg-google-green/10 px-2 py-0.5 text-[10px] font-bold text-google-green">
-                  <TrendingUp className="size-3" /> #1
-                </span>
               </div>
               <h3 className="mt-2 text-base font-bold leading-snug text-google-blue">
-                SeoFX — Best SEO Company in Sri Lanka | SEO Services & Packages
+                SeoFX — SEO Company in Sri Lanka | SEO Services & Packages
               </h3>
               <p className="mt-1 line-clamp-2 text-xs text-muted-foreground">
-                SeoFX is Sri Lanka's #1 SEO company. Proven SEO services, transparent SEO
+                SeoFX is an SEO company in Sri Lanka. Proven SEO services, transparent SEO
                 packages and white-hat results for Colombo, Kandy & Galle businesses.
               </p>
               <div className="mt-2 flex items-center gap-3 text-[11px] text-muted-foreground">
-                <span className="inline-flex items-center gap-1">
-                  <Star className="size-3 fill-google-yellow text-google-yellow" />
-                  <Star className="size-3 fill-google-yellow text-google-yellow" />
-                  <Star className="size-3 fill-google-yellow text-google-yellow" />
-                  <Star className="size-3 fill-google-yellow text-google-yellow" />
-                  <Star className="size-3 fill-google-yellow text-google-yellow" />
-                  <span className="ml-1 font-medium text-foreground">4.9</span>
-                </span>
                 <span className="inline-flex items-center gap-1">
                   <MapPin className="size-3" /> Rajagiriya, Sri Lanka
                 </span>
@@ -202,7 +188,7 @@ export const GoogleSearchHero = () => {
 
             {/* Footer of card */}
             <div className="mt-4 flex items-center justify-between text-[11px] text-muted-foreground">
-              <span>About 1,240,000 results (0.42 seconds)</span>
+              <span>Keywords, content and website structure</span>
               <span className="inline-flex items-center gap-1">
                 <span className="size-1.5 rounded-full bg-google-blue" />
                 <span className="size-1.5 rounded-full bg-google-red" />

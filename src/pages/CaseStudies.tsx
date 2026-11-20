@@ -12,7 +12,7 @@ const CaseStudies = () => {
     <Layout>
       <SEO
         title="SEO Case Studies Sri Lanka — Real Ranking Results | SeoFX"
-        description="See real SEO results from Sri Lankan brands. 73% avg. monthly traffic lift, 99% yearly organic growth. Browse SeoFX case studies & client wins."
+        description="See real SEO results from Sri Lankan brands. Explore the PorKenDeli restaurant project and its SEO work. Browse SeoFX case studies & client wins."
         canonical="/case-studies"
         keywords="seo case studies sri lanka, seo results sri lanka, seo success stories sri lanka, sri lanka seo portfolio, seo company sri lanka, best seo company sri lanka, proven seo results sri lanka"
         ogImageAlt="SEO case studies from Sri Lankan brands — real ranking & traffic results by SeoFX"
@@ -69,8 +69,8 @@ const CaseStudies = () => {
               </div>
               <div>
                 <Award className="size-4 text-accent" />
-                <div className="mt-2 font-display text-sm font-bold">Alexa Rank ↑</div>
-                <div className="text-xs text-muted-foreground">Skyrocketed</div>
+                <div className="mt-2 font-display text-sm font-bold">Local visibility</div>
+                <div className="text-xs text-muted-foreground">Profile and website improvements</div>
               </div>
               <div>
                 <MapPin className="size-4 text-accent" />

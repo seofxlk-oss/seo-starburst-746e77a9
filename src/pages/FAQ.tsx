@@ -60,7 +60,7 @@ const FAQ = () => {
         <div className="mx-auto max-w-4xl text-center">
           <span className="badge-pill">FAQ</span>
           <h1 className="mt-4 font-display text-3xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
-            SEO Questions Answered by Sri Lanka's <span className="text-gradient-accent">Leading SEO Experts</span>
+            SEO Questions Answered by Sri Lanka's <span className="text-gradient-accent">SeoFX SEO Specialists</span>
           </h1>
           <p className="mt-5 text-lg text-muted-foreground">
             Have questions about SEO services in Sri Lanka? You are not alone. Here are the most frequently asked

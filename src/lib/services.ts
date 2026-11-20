@@ -50,7 +50,7 @@ export const SERVICES: ServiceDetail[] = [
     ],
     seoTitle: "SEO Consulting Services in Sri Lanka | Expert SEO Consultant — SeoFX",
     seoDescription:
-      "Hire a leading SEO consultant in Sri Lanka. SeoFX delivers strategic SEO consulting that aligns Google rankings with real business growth. Free consultation.",
+      "Hire a SEO consultant in Sri Lanka. SeoFX delivers strategic SEO consulting that aligns Google rankings with real business growth. Free consultation.",
     keywords:
       "seo consulting sri lanka, seo consultant sri lanka, seo strategy sri lanka, seo expert sri lanka",
     hero: {
@@ -63,7 +63,7 @@ export const SERVICES: ServiceDetail[] = [
       heading: "What is SEO Consulting?",
       body: [
         "SEO consulting is the strategic foundation of every successful search marketing campaign. Instead of randomly publishing content or buying backlinks, an SEO consultant analyses your business, your market, and your competitors to design a clear plan to dominate Google Sri Lanka.",
-        "At SeoFX, our consultants have over a decade of experience helping Sri Lankan businesses — from local startups to established enterprises — turn organic search into their #1 source of qualified leads.",
+        "SeoFX helps businesses plan keywords, content and technical requirements around their target customers.",
       ],
     },
     whatWeDo: {
@@ -97,10 +97,10 @@ export const SERVICES: ServiceDetail[] = [
     whyUs: {
       heading: "Why Choose SeoFX as Your SEO Consultant",
       body:
-        "We've delivered #1 Google rankings for clients across Sri Lanka in industries from food delivery to manufacturing, finance and B2B services. We don't sell rankings — we sell growth.",
+        "We agree SEO priorities around your website and business goals, then report on the work and progress.",
     },
     faqs: [
-      { q: "How much does SEO consulting cost in Sri Lanka?", a: "Our SEO consulting starts from LKR 35,000/month. We also offer one-off strategy projects." },
+      { q: "How much does SEO consulting cost in Sri Lanka?", a: "SEO Consultation from LKR 50,000 (includes on-page SEO recommendations). All other services: custom quote after a free analysis." },
       { q: "How long until I see SEO results?", a: "Most Sri Lankan businesses see early movement in 60–90 days and strong results within 4–6 months." },
       { q: "Do you offer a free SEO consultation?", a: "Yes — every new client receives a 30-minute free SEO consultation with a senior consultant." },
     ],
@@ -272,7 +272,7 @@ export const SERVICES: ServiceDetail[] = [
       eyebrow: "On-Page SEO",
       h1: "On-Page SEO Services in Sri Lanka — Make Every Page a Ranking Machine",
       intro:
-        "On-page SEO is the foundation of high Google rankings. Our team optimises every element of your website so Google instantly understands what to rank you for.",
+        "On-page SEO is the foundation of high Google rankings. Our team optimises every element of your website so Google after review understands what to rank you for.",
     },
     whatIs: {
       heading: "What is On-Page SEO?",
@@ -391,7 +391,7 @@ export const SERVICES: ServiceDetail[] = [
     faqs: [
       { q: "Are your backlinks safe?", a: "Yes. We use 100% white-hat manual outreach — no PBNs, no link farms." },
       { q: "How many links per month?", a: "Depends on your package. Typically 4–20 high-quality links per month." },
-      { q: "Do you guarantee links?", a: "We guarantee minimum link quantities and quality thresholds in every campaign." },
+      { q: "Do you guarantee links?", a: "Link outreach is scoped before starting. Publishers control placements, and neither a link quantity nor a ranking is promised." },
     ],
   },
   {
@@ -416,7 +416,7 @@ export const SERVICES: ServiceDetail[] = [
       eyebrow: "Link Building",
       h1: "Link Building Services in Sri Lanka — High-Authority Backlinks That Rank",
       intro:
-        "Backlinks remain the #1 ranking factor in Google's algorithm. SeoFX builds the kind of links Google rewards — and the kind that never get penalised.",
+        "Relevant editorial links can support discovery and authority. We avoid link schemes and focus on useful, relevant outreach.",
     },
     whatIs: {
       heading: "What is Link Building?",
@@ -461,7 +461,7 @@ export const SERVICES: ServiceDetail[] = [
     },
     faqs: [
       { q: "What's the minimum DR/DA you target?", a: "We typically target sites with DR 30+ and real organic traffic." },
-      { q: "How long do links stay live?", a: "All our placements are permanent — guaranteed for 12 months minimum." },
+      { q: "How long do links stay live?", a: "Publishers control their pages and may change or remove links. Any monitoring and follow-up arrangements are agreed in the scope." },
       { q: "Do you offer link building only?", a: "Yes — we offer link building as a standalone service or part of full SEO." },
     ],
   },

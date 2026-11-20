@@ -11,7 +11,7 @@ const Post10 = () => (
     category="SEO Guide"
     date="2025-01-12"
     readTime="9 min read"
-    cta="Ready to start your SEO journey? Talk to Sri Lanka's SEO experts at SeoFX for a free consultation today."
+    cta="Ready to start your SEO journey? Talk to Sri Lanka's SEO experts at SeoFX for a SEO consultation today."
     faqs={[
       {
         q: "What is SEO and how does it work in Sri Lanka?",

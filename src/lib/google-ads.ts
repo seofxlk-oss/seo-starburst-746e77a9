@@ -1,9 +1,10 @@
 export const GOOGLE_ADS = {
   path: "/google-ads-sri-lanka",
   title: "Google Ads Sri Lanka | PPC Management & Pricing | SeoFX",
-  description: "Google Ads Sri Lanka management from Rs. 45,000/month. Explore Search Ads, budgets, conversion tracking and Ads + SEO packages. Ad spend separate. Free strategy call.",
-  monthlyManagementFee: 45000,
+  description: "Google Ads management in Sri Lanka. Custom quote after a free analysis. Campaign planning, conversion tracking and reporting; ad spend paid directly to Google.",
+  monthlyManagementFee: null,
   bundlePrice: null,
+  pricing: "Custom quote after a free analysis",
   adSpendIncluded: false,
 };
 
@@ -12,8 +13,8 @@ export const SEARCH_BUDGET_LIMITS = { dailyMultiplier: 2, monthlyMultiplier: 30.
 
 export const GOOGLE_ADS_FAQS = [
   { q: "What is Google Ads Sri Lanka?", a: "Google Ads Sri Lanka refers to using Google's advertising platform to reach customers in Sri Lanka or overseas audiences relevant to a Sri Lankan business. Search campaigns show eligible sponsored ads for relevant searches. SeoFX manages keyword research, ads, budgets, tracking and ongoing optimisation." },
-  { q: "How much does Google Ads cost in Sri Lanka?", a: "There are two separate costs: your advertising spend paid to Google and your management fee paid to SeoFX. Search Ads Bridge costs Rs. 45,000 per month for management. Click prices depend on the live auction, competition, location, ad quality and bidding strategy; there is no universal Sri Lankan cost per click." },
-  { q: "What starting ad budget should I choose?", a: "Google does not prescribe one minimum budget for every advertiser. SeoFX uses Rs. 1,500–3,000 per day as an initial planning range where suitable, not a compulsory minimum or a guarantee. We review keyword forecasts, your service area, margins and lead targets before recommending a test budget. Management fees are separate." },
+  { q: "How much does Google Ads cost in Sri Lanka?", a: "There are two separate costs: your advertising spend paid to Google and your management fee paid to SeoFX. Management receives a custom quote after a free analysis. Click prices depend on the live auction, competition, location, ad quality and bidding strategy; there is no universal Sri Lankan cost per click." },
+  { q: "What starting ad budget should I choose?", a: "Google does not prescribe one minimum budget for every advertiser. Your test budget is recommended after analysing the market and your business goals. We review keyword forecasts, your service area, margins and lead targets before recommending a test budget. Management fees are separate." },
   { q: "Can Google spend more than my daily budget?", a: "Yes. For most campaigns, the average daily budget is not a hard daily cap. Google can charge up to twice that amount on a day, with a monthly spending limit of 30.4 times an unchanged average daily budget. Budget changes and some campaign types affect how limits apply. We monitor pacing and explain limits before launch." },
   { q: "Can you guarantee number one on Google?", a: "No. Paid placements depend on Google's auction and eligibility, and organic rankings depend on separate search systems. A larger budget alone does not guarantee the first ad position. We improve relevance, targeting, landing pages and measurement rather than promise a fixed ranking or guaranteed sales." },
   { q: "How soon can a Google Ads campaign start bringing enquiries?", a: "Eligible ads can begin serving after Google approves them and billing, tracking and campaign settings are ready. Approval or policy reviews can delay launch. Enquiries depend on demand and your offer; allow several weeks of data and optimisation to assess lead quality and cost rather than treating launch as a profitability guarantee." },
@@ -27,7 +28,7 @@ export const GOOGLE_ADS_FAQS = [
 ];
 
 export const GOOGLE_ADS_PACKAGE_FAQS = [
-  { q: "What is included in Search Ads Bridge?", a: "Search Ads Bridge includes Google Search campaign setup, Sri Lanka keyword and competitor research, ad copy testing, negative keyword management, weekly bid and budget optimisation, conversion tracking setup, monthly reporting and a landing page audit with recommendations. Management is Rs. 45,000 per month; advertising spend is paid separately to Google." },
+  { q: "What is included in Search Ads Bridge?", a: "Search Ads Bridge includes Google Search campaign setup, Sri Lanka keyword and competitor research, ad copy testing, negative keyword management, weekly bid and budget optimisation, conversion tracking setup, monthly reporting and a landing page audit with recommendations. Management receives a custom quote after a free analysis; advertising spend is paid separately to Google." },
   { q: "What does Ads Now + SEO for Life include?", a: "The bundle combines Search Ads Bridge with a separately scoped SEO campaign and combined progress reporting. We review paid and organic performance together and test whether reducing spend on overlapping searches makes business sense. The package name is not a promise of lifetime rankings, permanent free traffic or guaranteed monthly savings." },
   { q: "Is there a fixed price for Ads Now + SEO for Life?", a: "No fixed bundle price is published. Ads management and SEO scope are quoted for your website, goals and competitive market. Your Google advertising spend remains separate. Request a tailored quote to confirm deliverables and fees before starting." },
   { q: "Can I start with Search Ads Bridge and add SEO later?", a: "Yes. You can begin with managed Search Ads and discuss adding SEO when you are ready. We agree the new scope and fees, establish organic performance baselines and review results together before changing paid budgets." },

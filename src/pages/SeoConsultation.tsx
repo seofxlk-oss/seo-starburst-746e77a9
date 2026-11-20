@@ -120,7 +120,7 @@ const MISTAKES = [
     n: "07",
     title: "No Local SEO Setup",
     body:
-      "A Colombo restaurant or salon built without Google Business Profile integration, local schema, or location-specific pages. Invisible in \"near me\" searches — where 80% of local buyers start.",
+      "A Colombo restaurant or salon built without Google Business Profile integration, local schema, or location-specific pages. Invisible in \"near me\" searches — where people look for nearby services.",
     cost: "Fix cost: Months rebuilding local authority",
   },
   {
@@ -212,15 +212,6 @@ const PROCESS = [
   },
 ];
 
-const STATS = [
-  { num: "5×", label: "More expensive to fix SEO after launch", ctx: "vs. planning correctly before building" },
-  { num: "68%", label: "Of all online experiences start with a search engine", ctx: "Google is where your customers begin" },
-  { num: "6–12", label: "Months lost when you rebuild after launch", ctx: "Google takes time to re-index changed sites" },
-  { num: "92%", label: "Of searchers never go past page 1", ctx: "If you don't rank on page 1, you don't exist" },
-  { num: "#1", label: "Position gets 27% of all clicks", ctx: "Position 2 gets 15%. Position 3 gets 11%." },
-  { num: "Rs.0", label: "Cost per organic visit once you rank", ctx: "Unlike paid ads that stop when you stop paying" },
-];
-
 const FAQS = [
   {
     q: "My web developer says they handle SEO. Isn't that enough?",
@@ -235,8 +226,8 @@ const FAQS = [
     a: "No — it is never too late. If your site is already live, we deliver an SEO audit and strategy session that functions as a consultation. We identify what needs to change, prioritise fixes by impact, and give your team a clear remediation roadmap. Many clients come to us after realising their site gets no organic traffic despite being live for months or years. The consultation pays for itself within the first improvement cycle.",
   },
   {
-    q: "What does Rs. 50,000 actually include?",
-    a: "The Rs. 50,000 package includes: a full keyword research report for your industry and target market, a site structure and URL blueprint your developer follows, a competitor gap analysis of your top 3–5 rivals, a content roadmap and page brief for every core page, a technical SEO specification document for your developer, a local or international targeting strategy depending on your market, a 60-day post-launch action plan, and a 2-hour live strategy session with your SeoFX specialist. Everything is delivered as written documents your team keeps and uses.",
+    q: "What does the SEO consultation include?",
+    a: "SEO Consultation from LKR 50,000 (includes on-page SEO recommendations). All other services: custom quote after a free analysis.",
   },
   {
     q: "We are a marketing agency. How does this work with our client projects?",
@@ -280,7 +271,7 @@ const SeoConsultation = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Consultant Sri Lanka – #1 SEO Consulting Services & Strategy"
+        title="SEO Consultant Sri Lanka – SEO Consulting Services & Strategy"
         description="SEO consultant Sri Lanka offering SEO consulting services, audits, keyword research & ranking strategies to grow your business online. Get started today."
         canonical="/seo-consultant-sri-lanka"
         keywords="SEO consultant Sri Lanka, SEO consulting services Sri Lanka, SEO consultation Sri Lanka, SEO strategy Sri Lanka, SEO audit Sri Lanka, keyword research Sri Lanka, SEO before website, website SEO planning"
@@ -311,7 +302,7 @@ const SeoConsultation = () => {
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <Button asChild variant="hero" size="lg">
-              <a href="#package">See the Rs. 50,000 Consultation Package</a>
+              <a href="#package">SEO Consultation from LKR 50,000</a>
             </Button>
             <Button asChild variant="outline" size="lg">
               <a href="#who">Is This For You? ↓</a>
@@ -332,7 +323,7 @@ const SeoConsultation = () => {
               <span className="text-muted-foreground">What clients search before they find us</span>
             </div>
             <h2 className="mt-5 font-display text-2xl font-extrabold leading-tight text-foreground sm:text-3xl md:text-4xl">
-              Ranking #1 for{" "}
+              Planning your search strategy for{" "}
               <span className="text-gradient-accent">SEO Consultant Sri Lanka</span>
             </h2>
             <p className="mt-3 text-sm text-muted-foreground sm:text-base">
@@ -394,25 +385,17 @@ const SeoConsultation = () => {
                     <div className="text-muted-foreground">https://seofx.lk › seo-consultant-sri-lanka</div>
                   </div>
                   <span className="ml-auto inline-flex items-center gap-1 rounded-full bg-google-green/10 px-2 py-0.5 text-[10px] font-bold text-google-green">
-                    <TrendingUp className="size-3" /> #1
+                    <TrendingUp className="size-3" /> SEO planning
                   </span>
                 </div>
                 <h3 className="mt-2 text-base font-bold leading-snug text-google-blue">
-                  SEO Consultant Sri Lanka — #1 SEO Consulting Services & Strategy | SeoFX
+                  SEO Consultant Sri Lanka — SEO Consulting Services & Strategy | SeoFX
                 </h3>
                 <p className="mt-1 line-clamp-2 text-xs text-muted-foreground">
                   SEO consultant Sri Lanka offering SEO consulting services, audits, keyword
                   research & ranking strategies to grow your business online. Get started today.
                 </p>
                 <div className="mt-2 flex items-center gap-3 text-[11px] text-muted-foreground">
-                  <span className="inline-flex items-center gap-1">
-                    <Star className="size-3 fill-google-yellow text-google-yellow" />
-                    <Star className="size-3 fill-google-yellow text-google-yellow" />
-                    <Star className="size-3 fill-google-yellow text-google-yellow" />
-                    <Star className="size-3 fill-google-yellow text-google-yellow" />
-                    <Star className="size-3 fill-google-yellow text-google-yellow" />
-                    <span className="ml-1 font-medium text-foreground">4.9</span>
-                  </span>
                   <span className="inline-flex items-center gap-1">
                     <MapPin className="size-3" /> Rajagiriya, Sri Lanka
                   </span>
@@ -729,11 +712,11 @@ const SeoConsultation = () => {
                     SEO Consultation Package
                   </p>
                   <div className="mt-2 flex items-start justify-center gap-1 font-display">
-                    <span className="mt-2 text-lg text-white/60">Rs.</span>
+                    <span className="mt-2 text-lg text-white/60">From LKR</span>
                     <span className="text-5xl font-bold leading-none">50,000</span>
                   </div>
                   <p className="mt-2 text-xs text-white/45">
-                    One-time fee. Delivered within 5–7 business days.
+                    Starting fee. Includes on-page SEO recommendations. Delivered within 5–7 business days.
                   </p>
                 </div>
                 <ul className="mt-5 space-y-2 text-sm text-white/80">
@@ -764,10 +747,7 @@ const SeoConsultation = () => {
                 </div>
                 <div className="mt-5 flex gap-2 rounded-xl border border-accent/20 bg-accent/10 p-3">
                   <Lock className="mt-0.5 size-4 shrink-0 text-accent" />
-                  <p className="text-xs leading-relaxed text-white/70">
-                    This consultation is the cheapest investment you will make. One missed keyword
-                    or wrong URL structure costs more to fix than Rs. 50,000 — guaranteed.
-                  </p>
+                  <p className="text-xs leading-relaxed text-white/70">We agree practical SEO priorities and deliverables before starting. Rankings and results vary; no fixed position or deadline is promised.</p>
                 </div>
               </div>
             </div>
@@ -811,32 +791,6 @@ const SeoConsultation = () => {
               </p>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* RESULTS / STATS */}
-      <section className="bg-background py-16 sm:py-20">
-        <div className="container-tight">
-          <p className="text-xs font-bold uppercase tracking-widest text-accent">Why It Matters</p>
-          <h2 className="mt-2 font-display text-3xl font-extrabold leading-tight text-foreground sm:text-4xl">
-            The Numbers That Make This a No-Brainer
-          </h2>
-          <p className="mt-3 max-w-2xl text-muted-foreground">
-            These are the realities of SEO in Sri Lanka that make upfront consultation the most
-            rational investment a business can make.
-          </p>
-
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {STATS.map((s) => (
-              <div key={s.label} className="rounded-2xl border border-border bg-muted/30 p-6 text-center">
-                <span className="block font-display text-4xl font-bold text-emerald-700 dark:text-emerald-400">
-                  {s.num}
-                </span>
-                <p className="mt-2 text-sm font-semibold text-foreground">{s.label}</p>
-                <p className="mt-1 text-xs text-muted-foreground">{s.ctx}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -955,7 +909,7 @@ const SeoConsultation = () => {
             after your consultation?
           </h2>
           <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-            SeoFX is Sri Lanka's leading{" "}
+            SeoFX is Sri Lankan{" "}
             <Link to="/" className="text-accent underline-offset-4 hover:underline">
               SEO Sri Lanka
             </Link>{" "}

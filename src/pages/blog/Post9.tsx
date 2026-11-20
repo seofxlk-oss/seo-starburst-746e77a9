@@ -27,7 +27,7 @@ const Post9 = () => (
       },
       {
         q: "How much should an SEO company in Sri Lanka cost per month?",
-        a: "Realistic SEO retainers in Sri Lanka range from around LKR 25,000 for starter campaigns to LKR 150,000+ per month for premium campaigns in highly competitive industries. The right benchmark is ROI per lead — not the headline price.",
+        a: "SEO Consultation from LKR 50,000 (includes on-page SEO recommendations). All other services: custom quote after a free analysis.",
       },
     ]}
   >

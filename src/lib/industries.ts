@@ -87,11 +87,11 @@ export const INDUSTRIES: Industry[] = [
     themeText: "text-amber-600",
     seoTitle: "Hotel SEO Sri Lanka — Direct Bookings & Local SEO | SeoFX",
     seoDescription:
-      "Hotel SEO services in Sri Lanka. Rank for 'hotels in Sri Lanka', win direct bookings, and stop losing 15–30% to OTAs. Free hotel SEO audit.",
+      "Hotel SEO services in Sri Lanka. Rank for 'hotels in Sri Lanka', win direct bookings, and build a direct booking channel. Free hotel SEO audit.",
     keywords:
       "hotel seo sri lanka, hotel seo company sri lanka, hospitality seo sri lanka, boutique hotel seo, resort seo sri lanka, hotel marketing sri lanka, direct booking seo, ota commission sri lanka",
     eyebrow: "🏨 Hotels & Hospitality SEO",
-    h1: "Hotel SEO in Sri Lanka — Get More Direct Bookings, Stop Losing 15–30% to OTAs",
+    h1: "Hotel SEO in Sri Lanka — Get More Direct Bookings, Build Your Direct Booking Channel",
     intro:
       "When someone searches \"hotels in Sri Lanka\" or \"beach resort Mirissa\", they're ready to book. SeoFX puts your hotel at the top of those searches — driving commission-free direct bookings from guests in UK, Germany, Australia, and beyond.",
     hubTagline:
@@ -261,7 +261,7 @@ export const INDUSTRIES: Industry[] = [
     hubTopKws: ["furniture shops Colombo", "solid wood furniture Sri Lanka", "sofa set price Sri Lanka"],
     stats: [
       { value: "8K+", label: "Monthly local searches" },
-      { value: "Local #1", label: "Our ranking target" },
+      { value: "Local visibility", label: "Our ranking target" },
       { value: "B2B", label: "Export buyer targeting" },
       { value: "5×", label: "More showroom enquiries" },
     ],
@@ -304,7 +304,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     servicesLabel: "SEO Services for Furniture Businesses",
     services: [
-      { emoji: "📍", title: "Local SEO & Google Maps", body: "Rank #1 in 'furniture shops near me' and Google Maps for Colombo, Kandy, and Galle — turning searchers into showroom visitors." },
+      { emoji: "📍", title: "Local SEO & Google Maps", body: "Improve visibility in 'furniture shops near me' and Google Maps for Colombo, Kandy, and Galle — turning searchers into showroom visitors." },
       { emoji: "🛋️", title: "Product Page Optimisation", body: "Every product and category page optimised with the exact keywords buyers use — sizes, materials, price ranges." },
       { emoji: "📸", title: "Visual & Image SEO", body: "Furniture is visual. We optimise every image so your products appear in Google Images and Shopping results." },
       { emoji: "🌍", title: "Export & B2B SEO", body: "Target international wholesale buyers searching for Sri Lankan wood furniture manufacturers and exporters." },
@@ -423,7 +423,7 @@ export const INDUSTRIES: Industry[] = [
       { value: "YMYL", label: "Specialist SEO strategy" },
       { value: "40K+", label: "Monthly health searches" },
       { value: "Trust", label: "Authority-first approach" },
-      { value: "Local #1", label: "Google Maps target" },
+      { value: "Local visibility", label: "Google Maps target" },
     ],
     intentTitle: "How Patients Search for Healthcare in Sri Lanka",
     intentSub: "Health SEO is about trust and precision. We target every stage of a patient's search.",
@@ -548,7 +548,7 @@ export const INDUSTRIES: Industry[] = [
       { emoji: "🗂️", title: "Category Page Optimisation", body: "Category pages are your highest-value SEO assets. We turn them into ranking machines that capture high-volume searches." },
       { emoji: "🔧", title: "Technical Ecommerce SEO", body: "Fix crawling issues, duplicate content, pagination problems, and site structure issues that hold ecommerce stores back." },
       { emoji: "✍️", title: "Buying Guide Content", body: "Rank for 'best [product] in Sri Lanka' style searches with authoritative buying guides that funnel traffic to your store." },
-      { emoji: "⭐", title: "Product Review Schema", body: "Display star ratings in Google results with product schema markup — proven to increase click-through rates by 30%+." },
+      { emoji: "⭐", title: "Product Review Schema", body: "Display star ratings in Google results with product schema markup — where eligible, without a promised click-through increase." },
       { emoji: "🌍", title: "International Ecommerce SEO", body: "Sell to Sri Lankan diaspora in UK, Australia, UAE and beyond with targeted international SEO strategies." },
     ],
     ctaTitle: "Let Google Do Your Marketing — For Free",
@@ -764,7 +764,7 @@ export const INDUSTRIES: Industry[] = [
     themeBadge: "bg-red-100 text-red-800 border-red-200",
     themeText: "text-red-600",
     seoTitle: "Restaurant SEO Sri Lanka — Local & Food Delivery SEO | SeoFX",
-    seoDescription: "Restaurant SEO Sri Lanka. Rank #1 in 'restaurants near me', Google Maps and food delivery searches. Free restaurant SEO audit from SeoFX.",
+    seoDescription: "Restaurant SEO Sri Lanka. Improve visibility in 'restaurants near me', Google Maps and food delivery searches. Free restaurant SEO audit from SeoFX.",
     keywords: "restaurant seo sri lanka, food delivery seo sri lanka, cafe seo colombo, google maps restaurant seo, local restaurant seo sri lanka",
     eyebrow: "🍽️ Restaurant & Food SEO",
     h1: "Hungry People in Sri Lanka Search Google Before They Decide Where to Eat. Be the Answer.",
@@ -773,7 +773,7 @@ export const INDUSTRIES: Industry[] = [
     keywordBoxTitle: "What Hungry People Search to Find Food in Sri Lanka",
     topKeywords: ["best restaurants Colombo", "restaurants near me Sri Lanka", "food delivery Colombo"],
     hubTopKws: ["best restaurants Colombo", "restaurants near me Sri Lanka", "food delivery Colombo"],
-    stats: [{ value: "30K+", label: "Monthly food searches" }, { value: "Daily", label: "Search intent" }, { value: "Maps #1", label: "Local ranking target" }, { value: "Repeat", label: "Customer capture" }],
+    stats: [{ value: "30K+", label: "Monthly food searches" }, { value: "Daily", label: "Search intent" }, { value: "Maps visibility", label: "Local ranking target" }, { value: "Repeat", label: "Customer capture" }],
     intentTitle: "How Diners Search for Restaurants in Sri Lanka",
     intentSub: "From casual browsing to \\\"I need food now\\\" — we target every moment of hunger.",
     intents: [
@@ -783,7 +783,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     servicesLabel: "SEO Services for Restaurants & Food Businesses",
     services: [
-      { emoji: "📍", title: "Google Maps & Local SEO", body: "Rank #1 in Google Maps when someone searches \\\"restaurants near me\\\". The single most important SEO action for any restaurant." },
+      { emoji: "📍", title: "Google Maps & Local SEO", body: "Improve visibility in Google Maps when someone searches \\\"restaurants near me\\\". The single most important SEO action for any restaurant." },
       { emoji: "🍜", title: "Menu & Cuisine Page SEO", body: "Optimise pages for your cuisine type — \\\"best biriyani Colombo\\\", \\\"seafood restaurant Galle\\\" — capture niche food searches." },
       { emoji: "⭐", title: "Review Schema & Star Ratings", body: "Implement structured data so your restaurant shows star ratings directly in Google results — dramatically increasing clicks." },
       { emoji: "📸", title: "Food Photography SEO", body: "Optimise food images for Google Images and Google Maps photos — visuals that convert searchers into diners." },
@@ -807,7 +807,7 @@ export const INDUSTRIES: Industry[] = [
     keywords: "salon seo sri lanka, beauty seo sri lanka, spa seo colombo, bridal salon seo, hair salon seo sri lanka, beauty parlour seo",
     eyebrow: "💆 Beauty & Salon SEO",
     h1: "When Someone Searches \\\"Salon Near Me\\\" in Colombo, Your Business Should Be First.",
-    intro: "Beauty is one of the strongest local SEO industries in Sri Lanka. Clients book based on Google searches, reviews, and photos. SeoFX makes sure your salon, spa, or beauty business is the first — and most trusted — result they see.",
+    intro: "Beauty is one of the strongest local SEO industries in Sri Lanka. Clients book based on Google searches, reviews, and photos. SeoFX helps your salon, spa or beauty business present accurate details and relevant services in local search.",
     hubTagline: "Be the salon, spa or bridal studio that ranks first for 'near me' searches in Sri Lanka.",
     keywordBoxTitle: "What Clients Search to Find Beauty Services in Sri Lanka",
     topKeywords: ["salon near me Sri Lanka", "hair salon Colombo", "bridal makeup Sri Lanka"],
@@ -822,10 +822,10 @@ export const INDUSTRIES: Industry[] = [
     ],
     servicesLabel: "SEO Services for Beauty & Salon Businesses",
     services: [
-      { emoji: "📍", title: "Local & Maps SEO", body: "Rank #1 in Google Maps for \\\"salon near me\\\" — the most common way beauty clients find new services in Sri Lanka." },
+      { emoji: "📍", title: "Local & Maps SEO", body: "Improve visibility in Google Maps for \\\"salon near me\\\" — the most common way beauty clients find new services in Sri Lanka." },
       { emoji: "💅", title: "Service Page Optimisation", body: "Individual pages for every service — hair, nails, skin, makeup, spa — each targeting the exact terms clients search." },
       { emoji: "📸", title: "Before & After Image SEO", body: "Optimise before-and-after photos to appear in Google Images — beauty's most powerful organic traffic driver." },
-      { emoji: "⭐", title: "Review Generation Strategy", body: "Systematic approach to earning 5-star Google reviews — the #1 ranking factor for local beauty businesses." },
+      { emoji: "⭐", title: "Review Generation Strategy", body: "Request genuine customer feedback without incentives or review gating." },
       { emoji: "💍", title: "Bridal Package SEO", body: "Dedicated bridal SEO targeting wedding-related beauty searches — highest value bookings in the beauty calendar." },
       { emoji: "✍️", title: "Beauty Blog & Tips Content", body: "Hair care, skin care, and trend articles that rank for informational searches and build your salon's digital authority." }
     ],
@@ -946,7 +946,7 @@ export const INDUSTRIES: Industry[] = [
       { emoji: "📍", title: "Local Finance SEO", body: "Rank in Google Maps for \\\"financial advisors near me\\\" and \\\"accounting firms Colombo\\\" — critical for consultation-based services." },
       { emoji: "⚡", title: "Technical SEO & Security", body: "HTTPS, page speed, and technical perfection — essential for financial sites where security is a key Google trust signal." }
     ],
-    ctaTitle: "Become the Most Trusted Financial Brand in Sri Lanka Search",
+    ctaTitle: "Improve Your Financial Services Search Visibility",
     ctaBody: "Free SEO audit for banks, insurers, financial advisors, and accounting firms. Discover the high-value financial keywords you're missing.",
     ctaButton: "Free Finance SEO Audit",
   },

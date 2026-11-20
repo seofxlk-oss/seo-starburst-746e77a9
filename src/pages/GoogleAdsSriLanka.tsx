@@ -61,7 +61,7 @@ const PACKAGES = [
   {
     name: "Search Ads Bridge",
     tagline: "Reach relevant searches with managed Search campaigns while your SEO develops.",
-    price: `Rs. ${PAGE.monthlyManagementFee.toLocaleString("en-LK")}`,
+    price: null,
     period: "/ month",
     note: "Management fee only. Ad spend paid separately to Google — you choose an average daily budget and review spending limits.",
     features: [
@@ -108,7 +108,7 @@ const GoogleAdsSriLanka = () => {
     url: pageUrl,
     serviceType: "Google Ads Management & PPC",
     offers: [
-      { name: "Search Ads Bridge — Google Ads Sri Lanka", url: pageUrl, price: String(PAGE.monthlyManagementFee), priceCurrency: "LKR", description: "Google Search Ads campaign setup, Sri Lanka keyword research, ad copy A/B testing, weekly bid & budget optimisation, conversion tracking, monthly reporting and landing page audit. Ad spend paid separately to Google." },
+      { name: "Search Ads Bridge — Google Ads Sri Lanka", url: pageUrl, description: "Google Search Ads campaign setup, Sri Lanka keyword research, ad copy A/B testing, weekly bid & budget optimisation, conversion tracking, monthly reporting and landing page audit. Ad spend paid separately to Google." },
       { name: "Ads Now + SEO for Life — Google Ads + SEO Bundle", url: pageUrl, description: "Search Ads management and a separately scoped SEO campaign with combined reporting. Paid budgets reviewed against total outcomes. Bundle pricing on request." },
     ],
   });
@@ -134,7 +134,7 @@ const GoogleAdsSriLanka = () => {
             <span className="badge-pill tracking-normal"><Target className="size-3.5" /> Search campaigns · PPC management</span>
             <h1 className="mt-5 font-display text-3xl font-extrabold leading-tight sm:text-5xl md:text-6xl">Google Ads Sri Lanka</h1>
             <p className="mt-5 text-xl font-semibold">Reach the right searches. Measure what becomes a customer.</p>
-            <p className="mx-auto mt-4 max-w-2xl leading-relaxed text-muted-foreground sm:text-lg">SeoFX plans and manages Google Search Ads for Sri Lankan businesses, with local keyword research, conversion tracking and weekly optimisation. Management from Rs. {PAGE.monthlyManagementFee.toLocaleString("en-LK")} per month; Google advertising spend is separate.</p>
+            <p className="mx-auto mt-4 max-w-2xl leading-relaxed text-muted-foreground sm:text-lg">SeoFX plans and manages Google Search Ads for Sri Lankan businesses, with local keyword research, conversion tracking and weekly optimisation. Custom quote after a free analysis; Google advertising spend is separate.</p>
             <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
               <Button asChild variant="hero" size="lg"><Link to="/contact-us">Book a Free Strategy Call <ArrowRight className="ml-2 size-4" /></Link></Button>
               <Button asChild variant="outline" size="lg"><a href="#packages">Explore Ads Packages</a></Button>
@@ -242,7 +242,7 @@ const GoogleAdsSriLanka = () => {
         <div className="container-tight max-w-4xl">
           <span className="text-sm font-semibold text-accent">Budget and measurement</span>
           <h2 className="mt-3 font-display text-2xl font-bold sm:text-3xl">How much does Google Ads cost in Sri Lanka?</h2>
-          <p className="mt-5 leading-relaxed text-muted-foreground">Separate the two costs: SeoFX’s Search Ads Bridge management fee is Rs. {PAGE.monthlyManagementFee.toLocaleString("en-LK")} per month, while your advertising spend is paid directly to Google. Click prices are set by a live auction, not a fixed Sri Lankan rate card.</p>
+          <p className="mt-5 leading-relaxed text-muted-foreground">Separate the two costs: SeoFX’s Search Ads Bridge management receives a custom quote after a free analysis, while your advertising spend is paid directly to Google. Click prices are set by a live auction, not a fixed Sri Lankan rate card.</p>
           <div className="mt-8 grid gap-8 sm:grid-cols-2">
             <div className="border-t border-border pt-5"><h3 className="font-display text-lg font-bold">Build a budget from your economics</h3><p className="mt-3 leading-relaxed text-muted-foreground">Review keyword forecasts for your target location, your profit per sale and how many enquiries become customers. Start with a test budget that can gather useful data without exceeding what your business can afford. A click is not a sale.</p><p className="mt-3 text-sm text-muted-foreground">For example, a business earning Rs. 10,000 gross profit per customer and closing one in five qualified leads has Rs. 2,000 gross profit per lead before advertising, management and other costs. Your actual figures should determine an acceptable acquisition cost.</p></div>
             <div className="border-t border-border pt-5"><h3 className="font-display text-lg font-bold">An average daily budget is not a daily cap</h3><p className="mt-3 leading-relaxed text-muted-foreground">For most campaigns, Google can charge up to {SEARCH_BUDGET_LIMITS.dailyMultiplier} times the average daily budget on a day. With an unchanged budget, the monthly spending limit is {SEARCH_BUDGET_LIMITS.monthlyMultiplier} times that daily average. An average of Rs. 3,000 means up to Rs. {(3000 * SEARCH_BUDGET_LIMITS.dailyMultiplier).toLocaleString("en-LK")} on a day and Rs. {(3000 * SEARCH_BUDGET_LIMITS.monthlyMultiplier).toLocaleString("en-LK")} in a month. Budget changes and some campaign types have different rules.</p><a href="https://support.google.com/google-ads/answer/1704443?hl=en" className="mt-3 inline-block text-sm text-accent underline underline-offset-4" target="_blank" rel="noopener noreferrer">Google’s official budget and overdelivery guidance</a></div>
@@ -319,7 +319,7 @@ const GoogleAdsSriLanka = () => {
                       <span className="ml-1 text-sm font-normal text-muted-foreground">{p.period}</span>
                     </div>
                   ) : (
-                    <div className="text-2xl font-extrabold text-foreground">Custom Quote</div>
+                    <div className="text-xl font-bold text-foreground">Custom quote after a free analysis</div>
                   )}
                   <p className="mt-2 text-xs leading-relaxed text-muted-foreground">{p.note}</p>
                 </div>

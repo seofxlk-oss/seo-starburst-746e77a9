@@ -60,7 +60,7 @@ export const ConsultationSection = ({
   priceLkr = 50000,
   emitFaqSchema = true,
 }: ConsultationSectionProps) => {
-  const formattedPrice = `LKR ${priceLkr.toLocaleString("en-LK")}`;
+  const formattedPrice = `From LKR ${priceLkr.toLocaleString("en-LK")}`;
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -139,7 +139,7 @@ export const ConsultationSection = ({
             className="mt-4 font-display text-3xl font-extrabold leading-tight sm:text-4xl md:text-5xl"
           >
             Book a 1-on-1 SEO Consultation Session with{" "}
-            <span className="text-gradient-google">Sri Lanka's Leading SEO Specialists</span>
+            <span className="text-gradient-google">SeoFX SEO Specialists</span>
           </h2>
           <p className="mt-4 font-display text-lg font-semibold text-foreground sm:text-xl">
             One session. Real answers. A clear roadmap to grow your business on Google.
@@ -205,7 +205,7 @@ export const ConsultationSection = ({
             <div className="flex items-start justify-between gap-3">
               <div>
                 <span className="badge-pill">
-                  <Sparkles className="size-3.5" /> Limited Slots
+                  <Sparkles className="size-3.5" /> SEO Planning
                 </span>
                 <h3 className="mt-3 font-display text-2xl font-extrabold sm:text-3xl">
                   SEO Consultation Session
@@ -235,7 +235,7 @@ export const ConsultationSection = ({
                 <FileText className="size-4 shrink-0 text-google-red" />
                 <div>
                   <dt className="inline font-semibold text-foreground">Deliverable: </dt>
-                  <dd className="inline text-muted-foreground">Written SEO Roadmap</dd>
+                  <dd className="inline text-muted-foreground">Written SEO roadmap with on-page SEO recommendations</dd>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -259,7 +259,7 @@ export const ConsultationSection = ({
             </div>
 
             <p className="mt-3 text-center text-xs text-muted-foreground">
-              Limited sessions available each month. Secure your slot today.
+              Scope and availability are confirmed before booking.
             </p>
           </Link>
         </div>

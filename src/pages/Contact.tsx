@@ -16,7 +16,7 @@ const Contact = () => {
     <Layout>
       <SEO
         title="Contact SeoFX — Free SEO Audit Sri Lanka | Call Us"
-        description="Talk to Sri Lanka's #1 SEO company. Get a free SEO audit, instant quote or book a consultation. Call +94 777 797 035 or WhatsApp us — reply in minutes."
+        description="Talk to SEO company in Sri Lanka. Get a free SEO audit, service quote or book a consultation. Call +94 777 797 035 or WhatsApp us — contact options available."
         canonical="/contact-us"
         keywords="contact seo company sri lanka, free seo audit sri lanka, seo consultation sri lanka, seo quote sri lanka, seo agency contact sri lanka, seo colombo contact, whatsapp seo sri lanka"
         ogImageAlt="Contact SeoFX — Free SEO audit & consultation in Sri Lanka"
@@ -28,7 +28,7 @@ const Contact = () => {
             type: "ContactPage",
             name: "Contact SeoFX — SEO Company Sri Lanka",
             description:
-              "Contact SeoFX, Sri Lanka's leading SEO company. Get a free SEO audit, request SEO pricing or book a consultation by phone, WhatsApp or email.",
+              "Contact SeoFX, SEO company in Sri Lanka. Get a free SEO audit, request SEO pricing or book a consultation by phone, WhatsApp or email.",
             url: "https://seofx.lk/contact-us",
           }),
         ]}
@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="mx-auto max-w-4xl text-center">
           <span className="badge-pill">Contact Us</span>
           <h1 className="mt-4 font-display text-3xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
-            Contact Sri Lanka's <span className="text-gradient-accent">Best SEO Company</span> — Get a Free Website Audit Today
+            Contact <span className="text-gradient-accent">SeoFX</span> — Get a Free Website Audit Today
           </h1>
           <p className="mt-5 text-lg text-muted-foreground">
             Ready to take your business to the top of Google? Whether you want a free SEO audit, a pricing quote for

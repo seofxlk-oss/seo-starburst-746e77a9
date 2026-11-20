@@ -2,8 +2,8 @@ import { describe, expect, it } from "vitest";
 import { GOOGLE_ADS, SEARCH_BUDGET_LIMITS } from "../lib/google-ads";
 
 describe("Google Ads Sri Lanka offer terms", () => {
-  it("keeps Search Ads Bridge management at Rs. 45,000/month", () => {
-    expect(GOOGLE_ADS.monthlyManagementFee).toBe(45000);
+  it("does not publish a fixed Search Ads management fee", () => {
+    expect(GOOGLE_ADS.monthlyManagementFee).toBeNull();
   });
   it("does not publish a fixed Ads Now + SEO for Life price", () => {
     expect(GOOGLE_ADS.bundlePrice).toBeNull();

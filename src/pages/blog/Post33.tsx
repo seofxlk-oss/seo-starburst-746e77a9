@@ -22,7 +22,7 @@ const Post33 = () => (
     <p>That is precisely why <GA>Google Ads Sri Lanka</GA> has become one of the most powerful growth levers available to local businesses. Unlike SEO, which takes months to produce results, a well-structured Google Ads campaign can put your brand at the top of search results from day one.</p>
 
     <h2>The Sri Lankan Digital Landscape in 2025</h2>
-    <p>Internet penetration in Sri Lanka has crossed 50%, with mobile usage being the dominant driver. Millions of users conduct product and service searches daily. Industries such as e-commerce, real estate, education, healthcare, and hospitality are seeing fierce online competition. Businesses that harness paid search advertising are winning market share from those that rely on word of mouth alone.</p>
+    <p>Mobile usability is important for customers researching products and services online. Millions of users conduct product and service searches daily. Industries such as e-commerce, real estate, education, healthcare, and hospitality are seeing fierce online competition. Businesses that harness paid search advertising are winning market share from those that rely on word of mouth alone.</p>
 
     <h2>What Makes Google Ads Unique?</h2>
     <p><strong>Intent-based targeting:</strong> You reach people actively searching for what you sell — not just scrolling past an ad.</p>

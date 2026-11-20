@@ -15,7 +15,7 @@ const Post14 = () => (
     faqs={[
       {
         q: "What is the average SEO price in Sri Lanka?",
-        a: "The average SEO price in Sri Lanka ranges from around LKR 25,000 per month for starter campaigns to LKR 150,000+ per month for premium campaigns in competitive industries. Pricing depends on scope, keyword competitiveness and execution quality.",
+        a: "SEO Consultation from LKR 50,000 (includes on-page SEO recommendations). All other services: custom quote after a free analysis.",
       },
       {
         q: "Why is SEO price in Sri Lanka so different between agencies?",

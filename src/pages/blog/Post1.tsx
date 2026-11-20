@@ -11,7 +11,7 @@ const Post1 = () => (
     category="SEO Strategy"
     date="2024-10-15"
     readTime="6 min read"
-    cta="Ready to turn your website into a lead generation machine? Contact SeoFX — the best SEO company in Sri Lanka — for a free consultation today."
+    cta="Ready to turn your website into a lead generation machine? Contact SeoFX — an SEO company in Sri Lanka — for a SEO consultation today."
   >
     <p>Are you spending thousands of rupees every month on Google Ads or Facebook Ads, only to see leads dry up the moment you stop paying? You are not alone. This is the single most common frustration we hear from Sri Lankan business owners — and partnering with a results-driven <Link to="/" className="text-accent underline-offset-4 hover:underline">SEO company in Sri Lanka</Link> is the answer.</p>
     <h2>The Problem with Paid Ads for Sri Lankan Businesses</h2>

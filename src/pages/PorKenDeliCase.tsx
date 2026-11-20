@@ -8,8 +8,8 @@ const PorKenDeliCase = () => {
   return (
     <Layout>
       <SEO
-        title="PorKenDeli SEO Case Study | Best SEO Company Sri Lanka | SeoFX"
-        description="See how SeoFX helped PorKenDeli.lk skyrocket their organic traffic and Alexa Rank. A real SEO success story from Sri Lanka's best SEO company."
+        title="PorKenDeli Restaurant SEO Case Study | SeoFX"
+        description="See how SeoFX helped PorKenDeli.lk improve their organic visibility. A real SEO success story from Sri Lanka's best SEO company."
         canonical="/case-studies/porkendeli-seo-case-study"
         keywords="seo case study sri lanka, restaurant seo sri lanka, local seo sri lanka, seo company sri lanka"
         jsonLd={{
@@ -86,12 +86,7 @@ const PorKenDeliCase = () => {
           </ul>
 
           <h2 className="font-display text-2xl font-bold text-foreground">The Results</h2>
-          <p>
-            The impact was swift and dramatic. PorKen Deli's organic traffic increased considerably within a short
-            time frame, and their Alexa Rank skyrocketed. They began attracting both national and international
-            customers — transforming from a hidden gem to one of the most visible pork restaurants in the Colombo
-            area on Google.
-          </p>
+          <p>Organic traffic and online orders improved during the engagement. The work focused on restaurant search terms, on-page content and local visibility. Detailed numeric performance figures are not published here.</p>
           <p>
             Their restaurant became a busy destination for pork-lovers across Sri Lanka, and their online orders grew
             significantly as a direct result of the SEO investment.
@@ -99,14 +94,14 @@ const PorKenDeliCase = () => {
 
           <h2 className="font-display text-2xl font-bold text-foreground">Key Takeaway</h2>
           <p>
-            SEO results only get better with time. PorKen Deli's growth continues month after month — because organic
+            SEO results can change with competition and search updates. Organic
             SEO is a long-term asset, not a one-time fix. This is the difference between paying for leads every day
             and building a website that generates leads on its own.
           </p>
         </div>
       </article>
 
-      <CTASection title="Want results like PorKenDeli?" subtitle="Get a free SEO audit and roadmap from Sri Lanka's #1 SEO team." />
+      <CTASection title="Want results like PorKenDeli?" subtitle="Get a free SEO audit and roadmap from SeoFX SEO team." />
     </Layout>
   );
 };

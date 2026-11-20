@@ -33,7 +33,7 @@ const Post7 = () => (
   >
     <h2>The Growing Landscape of SEO Companies in Sri Lanka</h2>
     <p>The number of SEO companies in Sri Lanka has grown significantly in recent years — and for good reason. Sri Lankan businesses are waking up to the power of organic search to generate leads, drive sales, and reduce reliance on expensive paid advertising. But as the market grows, so does the variation in quality.</p>
-    <p>This article breaks down what the top SEO companies in Sri Lanka do differently — and how to identify the ones that will truly deliver for your business. If you want to skip the research, work with a <Link to="/" className="text-accent underline-offset-4 hover:underline">leading SEO company in Sri Lanka</Link> that delivers consistent, measurable results.</p>
+    <p>This article breaks down what the top SEO companies in Sri Lanka do differently — and how to identify the ones that will truly deliver for your business. If you want to skip the research, work with a <Link to="/" className="text-accent underline-offset-4 hover:underline">SEO company in Sri Lanka</Link> that delivers consistent, measurable results.</p>
 
     <h2>What Separates Great SEO Companies from Average Ones</h2>
     <p>The best SEO companies in Sri Lanka share several defining characteristics that set them apart from the dozens of agencies that simply take your money without delivering results.</p>

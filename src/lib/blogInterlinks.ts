@@ -78,7 +78,7 @@ export const BLOG_INTERLINKS: Record<string, PostInterlinks> = {
   "best-seo-company-sri-lanka-guide": {
     related: [
       {
-        anchor: "7 reasons SeoFX is the best SEO company in Sri Lanka",
+        anchor: "7 reasons SeoFX provides SEO services in Sri Lanka",
         slug: "why-seofx-best-seo-company-in-sri-lanka",
         blurb: "The seven traits that define a truly best-in-class SEO partner.",
       },
@@ -94,7 +94,7 @@ export const BLOG_INTERLINKS: Record<string, PostInterlinks> = {
       },
     ],
     next: {
-      anchor: "7 reasons SeoFX is the best SEO company in Sri Lanka",
+      anchor: "7 reasons SeoFX provides SEO services in Sri Lanka",
       slug: "why-seofx-best-seo-company-in-sri-lanka",
       blurb: "See what 'best' looks like in practice — with real Sri Lankan client outcomes.",
     },
