@@ -14,3 +14,4 @@
 - Keep AI SEO & GEO page terms and FAQs in its shared data module so the page, schema and tests agree.
 - Verify deployments with `npm run check:live [baseUrl]`; it checks key routes for redirect loops, unique titles, one H1 and the sitemap against the live site.
 - Blog 'link back' guides live in the related-guides data module and render in the shared layout by page path, so money pages and posts link to new guides without editing each page.
+- Blog posts show a 'Short answer' box from the quick-answers data module keyed by slug, so answers are edited in one place.

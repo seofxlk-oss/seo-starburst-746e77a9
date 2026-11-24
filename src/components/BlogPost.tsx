@@ -8,6 +8,7 @@ import { CTASection } from "@/components/CTASection";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { SITE } from "@/lib/site";
 import { BLOG_INTERLINKS } from "@/lib/blogInterlinks";
+import { BLOG_QUICK_ANSWERS } from "@/lib/blog-quick-answers";
 
 export interface BlogFAQ {
   q: string;
@@ -137,6 +138,12 @@ export const BlogPost = ({
           <span>· By SeoFX Editorial Team</span>
         </div>
 
+        {BLOG_QUICK_ANSWERS[slug] && (
+          <aside className="mt-10 rounded-2xl border border-border bg-soft p-6" aria-label="Short answer">
+            <p className="text-sm font-bold uppercase tracking-wide text-foreground">Short answer</p>
+            <p className="mt-2 text-base leading-relaxed text-foreground">{BLOG_QUICK_ANSWERS[slug]}</p>
+          </aside>
+        )}
         <div className="prose-content mt-10 space-y-5 text-base leading-relaxed text-muted-foreground
                        [&>h2]:font-display [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-foreground [&>h2]:mt-10
                        [&>h3]:font-display [&>h3]:text-xl [&>h3]:font-bold [&>h3]:text-foreground [&>h3]:mt-8
