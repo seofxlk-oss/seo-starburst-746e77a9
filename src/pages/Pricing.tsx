@@ -125,8 +125,8 @@ const Pricing = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Packages & Prices in Sri Lanka | SeoFX"
-        description="SEO consultation from LKR 50,000 with on-page SEO recommendations. Monthly SEO, audits and other services are custom-quoted after a free analysis."
+        title="SEO Packages Sri Lanka | SEO Price & Plans | SeoFX"
+        description="Compare SEO packages in Sri Lanka and see what affects SEO price. Consultation from LKR 50,000; monthly SEO is custom-quoted after a free analysis."
         canonical="/seo-packages-sri-lanka"
         keywords="seo packages sri lanka, seo price sri lanka, seo packages in sri lanka, seo price in sri lanka, seo cost sri lanka, affordable seo sri lanka, cheap seo sri lanka, monthly seo sri lanka, seo plans sri lanka, seo company sri lanka"
         ogImageAlt="SEO packages in Sri Lanka by SeoFX"

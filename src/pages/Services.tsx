@@ -166,8 +166,8 @@ const Services = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Services in Sri Lanka | SeoFX"
-        description="SEO services in Sri Lanka from SeoFX: audits, keyword research, on-page, technical, link building, local and ecommerce SEO. Free SEO audit."
+        title="SEO Services in Sri Lanka | Audit, On-Page & Local SEO | SeoFX"
+        description="Professional SEO services in Sri Lanka: audits, keyword research, on-page, link building, Google Maps and AI search SEO. Custom quote after free analysis."
         canonical="/services"
         keywords="seo service sri lanka, seo services sri lanka, best seo service sri lanka, seo company sri lanka, technical seo sri lanka, on page seo sri lanka, off page seo sri lanka, local seo sri lanka, ecommerce seo sri lanka, link building sri lanka, seo service price sri lanka"
         ogImageAlt="SEO services in Sri Lanka by SeoFX"

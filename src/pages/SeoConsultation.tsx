@@ -283,8 +283,8 @@ const SeoConsultation = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Consultant Sri Lanka – 1-on-1 SEO Consultation | SeoFX"
-        description="SEO consultant Sri Lanka offering SEO consulting services, audits, keyword research & ranking strategies to grow your business online. Get started today."
+        title="SEO Consultant Sri Lanka | SEO Consulting from LKR 50,000"
+        description="Book an SEO consultant in Sri Lanka for a 1-on-1 SEO consulting session: site review, keyword direction and a written roadmap. From LKR 50,000."
         canonical="/seo-consultant-sri-lanka"
         keywords="SEO consultant Sri Lanka, SEO consulting services Sri Lanka, SEO consultation Sri Lanka, SEO strategy Sri Lanka, SEO audit Sri Lanka, keyword research Sri Lanka, SEO before website, website SEO planning"
         jsonLd={[orgSchema(), websiteSchema(), serviceSchema, faqJsonLd]}

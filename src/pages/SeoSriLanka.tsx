@@ -355,8 +355,8 @@ const SeoSriLanka = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Sri Lanka | Professional SEO Services for Businesses"
-        description="Looking for SEO Sri Lanka services? We provide expert SEO solutions to improve Google rankings, increase traffic, and grow your business online."
+        title="SEO Sri Lanka | Search Engine Optimization Services | SeoFX"
+        description="SEO Sri Lanka explained: how search engine optimization works for local businesses, costs, timelines and where to start. Get a free SEO audit from SeoFX."
         canonical="/seo-sri-lanka"
         keywords="seo sri lanka, seo company sri lanka, seo specialist sri lanka, seo services sri lanka, search engine optimisation sri lanka, google ranking sri lanka, local seo sri lanka"
         ogImageAlt="SEO Sri Lanka — Professional SEO services by SeoFX"

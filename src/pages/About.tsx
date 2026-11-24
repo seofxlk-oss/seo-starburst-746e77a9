@@ -249,8 +249,8 @@ const About = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Expert Sri Lanka | SEO Specialist & Consultant | SeoFX"
-        description="Work directly with SEO specialists who plan, build and grow rankings for Sri Lankan websites. See our process, tools and sample work. Free SEO audit."
+        title="SEO Specialist Sri Lanka | Expert SEO Services | SeoFX"
+        description="Hire an SEO specialist in Sri Lanka who plans keywords, fixes technical SEO and grows Google and AI rankings. Work directly with experts. Free SEO audit."
         canonical="/seo-specialist-sri-lanka"
         keywords="seo expert sri lanka, seo specialist sri lanka, seo consultant sri lanka, best seo expert sri lanka, hire seo expert sri lanka, seo expert colombo, local seo expert sri lanka"
         ogImageAlt="SeoFX — SEO specialists in Sri Lanka"

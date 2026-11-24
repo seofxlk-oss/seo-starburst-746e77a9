@@ -207,8 +207,8 @@ const Home = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Company in Sri Lanka | Get SEO Right Before You Build | SeoFX"
-        description="SeoFX is an SEO company in Rajagiriya, Sri Lanka. Plan SEO before you build, then grow on Google, Maps and AI search. SEO Consultation from LKR 50,000."
+        title="SEO Company in Sri Lanka | Best SEO Agency | SeoFX"
+        description="SeoFX is a Rajagiriya-based SEO company in Sri Lanka. We plan SEO before you build, then grow Google, Maps and AI rankings. Book a free SEO audit today."
         canonical="/"
         keywords="seo company sri lanka, seo sri lanka, best seo company in sri lanka, seo services sri lanka, seo packages sri lanka, seo agency sri lanka, seo specialist sri lanka, white label seo sri lanka, local seo sri lanka, seo colombo"
         ogImageAlt="SeoFX — SEO Company in Sri Lanka"
