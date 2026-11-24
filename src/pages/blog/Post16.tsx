@@ -17,7 +17,7 @@ const Post16 = () => (
     <p>It is a practical question with real implications for how your SEO programme runs, who is accountable for results, and how you communicate about your website's performance. The answer depends on your business size, the complexity of your website, and what outcomes you are trying to achieve.</p>
 
     <h2>Defining the Terms Clearly</h2>
-    <p><strong>An SEO specialist</strong> — also called an SEO consultant or SEO expert — is an individual professional who manages your SEO personally. They are typically experienced across all SEO disciplines: technical, on-page, content strategy, and link building. The work flows through one person who owns both strategy and execution.</p>
+    <p><strong>An SEO specialist</strong> — also called an SEO consultant or SEO expert — is an individual professional who manages your SEO personally. They are typically experienced across all SEO disciplines: technical, on-page, content strategy, and <Link to="/services/link-building-sri-lanka" className="text-accent underline-offset-4 hover:underline">link building</Link>. The work flows through one person who owns both strategy and execution.</p>
     <p><strong>An SEO agency</strong> is a company that delivers SEO services through a team. Agencies typically have specialists across different disciplines — a technical SEO expert, a content strategist, a link builder, a data analyst — working together on client accounts. An account manager coordinates the work.</p>
     <p>Both can deliver excellent results. The right choice depends on what your business actually needs.</p>
 
@@ -62,7 +62,7 @@ const Post16 = () => (
     <p>At SeoFX, we function as a specialist SEO team — combining the personal focus and accountability of individual expertise with the discipline depth of a structured team. Every client relationship is built around a dedicated SEO specialist who owns your account strategy, supported by specialist resource for technical, content, and link-building workstreams. See our transparent <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO packages in Sri Lanka</Link>.</p>
 
     <h2>Making Your Decision</h2>
-    <p>If your answers point toward a focused scope and a need for direct accountability, an individual SEO specialist in Sri Lanka is likely your best fit. If your answers point toward complexity, scale, and a need for multiple services running in parallel, an agency is worth the investment. Either way, start with a proper SEO audit — <Link to="/contact-us" className="text-accent underline-offset-4 hover:underline">request a free one from SeoFX</Link>.</p>
+    <p>If your answers point toward a focused scope and a need for direct accountability, an individual SEO specialist in Sri Lanka is likely your best fit. If your answers point toward complexity, scale, and a need for multiple services running in parallel, an agency is worth the investment. Either way, start with a proper <Link to="/services/website-audit-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO audit</Link> — <Link to="/contact-us" className="text-accent underline-offset-4 hover:underline">request a free one from SeoFX</Link>.</p>
   </BlogPost>
 );
 export default Post16;

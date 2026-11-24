@@ -50,7 +50,7 @@ const Post44 = () => (
 <h2>Step 5: Spend where you get the most for your money</h2>
 <p>On a small budget, spend on the work that's hard to do yourself and has the biggest effect:</p>
 <ol><li><strong>A clear plan:</strong> an <R to="/seo-consultant-sri-lanka">SEO consultation</R> tells you exactly what to fix, in order, so you don't pay for work you don't need.</li><li><strong>Technical fixes</strong> you can't make yourself.</li><li><strong>Better service pages</strong> for the services that bring the most profit.</li></ol>
-<p>Save ongoing content and link building until the foundations are working.</p>
+<p>Save ongoing content and <Link to="/services/link-building-sri-lanka" className="text-accent underline-offset-4 hover:underline">link building</Link> until the foundations are working.</p>
 <h2>Step 6: Track a few numbers monthly</h2>
 <ul><li>Enquiries (calls, forms, WhatsApp messages)</li><li>Google Business Profile views and actions</li><li>Search Console clicks and the searches bringing visitors</li></ul>
 <p>If these are moving up, the plan is working.</p>

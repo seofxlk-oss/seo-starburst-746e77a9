@@ -19,7 +19,7 @@ const Post19 = () => (
 
     <h2>What Each Option Actually Means</h2>
     <p><strong>An in-house SEO specialist</strong> is an employee — full-time or part-time — whose primary responsibility is managing your website's search engine performance. They work exclusively on your business, develop deep familiarity with your brand and industry, and sit within your team alongside your other marketing and commercial functions.</p>
-    <p><strong>Outsourcing to an SEO agency or specialist</strong> means engaging an external professional or team on a retainer basis. They bring broader experience across multiple clients and industries, established processes, specialist tools, and a team structure that typically provides expertise across technical SEO, content, and link building simultaneously.</p>
+    <p><strong>Outsourcing to an SEO agency or specialist</strong> means engaging an external professional or team on a retainer basis. They bring broader experience across multiple clients and industries, established processes, specialist tools, and a team structure that typically provides expertise across technical SEO, content, and <Link to="/services/link-building-sri-lanka" className="text-accent underline-offset-4 hover:underline">link building</Link> simultaneously.</p>
     <p>Both options can deliver strong results. The question is which fits your specific context.</p>
 
     <h2>The Case for an In-House SEO Specialist</h2>
@@ -49,7 +49,7 @@ const Post19 = () => (
     <p>Agency practitioners, by contrast, work on many different websites across many different industries, which provides continuous learning through diverse problem-solving. This breadth of experience is genuinely difficult to replicate in an in-house role.</p>
 
     <h3>Tool Costs</h3>
-    <p>Professional SEO requires access to enterprise-level tools — Ahrefs or SEMrush for keyword research and backlink analysis, Screaming Frog for technical auditing, Google Search Console and Analytics for performance tracking, rank tracking platforms, and others. These tools carry significant subscription costs that agencies absorb across their client base and individual in-house specialists must either justify independently or go without.</p>
+    <p>Professional SEO requires access to enterprise-level tools — Ahrefs or SEMrush for <Link to="/services/keyword-research-sri-lanka" className="text-accent underline-offset-4 hover:underline">keyword research</Link> and backlink analysis, Screaming Frog for technical auditing, Google Search Console and Analytics for performance tracking, rank tracking platforms, and others. These tools carry significant subscription costs that agencies absorb across their client base and individual in-house specialists must either justify independently or go without.</p>
 
     <h3>Dependency Risk</h3>
     <p>An in-house SEO specialist represents a single point of dependency. When they leave — which will happen eventually — their knowledge, their active relationships with link partners, their familiarity with your website's history, and their momentum all leave with them. Recruiting a replacement takes time, and the new hire faces a significant ramp-up period. Agencies, by contrast, have team structures that absorb individual departures without service disruption.</p>

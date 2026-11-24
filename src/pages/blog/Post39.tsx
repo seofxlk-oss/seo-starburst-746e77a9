@@ -18,7 +18,7 @@ const Post39 = () => (
     cta="Want help applying this to your business? Talk to the SeoFX team."
   >
 <p><strong>To get your business mentioned in ChatGPT and Gemini, make it easy for them to find clear, consistent facts about you.</strong> That means readable web pages that answer customer questions, the same business details on every profile, genuine reviews and mentions on trusted Sri Lankan sites, and structured data. No one can guarantee a mention, but these steps improve your chances.</p>
-<p>Our <L>AI SEO in Sri Lanka</L> service tests real prompts and fixes these signals for you.</p>
+<p>Our <L>AI <Link to="/seo-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO in Sri Lanka</Link></L> service tests real prompts and fixes these signals for you.</p>
 <h2>1. Check what AI tools say today</h2>
 <p>Ask 10–20 questions your customers would ask, such as “best wedding planner in Colombo”. Record whether you appear, who does and which sources are cited.</p>
 <h2>2. Let AI crawlers read your site</h2>

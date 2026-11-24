@@ -17,8 +17,8 @@ const Post17 = () => (
     <p>This guide gives you seven specific, practical things to check before you commit to anyone.</p>
 
     <h2>1. Ask to See Their Own Website's Rankings</h2>
-    <p>This is the single most revealing test. A credible <Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialist in Sri Lanka</Link> should be able to rank their own website for the keywords they target. If someone claims to be an expert at ranking websites but their own site does not appear for terms like "SEO specialist Sri Lanka" or "SEO company Sri Lanka," ask why.</p>
-    <p><strong>What to do:</strong> Search Google for "SEO specialist Sri Lanka," "SEO company Sri Lanka," and "SEO services Sri Lanka." Check where the provider appears.</p>
+    <p>This is the single most revealing test. A credible <Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialist in Sri Lanka</Link> should be able to rank their own website for the keywords they target. If someone claims to be an expert at ranking websites but their own site does not appear for terms like "SEO specialist Sri Lanka" or "<Link to="/" className="text-accent underline-offset-4 hover:underline">SEO company Sri Lanka</Link>," ask why.</p>
+    <p><strong>What to do:</strong> Search Google for "SEO specialist Sri Lanka," "SEO company Sri Lanka," and "<Link to="/services" className="text-accent underline-offset-4 hover:underline">SEO services Sri Lanka</Link>." Check where the provider appears.</p>
 
     <h2>2. Ask for Real Case Studies With Before-and-After Data</h2>
     <p>Any SEO specialist worth hiring should have documented proof — not vague testimonials, but actual ranking data. Look for: the client's industry, where they ranked before, what work was carried out, and where they ranked after three, six, and twelve months. Browse our <Link to="/case-studies" className="text-accent underline-offset-4 hover:underline">case studies</Link> for examples of what genuine documented results look like.</p>
@@ -41,7 +41,7 @@ const Post17 = () => (
     <p><strong>Meaningful metrics:</strong> keyword rankings tracked through Google Search Console, organic traffic growth from your target geography, click-through rate improvements, enquiry volume and leads attributed to organic search.</p>
 
     <h2>6. Assess Their Understanding of the Sri Lankan Market</h2>
-    <p>SEO in Sri Lanka is not the same as SEO in the UK or the United States. A knowledgeable specialist should be able to speak specifically to local search intent, seasonal patterns (Avurudu, tourism high season, cricket events), local competitive landscape, Google Business Profile and local SEO, and the mobile-first reality of the Sri Lankan market.</p>
+    <p><Link to="/seo-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO in Sri Lanka</Link> is not the same as SEO in the UK or the United States. A knowledgeable specialist should be able to speak specifically to local search intent, seasonal patterns (Avurudu, tourism high season, cricket events), local competitive landscape, Google Business Profile and local SEO, and the mobile-first reality of the Sri Lankan market.</p>
 
     <h2>7. Understand the Engagement Terms Fully Before Committing</h2>
     <p>Before agreeing to any engagement, clarify: what is included, what access is required, reporting frequency and format, ownership of work, and exit terms. Be wary of providers who offer month-to-month with no minimum commitment — this often indicates a lack of confidence in retaining clients through delivered results.</p>

@@ -20,7 +20,7 @@ const Post27 = () => (
 
     <h2>Question 1: Where Does Your Own Website Rank?</h2>
     <p>This is the most direct test available and the one most SEO companies in Sri Lanka hope you do not think to apply.</p>
-    <p>Search Google for "SEO company Sri Lanka," "<Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialist Sri Lanka</Link>," and "SEO services Sri Lanka." Where does the company you are evaluating appear?</p>
+    <p>Search Google for "SEO company Sri Lanka," "<Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialist Sri Lanka</Link>," and "<Link to="/services" className="text-accent underline-offset-4 hover:underline">SEO services Sri Lanka</Link>." Where does the company you are evaluating appear?</p>
     <p>A credible SEO company should be able to rank its own website for the very keywords it is promising to rank yours for. If they cannot achieve visibility for their own business in a market they operate within every day, there is a legitimate question about whether they can achieve it for yours.</p>
 
     <h2>Question 2: Can You Show Me Case Studies With Specific Before-and-After Data?</h2>
@@ -74,7 +74,7 @@ const Post27 = () => (
 
     <h2>The Right SEO Company Welcomes These Questions</h2>
     <p>A genuinely capable and ethical SEO company in Sri Lanka will welcome all ten of these questions. They will answer each one specifically, confidently, and without deflection — because they have nothing to hide and results to demonstrate.</p>
-    <p>At SeoFX, we encourage every prospective client to ask us all of these questions. We begin every relationship with a free SEO audit so that you have real, specific information about your website's current position before committing to anything. Read our companion guides on <Link to="/blog/what-seo-company-sri-lanka-should-deliver" className="text-accent underline-offset-4 hover:underline">what an SEO company should deliver each month</Link> and <Link to="/blog/seo-company-sri-lanka-red-flags-green-flags" className="text-accent underline-offset-4 hover:underline">red flags and green flags in Sri Lankan SEO companies</Link>.</p>
+    <p>At SeoFX, we encourage every prospective client to ask us all of these questions. We begin every relationship with a free <Link to="/services/website-audit-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO audit</Link> so that you have real, specific information about your website's current position before committing to anything. Read our companion guides on <Link to="/blog/what-seo-company-sri-lanka-should-deliver" className="text-accent underline-offset-4 hover:underline">what an SEO company should deliver each month</Link> and <Link to="/blog/seo-company-sri-lanka-red-flags-green-flags" className="text-accent underline-offset-4 hover:underline">red flags and green flags in Sri Lankan SEO companies</Link>.</p>
     <p><Link to="/contact-us" className="text-accent underline-offset-4 hover:underline">Request your free SEO audit</Link> or call our team on +94 777 797 035.</p>
   </BlogPost>
 );

@@ -32,7 +32,7 @@ const Post20 = () => (
 
     <h2>Sign 2: Their Own Website Ranks for Competitive Keywords</h2>
     <p>This is the simplest, most objective test available — and it is one that requires no SEO knowledge on your part to apply.</p>
-    <p>Search Google for "SEO specialist in Sri Lanka," "SEO specialist Sri Lanka," and "SEO company Sri Lanka." Observe where the specialist or their agency appears in the results.</p>
+    <p>Search Google for "SEO specialist in Sri Lanka," "SEO specialist Sri Lanka," and "<Link to="/" className="text-accent underline-offset-4 hover:underline">SEO company Sri Lanka</Link>." Observe where the specialist or their agency appears in the results.</p>
     <p>A genuinely capable <Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialist in Sri Lanka</Link> has ranked their own website for the terms that prospective clients use to find them. They have done on themselves what they are proposing to do for you — in the same competitive market, targeting the same audience.</p>
     <p>Their position in those results is not just a vanity metric. It is the most credible form of proof available that their approach works in practice, not just in theory.</p>
 
@@ -62,7 +62,7 @@ const Post20 = () => (
 
     <h2>Sign 7: Their Strategy Is Specific to Your Website — Not a Template</h2>
     <p>Every business website exists in a specific competitive context with a specific technical history, specific content gaps, and specific keyword opportunities. A strategy that is genuinely built for your situation reflects this specificity.</p>
-    <p>After your initial conversations and audit, a skilled SEO specialist should present a strategy that specifically references your website — the technical issues found in your audit, the keyword opportunities identified in your market, the content gaps compared against your ranking competitors, and the link building opportunities realistic for your domain.</p>
+    <p>After your initial conversations and audit, a skilled SEO specialist should present a strategy that specifically references your website — the technical issues found in your audit, the keyword opportunities identified in your market, the content gaps compared against your ranking competitors, and the <Link to="/services/link-building-sri-lanka" className="text-accent underline-offset-4 hover:underline">link building</Link> opportunities realistic for your domain.</p>
     <p>If the strategy you receive could have been sent to any business in any industry with only the company name changed — if it describes the same generic phases of on-page, content, and link building without specific reference to your situation — it was not built for you. It is a template dressed up as strategy.</p>
     <p>Specific strategy requires specific diagnostic work. If the specialist has not done that work before proposing, the proposal is not grounded in your actual situation.</p>
 

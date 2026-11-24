@@ -45,7 +45,7 @@ const Post12 = () => (
     <p>There is no generic template at SeoFX. Every client receives a bespoke SEO strategy designed around their specific industry, target market, competitive landscape, and business goals. Your campaign is built for your business — not recycled from someone else's.</p>
 
     <h2>Reason 4: We Genuinely Understand the Sri Lankan Market</h2>
-    <p>SEO in Sri Lanka requires local expertise. We understand how Sri Lankan consumers search online, which Google.lk results dominate which industries, how local SEO works for Sri Lankan cities and towns, and how to compete effectively in the specific context of the Sri Lankan digital market. This local knowledge is a genuine competitive advantage.</p>
+    <p><Link to="/seo-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO in Sri Lanka</Link> requires local expertise. We understand how Sri Lankan consumers search online, which Google.lk results dominate which industries, how local SEO works for Sri Lankan cities and towns, and how to compete effectively in the specific context of the Sri Lankan digital market. This local knowledge is a genuine competitive advantage.</p>
 
     <h2>Reason 5: We Are Fully Transparent About Everything We Do</h2>
     <p>At SeoFX, you will always know exactly what we are doing, why we are doing it, and what results it is producing. Our monthly reports are clear, honest, and actionable. We do not hide behind jargon or vague activity logs.</p>
@@ -57,7 +57,7 @@ const Post12 = () => (
     <p>The best SEO does not peak and plateau — it compounds. The foundations we build for your website in month one become more powerful in month six, and more powerful still in month twelve. Our clients see consistent, progressive improvement in their organic traffic and lead volume month after month.</p>
 
     <h2>Ready to Discuss Your SEO Priorities?</h2>
-    <p>If you are serious about growing your business online and reaching the top of Google, SeoFX is ready to build your success. Start with a free website audit and a no-obligation consultation with our team.</p>
+    <p>If you are serious about growing your business online and reaching the top of Google, SeoFX is ready to build your success. Start with a free <Link to="/services/website-audit-sri-lanka" className="text-accent underline-offset-4 hover:underline">website audit</Link> and a no-obligation consultation with our team.</p>
     <p>👉 <Link to="/" className="text-accent underline-offset-4 hover:underline">Contact SeoFX for SEO Planning</Link>.</p>
   </BlogPost>
 );

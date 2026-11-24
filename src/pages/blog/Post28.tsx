@@ -46,7 +46,7 @@ const Post28 = () => (
     <p><strong>Measurable ranking improvements on lower-competition keywords</strong> — You should see pages beginning to move from page three or four toward page two, or from page two toward the bottom of page one.</p>
     <p><strong>Organic traffic growth beginning to appear</strong> — Google Search Console should be showing an upward trend in impressions and clicks from organic search.</p>
     <p><strong>Content programme underway</strong> — If content creation is part of your engagement, several pieces of high-quality content should have been published by this point — optimised for specific keyword targets and connected to your existing pages through internal links.</p>
-    <p><strong>Link building activity documented</strong> — Your monthly report should include specific detail on what link building activity has been carried out — which websites were approached, which links were secured, and from what sources.</p>
+    <p><strong>Link building activity documented</strong> — Your monthly report should include specific detail on what <Link to="/services/link-building-sri-lanka" className="text-accent underline-offset-4 hover:underline">link building</Link> activity has been carried out — which websites were approached, which links were secured, and from what sources.</p>
     <p><strong>A clear monthly report</strong> — A structured document covering: keywords tracked and their current positions versus engagement start, organic traffic data, work completed, and priorities for the coming month.</p>
 
     <h3>Reading the Month 3 Report Honestly</h3>

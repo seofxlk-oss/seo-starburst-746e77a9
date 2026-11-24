@@ -27,7 +27,7 @@ const Post18 = () => (
     <p><strong>Your website's current state.</strong> A website that has never been professionally optimised, has significant technical issues, thin content, and no meaningful backlinks is starting from a lower base than one that has had some SEO work done previously. The further from competitive the starting position, the longer the journey to strong rankings.</p>
     <p><strong>Your industry's competitiveness.</strong> The keywords "hotel Colombo" and "dentist near Rajagiriya" exist in very different competitive landscapes. If your target keywords are dominated by websites that have been investing in SEO for years, with strong content libraries and substantial backlink profiles, the time required to compete meaningfully with them is longer than if the competition is thin.</p>
     <p><strong>Your domain's age and authority.</strong> Older domains with a history of clean, legitimate SEO tend to respond to optimisation faster than brand-new domains. Google's algorithm places some weight on domain history and accumulated authority — a factor that cannot be shortcut but does compound over time.</p>
-    <p><strong>The scope of your investment.</strong> More comprehensive SEO work — more content development, more consistent link building, more thorough technical remediation — produces results faster than a minimal programme. The relationship between investment level and speed of results is not perfectly linear, but it is real.</p>
+    <p><strong>The scope of your investment.</strong> More comprehensive SEO work — more content development, more consistent <Link to="/services/link-building-sri-lanka" className="text-accent underline-offset-4 hover:underline">link building</Link>, more thorough technical remediation — produces results faster than a minimal programme. The relationship between investment level and speed of results is not perfectly linear, but it is real.</p>
     <p>With these variables acknowledged, the following timeline represents what a professional SEO engagement with a qualified specialist in Sri Lanka typically looks like.</p>
 
     <h2>Realistic Timeline: What to Expect Month by Month</h2>
@@ -37,7 +37,7 @@ const Post18 = () => (
     <p><strong>What happens:</strong></p>
     <ul>
       <li>Comprehensive technical audit identifying all issues affecting crawlability, indexation, speed, and mobile performance</li>
-      <li>Keyword research mapping target terms to specific pages based on search volume, competition, and commercial intent</li>
+      <li><Link to="/services/keyword-research-sri-lanka" className="text-accent underline-offset-4 hover:underline">Keyword research</Link> mapping target terms to specific pages based on search volume, competition, and commercial intent</li>
       <li>Competitor analysis benchmarking your website against the pages currently ranking for your target keywords</li>
       <li>Content audit reviewing what exists, what is ranking, what is thin, and what is entirely missing</li>
       <li>Google Search Console and Analytics configuration confirmed and baseline data recorded</li>

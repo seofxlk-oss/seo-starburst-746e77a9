@@ -32,14 +32,14 @@ const Post11 = () => (
     ]}
   >
     <h2>Breaking Down What an SEO Service in Sri Lanka Actually Delivers</h2>
-    <p>Many Sri Lankan business owners have heard of SEO but are unclear about what an SEO service actually involves on a practical, month-to-month basis. This article cuts through the jargon and explains exactly what you should expect when you engage an SEO service in Sri Lanka — and what each component is designed to achieve.</p>
+    <p>Many Sri Lankan business owners have heard of SEO but are unclear about what an SEO service actually involves on a practical, month-to-month basis. This article cuts through the jargon and explains exactly what you should expect when you engage an <Link to="/services" className="text-accent underline-offset-4 hover:underline">SEO service in Sri Lanka</Link> — and what each component is designed to achieve.</p>
     <p>Engage a <Link to="/" className="text-accent underline-offset-4 hover:underline">professional SEO service in Sri Lanka</Link> that covers every element your business needs to rank.</p>
 
     <h2>Component 1: Initial SEO Audit and Strategy</h2>
     <p>Every quality SEO service in Sri Lanka begins with a thorough audit of your website's current condition. This covers technical health, existing content quality, current keyword rankings, backlink profile, competitor analysis, and identification of the highest-impact opportunities. The audit informs a bespoke strategy designed specifically for your business and goals.</p>
 
     <h2>Component 2: Keyword Research and Targeting</h2>
-    <p>Keyword research is the intelligence layer of your SEO campaign. Your SEO service provider will identify the specific search terms your target customers in Sri Lanka are using to find businesses like yours — balancing search volume, competition level, and business relevance. These keywords become the foundation of all on-page and content work.</p>
+    <p><Link to="/services/keyword-research-sri-lanka" className="text-accent underline-offset-4 hover:underline">Keyword research</Link> is the intelligence layer of your SEO campaign. Your SEO service provider will identify the specific search terms your target customers in Sri Lanka are using to find businesses like yours — balancing search volume, competition level, and business relevance. These keywords become the foundation of all on-page and content work.</p>
 
     <h2>Component 3: On-Page Optimisation</h2>
     <p>This is the process of optimising every page of your website for its target keywords. This includes rewriting title tags and meta descriptions, restructuring headings, improving content depth and quality, fixing URL structures, optimising images, and building proper internal link architecture. On-page SEO directly communicates to Google what each page is about and why it should rank.</p>

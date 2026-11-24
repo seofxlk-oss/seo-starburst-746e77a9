@@ -25,7 +25,7 @@ const Post29 = () => (
     <p>Google's own published guidance explicitly states that no one can guarantee specific rankings. A credible SEO company in Sri Lanka will tell you what is realistic based on your specific situation. They will not guarantee a position they have no control over.</p>
 
     <h3>Red Flag 2: Their Pricing Is Dramatically Lower Than Market Rate</h3>
-    <p>SEO that produces meaningful, sustainable results requires significant skilled labour — technical auditing, keyword research, content creation, link building through genuine outreach, and ongoing monitoring.</p>
+    <p>SEO that produces meaningful, sustainable results requires significant skilled labour — technical auditing, <Link to="/services/keyword-research-sri-lanka" className="text-accent underline-offset-4 hover:underline">keyword research</Link>, content creation, link building through genuine outreach, and ongoing monitoring.</p>
     <p>When an SEO provider's pricing is dramatically below what competent professionals can sustain their business on, one of two things is typically true: they are doing far less work than they are representing, or they are using automated, low-quality techniques that carry risk. See realistic <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO pricing in Sri Lanka</Link>.</p>
 
     <h3>Red Flag 3: They Cannot Explain Their Process Clearly</h3>
@@ -48,7 +48,7 @@ const Post29 = () => (
     <h2>Green Flags: Signs of a Credible SEO Company</h2>
 
     <h3>Green Flag 1: Their Own Website Ranks</h3>
-    <p>Search Google for "SEO company Sri Lanka," "best SEO company Sri Lanka," and "SEO services Sri Lanka." A company that ranks prominently for these terms has demonstrated that their approach works — on their own website, in their own competitive market. This is the most credible form of proof available.</p>
+    <p>Search Google for "SEO company Sri Lanka," "best SEO company Sri Lanka," and "<Link to="/services" className="text-accent underline-offset-4 hover:underline">SEO services Sri Lanka</Link>." A company that ranks prominently for these terms has demonstrated that their approach works — on their own website, in their own competitive market. This is the most credible form of proof available.</p>
 
     <h3>Green Flag 2: They Have Specific, Verifiable Case Studies</h3>
     <p>Look for documented case studies with before-and-after ranking data, organic traffic growth figures, and — ideally — business outcome information. Genuine case studies include specific details: the industry, the starting conditions, the timeline, and the measurable results. Browse our <Link to="/case-studies" className="text-accent underline-offset-4 hover:underline">case studies</Link> for examples.</p>

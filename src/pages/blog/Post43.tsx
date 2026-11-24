@@ -36,7 +36,7 @@ const Post43 = () => (
     cta="Want help applying this to your business? Talk to the SeoFX team."
     faqs={faqs}
   >
-<p>You can do a good share of basic SEO yourself: setting up your Google Business Profile, writing clear page titles and keeping content up to date. Technical problems, site migrations, competitive keywords and link building usually need an experienced SEO expert. This guide shows where the line sits, so you spend your own time where it counts and bring in an <R to="/seo-specialist-sri-lanka">SEO expert</R> only where it pays off.</p>
+<p>You can do a good share of basic SEO yourself: setting up your Google Business Profile, writing clear page titles and keeping content up to date. Technical problems, site migrations, competitive keywords and <Link to="/services/link-building-sri-lanka" className="text-accent underline-offset-4 hover:underline">link building</Link> usually need an experienced SEO expert. This guide shows where the line sits, so you spend your own time where it counts and bring in an <R to="/seo-specialist-sri-lanka">SEO expert</R> only where it pays off.</p>
 <h2>SEO tasks you can do yourself</h2>
 <h3>Set up Google Search Console and Google Analytics</h3>
 <p>Both are free. Search Console shows which searches you appear for and flags indexing problems. Analytics shows what visitors do on your site.</p>

@@ -38,8 +38,8 @@ const Post13 = () => (
     <h2>What Should Every SEO Package in Sri Lanka Include?</h2>
     <p>Regardless of price or package tier, any serious SEO package in Sri Lanka should include the following as a minimum:</p>
     <ul>
-      <li>Initial SEO audit and website health assessment</li>
-      <li>Keyword research and competitor analysis</li>
+      <li>Initial <Link to="/services/website-audit-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO audit</Link> and website health assessment</li>
+      <li><Link to="/services/keyword-research-sri-lanka" className="text-accent underline-offset-4 hover:underline">Keyword research</Link> and competitor analysis</li>
       <li>On-page optimisation of target pages</li>
       <li>Technical SEO improvements</li>
       <li>Backlink building (quality over quantity)</li>
@@ -68,7 +68,7 @@ const Post13 = () => (
 
     <h2>SeoFX SEO Packages — Built for Sri Lankan Businesses</h2>
     <p>SeoFX offers three carefully structured SEO packages in Sri Lanka — Starter, Business, and Premium — each designed to deliver the right scope of work for businesses at different stages of growth. All packages include full transparency, regular reporting, and the same quality of execution.</p>
-    <p>Not sure which package is right for you? Contact our team for a SEO consultation and we will recommend the plan that makes most sense for your business and goals.</p>
+    <p>Not sure which package is right for you? Contact our team for a <Link to="/seo-consultant-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO consultation</Link> and we will recommend the plan that makes most sense for your business and goals.</p>
     <p>👉 <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">View SeoFX SEO Packages — Free Consultation Available</Link>. You can also browse our <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">full pricing page</Link>.</p>
   </BlogPost>
 );

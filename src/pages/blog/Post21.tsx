@@ -13,7 +13,7 @@ const Post21 = () => (
     readTime="10 min read"
     cta="Evaluating an SEO company in Sri Lanka? Get a free preliminary audit from SeoFX before you commit anywhere."
   >
-    <p>Hiring an SEO company in Sri Lanka is a decision that carries real financial consequences — and it is one that most Sri Lankan business owners make without enough information.</p>
+    <p>Hiring an <Link to="/" className="text-accent underline-offset-4 hover:underline">SEO company in Sri Lanka</Link> is a decision that carries real financial consequences — and it is one that most Sri Lankan business owners make without enough information.</p>
     <p>The difficulty is not that good SEO companies do not exist in Sri Lanka. They do. The difficulty is that the market makes it hard to distinguish genuine capability from professional presentation. Websites look credible. Proposals sound comprehensive. Testimonials read confidently. And yet the results many businesses actually receive fall significantly short of what was promised.</p>
     <p>This guide is written for the Sri Lankan business owner who wants to make this decision correctly — with a clear understanding of what matters, what to verify, and what to walk away from.</p>
 
@@ -64,7 +64,7 @@ const Post21 = () => (
 
     <h2>Specific Questions to Ask Before Signing</h2>
     <p>Beyond the broad criteria above, these specific questions will reveal the most about any SEO company in Sri Lanka you are seriously considering:</p>
-    <p><strong>"Can you show me the backlinks you have built for a recent client, and explain how you obtained them?"</strong> This question cuts directly to the quality of their link building practice. A legitimate answer describes specific websites, editorial relationships, and the process of earning those placements. An evasive answer — or one that references bulk tools, networks, or packages — is a warning.</p>
+    <p><strong>"Can you show me the backlinks you have built for a recent client, and explain how you obtained them?"</strong> This question cuts directly to the quality of their <Link to="/services/link-building-sri-lanka" className="text-accent underline-offset-4 hover:underline">link building</Link> practice. A legitimate answer describes specific websites, editorial relationships, and the process of earning those placements. An evasive answer — or one that references bulk tools, networks, or packages — is a warning.</p>
     <p><strong>"What happens to our rankings and our content if we end the engagement?"</strong> Everything your SEO company creates for your website — content, technical configurations, backlink relationships — should remain yours. There should be no dependency mechanism that causes your SEO to collapse if you choose a different provider. A credible company confirms this clearly.</p>
     <p><strong>"Who specifically will be working on our account, and what is their experience?"</strong> In some agencies, the experienced senior practitioners handle sales while more junior staff execute the actual work. Ask to understand specifically who will be doing the day-to-day work on your website, what their experience is, and how your account will be managed.</p>
     <p><strong>"How do you stay current with Google algorithm changes?"</strong> Google updates its algorithm continuously. A credible answer describes active professional development, participation in the SEO community, monitoring of official Google communications, and specific examples of how recent changes affected their approach or their clients.</p>
@@ -81,7 +81,7 @@ const Post21 = () => (
     <h2>The Right SEO Company Earns Your Confidence Before Asking for Your Commitment</h2>
     <p>A credible SEO company in Sri Lanka should be willing to demonstrate its capability and approach before asking you to sign anything. The most useful demonstration is a genuine preliminary audit — a specific analysis of your website's current technical health, ranking position, and keyword opportunities, delivered as a clear written output.</p>
     <p>This gives you the information to evaluate not just what they are claiming but how well they actually understand your website and your market.</p>
-    <p>At SeoFX, we provide a free preliminary SEO audit for every prospective client before any engagement decision is made. Our <Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialists in Sri Lanka</Link> review your website's current position and deliver specific, honest findings — not a sales document dressed up as analysis.</p>
+    <p>At SeoFX, we provide a free preliminary <Link to="/services/website-audit-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO audit</Link> for every prospective client before any engagement decision is made. Our <Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialists in Sri Lanka</Link> review your website's current position and deliver specific, honest findings — not a sales document dressed up as analysis.</p>
     <p><Link to="/contact-us" className="text-accent underline-offset-4 hover:underline">Request your free audit today</Link> or call us directly on +94 777 797 035.</p>
   </BlogPost>
 );

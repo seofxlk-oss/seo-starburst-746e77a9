@@ -48,7 +48,7 @@ const Post6 = () => (
     <p>A good SEO company communicates clearly and consistently. You should receive regular reports showing your keyword rankings, organic traffic changes, backlink growth, and what actions were taken each month. If a company is vague about what they are doing, that is a serious warning sign.</p>
 
     <h2>5. Check for Local Market Knowledge</h2>
-    <p>SEO in Sri Lanka requires an understanding of local search behaviour, competition on Google.lk, Sinhala and Tamil language search patterns, and the specific dynamics of the Sri Lankan digital market. A local SEO company that understands this environment will consistently outperform an overseas agency that does not.</p>
+    <p><Link to="/seo-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO in Sri Lanka</Link> requires an understanding of local search behaviour, competition on Google.lk, Sinhala and Tamil language search patterns, and the specific dynamics of the Sri Lankan digital market. A local SEO company that understands this environment will consistently outperform an overseas agency that does not.</p>
 
     <h2>6. Evaluate Communication and Responsiveness</h2>
     <p>Your SEO campaign will be an ongoing, evolving partnership. The team you choose should be accessible, responsive, and genuinely interested in your business success. Poor communication is one of the most common complaints about SEO companies — prioritise teams that treat you as a partner, not just an invoice.</p>

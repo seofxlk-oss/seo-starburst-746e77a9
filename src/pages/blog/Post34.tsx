@@ -34,7 +34,7 @@ const Post34 = () => (
     <h2>How to Get the Most From Your Budget</h2>
     <p>Use exact and phrase match keywords rather than broad match to avoid irrelevant clicks. Add negative keywords aggressively from day one. Schedule ads to run during your business hours or peak search times. Use ad extensions (sitelinks, callouts, location extensions) to improve click-through rates without extra cost.</p>
 
-    <p>SEO Consultation from LKR 50,000 (includes on-page SEO recommendations). All other services: custom quote after a free analysis. Compare <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO packages Sri Lanka</Link>.</p>
+    <p><Link to="/seo-consultant-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO Consultation</Link> from LKR 50,000 (includes on-page SEO recommendations). All other services: custom quote after a free analysis. Compare <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO packages Sri Lanka</Link>.</p>
   </BlogPost>
 );
 export default Post34;

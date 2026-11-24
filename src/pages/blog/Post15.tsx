@@ -29,7 +29,7 @@ const Post15 = () => (
     <p>Before any content or keyword strategy can work, the technical foundation of your website must be sound. Technical SEO involves auditing and fixing the underlying structure of your website so that Google can crawl, index, and understand it correctly. This includes website speed optimisation, mobile performance, Core Web Vitals, crawl and indexation, and schema markup.</p>
 
     <h3>2. Keyword Research and Strategy</h3>
-    <p>Keyword research is the process of identifying exactly what your potential customers are searching for on Google, and then building a strategy around ranking for those terms. A skilled SEO specialist analyses search volume, search intent, competition level, and business relevance.</p>
+    <p><Link to="/services/keyword-research-sri-lanka" className="text-accent underline-offset-4 hover:underline">Keyword research</Link> is the process of identifying exactly what your potential customers are searching for on Google, and then building a strategy around ranking for those terms. A skilled SEO specialist analyses search volume, search intent, competition level, and business relevance.</p>
     <p>For example, a Colombo dental clinic should not simply target "dentist" — too broad and too competitive. An SEO specialist would identify terms like "teeth whitening Colombo 7," "dental implant cost Sri Lanka," and "best dentist near Rajagiriya" — specific, high-intent searches with realistic ranking potential.</p>
 
     <h3>3. On-Page SEO Optimisation</h3>
@@ -57,7 +57,7 @@ const Post15 = () => (
 
     <h2>Why Working With a Sri Lanka-Based SEO Specialist Matters</h2>
     <p>A local SEO specialist understands the specific dynamics of the Sri Lankan search market — seasonal search patterns, local competitor landscapes, the behaviour of Sri Lankan searchers, and the nuances of local SEO for businesses serving specific cities or regions.</p>
-    <p>At SeoFX, our team of <Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialists in Sri Lanka</Link> has helped businesses across tourism, healthcare, real estate, e-commerce, and professional services build strong Google rankings and consistent organic lead pipelines. We also offer transparent <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO packages in Sri Lanka</Link> and a free website SEO audit so you can see exactly where your site stands today.</p>
+    <p>At SeoFX, our team of <Link to="/seo-specialist-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO specialists in Sri Lanka</Link> has helped businesses across tourism, healthcare, real estate, e-commerce, and professional services build strong Google rankings and consistent organic lead pipelines. We also offer transparent <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO packages in Sri Lanka</Link> and a free website <Link to="/services/website-audit-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO audit</Link> so you can see exactly where your site stands today.</p>
 
     <h2>Ready to Work With an SEO Specialist in Sri Lanka?</h2>
     <p><Link to="/contact-us" className="text-accent underline-offset-4 hover:underline">Request a free SEO audit</Link> — we will analyse your current rankings, technical health, and keyword opportunities, and give you a clear picture of what SEO can deliver for your business.</p>

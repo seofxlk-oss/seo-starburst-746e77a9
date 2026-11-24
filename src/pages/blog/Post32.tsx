@@ -67,7 +67,7 @@ const Post32 = () => (
 
     <h2>The Honest Consideration: SEO Is an Ongoing Discipline</h2>
     <p>It is worth being direct about one aspect of this decision that is sometimes obscured in the way SEO services are marketed.</p>
-    <p>SEO is not a project with a fixed endpoint. Rankings are not achieved and then permanent. They require maintenance — continued content development, ongoing link building, response to algorithm changes, and consistent technical upkeep. A website that stops investing in SEO after achieving strong rankings will gradually lose those rankings to competitors who continue investing.</p>
+    <p>SEO is not a project with a fixed endpoint. Rankings are not achieved and then permanent. They require maintenance — continued content development, ongoing <Link to="/services/link-building-sri-lanka" className="text-accent underline-offset-4 hover:underline">link building</Link>, response to algorithm changes, and consistent technical upkeep. A website that stops investing in SEO after achieving strong rankings will gradually lose those rankings to competitors who continue investing.</p>
     <p>This is not a sales argument for indefinite monthly retainers — it is an honest description of how search engine optimisation works. The right question is not whether to invest in SEO once or continuously, but at what level of investment your business goals require and your resources allow. See our <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO packages in Sri Lanka</Link> for typical investment levels.</p>
 
     <h2>Where to Start</h2>
