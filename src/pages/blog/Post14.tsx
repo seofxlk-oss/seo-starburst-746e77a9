@@ -32,7 +32,7 @@ const Post14 = () => (
     ]}
   >
     <h2>The Real SEO Price in Sri Lanka — An Honest Breakdown</h2>
-    <p>SEO price in Sri Lanka is one of the most searched topics by business owners considering their first SEO investment — and for good reason. Pricing in the market varies wildly, from a few thousand rupees per month to significant monthly retainers. Understanding what drives this variation is essential to making a smart investment.</p>
+    <p><Link to="/seo-price-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO price in Sri Lanka</Link> is one of the most searched topics by business owners considering their first SEO investment — and for good reason. Pricing in the market varies wildly, from a few thousand rupees per month to significant monthly retainers. Understanding what drives this variation is essential to making a smart investment.</p>
     <p>This article gives you an honest, transparent breakdown of SEO pricing in Sri Lanka — what different price points typically deliver, what warning signs to watch for, and how to evaluate whether a specific SEO investment will deliver a positive return for your business. Get honest, transparent SEO pricing from <Link to="/" className="text-accent underline-offset-4 hover:underline">SeoFX — transparent SEO pricing in Sri Lanka</Link> with no hidden costs.</p>
 
     <h2>Why SEO Price in Sri Lanka Varies So Much</h2>

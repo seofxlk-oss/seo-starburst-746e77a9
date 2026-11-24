@@ -32,7 +32,7 @@ const Post8 = () => (
     ]}
   >
     <h2>Defining 'Best' — What Really Matters in an SEO Company</h2>
-    <p>When Sri Lankan business owners search for the 'best SEO company in Sri Lanka', they are looking for one thing: a company that will get them to the top of Google and keep them there. But defining 'best' requires looking beyond flashy websites and impressive-sounding promises.</p>
+    <p>When Sri Lankan business owners search for the '<Link to="/best-seo-company-sri-lanka" className="text-accent underline-offset-4 hover:underline">best SEO company in Sri Lanka</Link>', they are looking for one thing: a company that will get them to the top of Google and keep them there. But defining 'best' requires looking beyond flashy websites and impressive-sounding promises.</p>
     <p>The best SEO company in Sri Lanka is not necessarily the largest, the most expensive, or the most visible online. It is the one that consistently delivers measurable improvements in rankings, traffic, and revenue for its clients. Partnering with the <Link to="/" className="text-accent underline-offset-4 hover:underline">SEO company in Sri Lanka</Link> means getting real results, not just reports.</p>
 
     <h2>Criterion 1: Proven, Documented Results</h2>

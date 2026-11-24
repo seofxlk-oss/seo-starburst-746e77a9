@@ -669,7 +669,7 @@ const Home = () => {
           { h: "Local understanding", p: "Knowledge of how Sri Lankan customers search, including Google Maps and local terms." },
           { h: "Plain reporting", p: "Monthly updates on traffic, rankings and enquiries, in words you can understand." },
         ]}
-        link={{ to: "/services", label: "see our SEO services in Sri Lanka" }}
+        link={{ to: "/best-seo-company-sri-lanka", label: "read our guide to the best SEO company in Sri Lanka" }}
       />
 
       {/* ═══ SECTION 9 — FAQ + SCHEMA ═══ */}

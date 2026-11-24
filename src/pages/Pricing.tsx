@@ -543,7 +543,7 @@ const Pricing = () => {
           { h: "What a fair plan includes", p: "A written scope, the pages and keywords covered, the work each month and how results are reported." },
           { h: "How to start", p: "Book a consultation or request a free audit, then receive a quote matched to your goals." },
         ]}
-        link={{ to: "/seo-consultant-sri-lanka", label: "SEO consultation from LKR 50,000" }}
+        link={{ to: "/seo-price-sri-lanka", label: "see what affects SEO price in Sri Lanka" }}
       />
 
       {/* ═══ FAQ ═══ */}

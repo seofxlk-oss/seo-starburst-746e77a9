@@ -4,6 +4,8 @@ export const MAIN_NAVIGATION = [
   { label: "SEO Consultation", href: "/seo-consultant-sri-lanka" },
   { label: "Pricing", href: "/seo-packages-sri-lanka" },
   { label: "Our Work", href: "/case-studies" },
+  { label: "Best SEO Company Guide", href: "/best-seo-company-sri-lanka" },
+  { label: "SEO Price Sri Lanka", href: "/seo-price-sri-lanka" },
   { label: "About", href: "/about-us" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact-us" },

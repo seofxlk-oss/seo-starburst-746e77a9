@@ -22,6 +22,8 @@ const staticRoutes = [
   ["/seo-consultant-sri-lanka", "0.9", "monthly"],
   ["/seo-packages-sri-lanka", "0.9", "monthly"],
   ["/services", "0.9", "monthly"],
+  ["/best-seo-company-sri-lanka", "0.85", "monthly"],
+  ["/seo-price-sri-lanka", "0.85", "monthly"],
   ["/industries", "0.85", "monthly"],
   ["/google-map-optimization", "0.85", "monthly"],
   ["/google-ads-sri-lanka", "0.85", "monthly"],

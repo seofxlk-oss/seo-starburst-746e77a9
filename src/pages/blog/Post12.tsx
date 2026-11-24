@@ -32,7 +32,7 @@ const Post12 = () => (
     ]}
   >
     <h2>7 Ways SeoFX Approaches SEO in Sri Lanka</h2>
-    <p>There are many SEO companies in Sri Lanka. So why do growing businesses consistently choose SeoFX? The answer comes down to seven key factors that we believe define what the best SEO company in Sri Lanka truly looks like — and that guide our approach to SEO planning.</p>
+    <p>There are many SEO companies in Sri Lanka. So why do growing businesses consistently choose SeoFX? The answer comes down to seven key factors that we believe define what the <Link to="/best-seo-company-sri-lanka" className="text-accent underline-offset-4 hover:underline">best SEO company in Sri Lanka</Link> truly looks like — and that guide our approach to SEO planning.</p>
     <p>Learn about the <Link to="/" className="text-accent underline-offset-4 hover:underline">SEO company in Sri Lanka</Link>.</p>
 
     <h2>Reason 1: We Have the Results to Prove It</h2>

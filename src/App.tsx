@@ -66,6 +66,8 @@ import Post48 from "./pages/blog/Post48";
 import Post49 from "./pages/blog/Post49";
 import AboutUs from "./pages/company/AboutUs";
 import HowWeWork from "./pages/company/HowWeWork";
+import BestSeoCompany from "./pages/company/BestSeoCompany";
+import SeoPrice from "./pages/company/SeoPrice";
 import EditorialStandards from "./pages/company/EditorialStandards";
 import IndustriesHub from "./pages/IndustriesHub";
 import IndustryPage from "./pages/IndustryPage";
@@ -155,6 +157,8 @@ const App = ({ serverPath, helmetContext = {} }: { serverPath?: string; helmetCo
             <Route path="/blog/google-ads-landing-pages-sri-lanka" element={<Post49 />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/how-we-work" element={<HowWeWork />} />
+            <Route path="/best-seo-company-sri-lanka" element={<BestSeoCompany />} />
+            <Route path="/seo-price-sri-lanka" element={<SeoPrice />} />
             <Route path="/editorial-standards" element={<EditorialStandards />} />
             <Route path="/seo-consultant-sri-lanka" element={<SeoConsultation />} />
             <Route path="/seo-consultation" element={<Navigate to="/seo-consultant-sri-lanka" replace />} />

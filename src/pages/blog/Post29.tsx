@@ -48,7 +48,7 @@ const Post29 = () => (
     <h2>Green Flags: Signs of a Credible SEO Company</h2>
 
     <h3>Green Flag 1: Their Own Website Ranks</h3>
-    <p>Search Google for "SEO company Sri Lanka," "best SEO company Sri Lanka," and "<Link to="/services" className="text-accent underline-offset-4 hover:underline">SEO services Sri Lanka</Link>." A company that ranks prominently for these terms has demonstrated that their approach works — on their own website, in their own competitive market. This is the most credible form of proof available.</p>
+    <p>Search Google for "SEO company Sri Lanka," "<Link to="/best-seo-company-sri-lanka" className="text-accent underline-offset-4 hover:underline">best SEO company</Link> Sri Lanka," and "<Link to="/services" className="text-accent underline-offset-4 hover:underline">SEO services Sri Lanka</Link>." A company that ranks prominently for these terms has demonstrated that their approach works — on their own website, in their own competitive market. This is the most credible form of proof available.</p>
 
     <h3>Green Flag 2: They Have Specific, Verifiable Case Studies</h3>
     <p>Look for documented case studies with before-and-after ranking data, organic traffic growth figures, and — ideally — business outcome information. Genuine case studies include specific details: the industry, the starting conditions, the timeline, and the measurable results. Browse our <Link to="/case-studies" className="text-accent underline-offset-4 hover:underline">case studies</Link> for examples.</p>
