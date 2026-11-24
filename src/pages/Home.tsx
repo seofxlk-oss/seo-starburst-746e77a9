@@ -1,3 +1,4 @@
+import { KeywordAnswer } from "@/components/KeywordAnswer";
 import { mergeFaqs } from "@/lib/merge-faqs";
 import { BriefAdditions } from "@/components/BriefAdditions";
 import { CORE_FAQS } from "@/lib/core-pages";
@@ -657,6 +658,19 @@ const Home = () => {
         </div>
       </section>
       <SampleWork title="Sample deliverables" />
+
+      <KeywordAnswer
+        badge="Best SEO company in Sri Lanka"
+        title="What makes the best SEO company in Sri Lanka?"
+        intro="The best SEO company in Sri Lanka for your business is the one that explains its plan, shows how it works and reports honestly. Use these four checks before you hire any SEO agency."
+        blocks={[
+          { h: "A clear plan first", p: "You should see the keywords, pages and fixes planned before monthly work begins." },
+          { h: "White-hat methods", p: "No link networks, no spun content and no promise of a guaranteed first place." },
+          { h: "Local understanding", p: "Knowledge of how Sri Lankan customers search, including Google Maps and local terms." },
+          { h: "Plain reporting", p: "Monthly updates on traffic, rankings and enquiries, in words you can understand." },
+        ]}
+        link={{ to: "/services", label: "see our SEO services in Sri Lanka" }}
+      />
 
       {/* ═══ SECTION 9 — FAQ + SCHEMA ═══ */}
       <section className="py-16 sm:py-20" aria-labelledby="faq-heading">

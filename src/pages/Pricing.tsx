@@ -1,3 +1,4 @@
+import { KeywordAnswer } from "@/components/KeywordAnswer";
 import { mergeFaqs } from "@/lib/merge-faqs";
 import { BriefAdditions } from "@/components/BriefAdditions";
 import { CORE_FAQS } from "@/lib/core-pages";
@@ -531,6 +532,19 @@ const Pricing = () => {
 
       {/* ═══ PAID CONSULTATION ═══ */}
       <ConsultationSection variant="light" emitFaqSchema={false} />
+
+      <KeywordAnswer
+        badge="SEO price Sri Lanka"
+        title="How much does SEO cost in Sri Lanka?"
+        intro="SEO prices in Sri Lanka depend on how many pages you have, how competitive your searches are and how much work your site needs. SeoFX publishes one starting price: an SEO consultation from LKR 50,000. Everything else is a custom quote after a free analysis."
+        blocks={[
+          { h: "What changes the price", p: "Site size, technical problems, number of locations, content needed and how strong competitors are." },
+          { h: "What to avoid", p: "Very cheap plans that promise first place, use link networks or never explain what was done each month." },
+          { h: "What a fair plan includes", p: "A written scope, the pages and keywords covered, the work each month and how results are reported." },
+          { h: "How to start", p: "Book a consultation or request a free audit, then receive a quote matched to your goals." },
+        ]}
+        link={{ to: "/seo-consultant-sri-lanka", label: "SEO consultation from LKR 50,000" }}
+      />
 
       {/* ═══ FAQ ═══ */}
       <section className="bg-soft py-20">

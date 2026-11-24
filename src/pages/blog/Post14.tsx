@@ -73,7 +73,7 @@ const Post14 = () => (
     <h2>SeoFX Pricing — Transparent, Fair, and Results-Focused</h2>
     <p>At SeoFX, we believe every Sri Lankan business deserves transparent SEO pricing with no hidden costs and no vague promises. Our <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">SEO packages Sri Lanka</Link> are clearly structured, our scope of work is documented, and our results are verifiable. We are happy to discuss your specific business needs and recommend the investment level that makes most sense for your goals and budget.</p>
     <p>Get in touch for a free website audit and pricing consultation — no obligation, just honest advice from Sri Lanka's dedicated SEO experts.</p>
-    <p>👉 <Link to="/" className="text-accent underline-offset-4 hover:underline">Get a Free SEO Price Quote from SeoFX Sri Lanka</Link>.</p>
+    <p>👉 <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">Get a Free SEO Price Quote from SeoFX Sri Lanka</Link>.</p>
   </BlogPost>
 );
 export default Post14;

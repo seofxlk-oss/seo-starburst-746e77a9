@@ -33,7 +33,7 @@ const Post13 = () => (
   >
     <h2>Understanding SEO Packages in Sri Lanka — A Buyer's Guide</h2>
     <p>If you have started researching SEO packages in Sri Lanka, you have probably noticed that pricing and inclusions vary enormously between providers. Some offer low-cost monthly retainers that sound attractive but deliver little. Others charge premium rates without clear justification. This guide is designed to help you understand what SEO packages in Sri Lanka should include, what they typically cost, and how to choose the right one for your business.</p>
-    <p>Explore <Link to="/" className="text-accent underline-offset-4 hover:underline">SeoFX SEO packages Sri Lanka</Link> — designed to fit every business size and budget.</p>
+    <p>Explore <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">SeoFX SEO packages Sri Lanka</Link> — designed to fit every business size and budget.</p>
 
     <h2>What Should Every SEO Package in Sri Lanka Include?</h2>
     <p>Regardless of price or package tier, any serious SEO package in Sri Lanka should include the following as a minimum:</p>
@@ -69,7 +69,7 @@ const Post13 = () => (
     <h2>SeoFX SEO Packages — Built for Sri Lankan Businesses</h2>
     <p>SeoFX offers three carefully structured SEO packages in Sri Lanka — Starter, Business, and Premium — each designed to deliver the right scope of work for businesses at different stages of growth. All packages include full transparency, regular reporting, and the same quality of execution.</p>
     <p>Not sure which package is right for you? Contact our team for a SEO consultation and we will recommend the plan that makes most sense for your business and goals.</p>
-    <p>👉 <Link to="/" className="text-accent underline-offset-4 hover:underline">View SeoFX SEO Packages — Free Consultation Available</Link>. You can also browse our <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">full pricing page</Link>.</p>
+    <p>👉 <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">View SeoFX SEO Packages — Free Consultation Available</Link>. You can also browse our <Link to="/seo-packages-sri-lanka" className="text-accent underline-offset-4 hover:underline">full pricing page</Link>.</p>
   </BlogPost>
 );
 export default Post13;

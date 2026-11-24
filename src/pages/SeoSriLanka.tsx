@@ -1,3 +1,4 @@
+import { KeywordAnswer } from "@/components/KeywordAnswer";
 import { mergeFaqs } from "@/lib/merge-faqs";
 import { BriefAdditions } from "@/components/BriefAdditions";
 import { CORE_FAQS } from "@/lib/core-pages";
@@ -415,6 +416,17 @@ const SeoSriLanka = () => {
           </div>
         </div>
       </section>
+
+      <KeywordAnswer
+        badge="Search engine optimization Sri Lanka"
+        title="Search engine optimization in Sri Lanka, in short"
+        intro="Search engine optimization (SEO) in Sri Lanka is the work of making your website easy for Google to find, read and trust, so it appears when local customers search for what you sell. It covers technical fixes, keyword-focused pages, local listings and links from other sites."
+        blocks={[
+          { h: "Who it helps", p: "Any Sri Lankan business whose customers search on Google before they call, visit or buy." },
+          { h: "How long it takes", p: "Usually a few months for early movement and six to twelve months for stronger results." },
+        ]}
+        link={{ to: "/", label: "talk to an SEO company in Sri Lanka" }}
+      />
 
       {/* WHAT IS SEO */}
       <section id="what-is-seo" className="container-tight py-16 sm:py-20">

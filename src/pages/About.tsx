@@ -1,3 +1,4 @@
+import { KeywordAnswer } from "@/components/KeywordAnswer";
 import { mergeFaqs } from "@/lib/merge-faqs";
 import { BriefAdditions } from "@/components/BriefAdditions";
 import { CORE_FAQS } from "@/lib/core-pages";
@@ -181,6 +182,10 @@ const WHEN_TO_HIRE = [
 ];
 
 const FAQS = mergeFaqs(CORE_FAQS.specialists, [
+  { q: "Is an SEO specialist the same as an SEO expert?", a: "In Sri Lanka the two terms are used for the same role: someone who plans and carries out search engine optimisation. What matters more than the title is a clear method, labelled samples and honest reporting." },
+  { q: "Should I hire an SEO specialist or an SEO agency in Sri Lanka?", a: "A specialist team suits businesses that want direct contact with the people doing the work. SeoFX works as a focused specialist team, so you speak to the people who plan and deliver your SEO." },
+  { q: "How much does an SEO specialist cost in Sri Lanka?", a: "SeoFX starts with an SEO consultation from LKR 50,000. Ongoing work is quoted after a free analysis, because cost depends on your site, competition and goals." },
+  { q: "How long before an SEO specialist shows results?", a: "Most sites see early movement in a few months, with stronger results over six to twelve months. Nobody can honestly guarantee a ranking position." },
   {
     q: "What does an SEO expert in Sri Lanka do?",
     a: "An SEO expert in Sri Lanka analyses, strategises and implements every search engine optimisation activity needed to rank a Sri Lankan business on Google page one — generating organic traffic, leads and revenue without paid ads. This includes technical SEO audits, keyword research for Sri Lankan search intent, on-page optimisation, content strategy, white-hat link building, local SEO, Google Business Profile management and monthly performance reporting. A genuine SEO expert focuses on business outcomes — leads and sales — not just rankings.",
@@ -642,6 +647,19 @@ const About = () => {
           ))}
         </div>
       </section>
+
+      <KeywordAnswer
+        badge="What an SEO specialist does"
+        title="What does an SEO specialist in Sri Lanka actually do?"
+        intro="An SEO specialist in Sri Lanka finds the searches your customers use, fixes what stops Google reading your site, and builds pages and links that earn rankings over time. At SeoFX, the work starts with a written plan so you know what will be done and why."
+        blocks={[
+          { h: "Research", p: "Keyword research for Sinhala, Tamil and English search intent, competitor gaps and the pages each search should land on." },
+          { h: "Technical fixes", p: "Crawl, indexing, speed, mobile and structured data checks, with a prioritised list of fixes." },
+          { h: "Pages and content", p: "Titles, headings, service pages and guides written to answer real questions clearly." },
+          { h: "Authority and reporting", p: "White-hat link building, Google Business Profile work and plain monthly reports on traffic and enquiries." },
+        ]}
+        link={{ to: "/seo-consultant-sri-lanka", label: "book an SEO consultation (from LKR 50,000)" }}
+      />
 
       {/* FAQ */}
       <section className="bg-soft py-20">
